@@ -2,54 +2,26 @@ mixed-port: 7890
 allow-lan: false
 mode: rule
 proxies:
-- name: '[252.8ms +/-568ms] http-138.199.35.198'
-  server: 138.199.35.198
-  port: 9002
-  type: http
-  tls: true
-  skip-cert-verify: true
-- name: '[254.4ms +/-559ms] http-138.199.35.216'
-  server: 138.199.35.216
-  port: 9002
-  type: http
-  username: 'null'
-  password: 'null'
-  tls: true
-  skip-cert-verify: true
-- name: 🇮🇹 [255.6ms +/-213ms] 🇮🇹
-  server: 57.131.48.45
-  port: 8388
-  type: ss
-  cipher: aes-256-gcm
-  password: itzvpn@321
+- name: '[242.6ms +/-244ms] ☀️12@oneclickvpnkeys'
+  server: 173.212.252.150
+  port: 1080
+  type: socks5
   udp: true
-- name: '[255.7ms +/-566ms] http-64.98.50.100'
-  server: 64.98.50.100
-  port: 443
-  type: http
-  tls: true
-  skip-cert-verify: true
-- name: 🇺🇸 [300.9ms +/-645ms] shadowsocks-1827146375
-  server: 173.244.56.6
-  port: 443
-  type: ss
-  cipher: aes-128-gcm
-  password: shadowsocks
+- name: 🇺🇸 [253.2ms +/-651ms] vless-1828137284
+  server: 104.244.94.21
+  port: 20543
+  type: vless
+  uuid: 4222e71c-9934-4d31-902d-ce178e8b9a54
   udp: true
-- name: 🇺🇸 [304.5ms +/-651ms] shadowsocks-1827146667
-  server: 173.244.56.9
-  port: 443
-  type: ss
-  cipher: aes-128-gcm
-  password: shadowsocks
-  udp: true
-- name: '[313.7ms +/-615ms] http-129.153.93.183'
-  server: 129.153.93.183
-  port: 443
-  type: http
+  flow: xtls-rprx-vision
   tls: true
+  servername: www.cloudflare.com
   skip-cert-verify: true
-- name: 🇳🇱 [332.9ms +/-371ms] vless-1827975411
+  reality-opts:
+    public-key: 0ZRIRi3Wr7XpWfOPc06yi7TIzl-ccP5fyS6RC2mDakI
+    short-id: 2ba1d452414f40ba
+  client-fingerprint: chrome
+- name: 🇳🇱 [256.3ms +/-286ms] vless-1827154847
   server: 31.77.13.19
   port: 2063
   type: vless
@@ -63,28 +35,7 @@ proxies:
     public-key: MMpt_jWc4J3oySBdf5sPDVRkiWlZmOObth6A1scM9BM
     short-id: ''
   client-fingerprint: chrome
-- name: 🇺🇸 [346.5ms +/-858ms] hysteria2-1827145638
-  server: 129.213.91.185
-  port: 35013
-  type: hysteria2
-  password: 4291c983-c520-46ac-82cc-48f14bef573f
-  sni: www.bing.com
-  skip-cert-verify: true
-- name: 🇺🇸 [372.9ms +/-763ms] vless-1827154784
-  server: 193.233.202.250
-  port: 9443
-  type: vless
-  uuid: c3db7657-88ce-42a6-b998-1e0364b277ac
-  udp: true
-  flow: xtls-rprx-vision
-  tls: true
-  servername: usa.edgeses.org
-  skip-cert-verify: true
-  reality-opts:
-    public-key: ELJzJkc4SiCeCn6OF-8V9oeoJqXcD1y9WUntP3It53g
-    short-id: 649ab61e575fdbc9
-  client-fingerprint: chrome
-- name: 🇳🇱 [394.4ms +/-261ms] vless-1827975399
+- name: 🇳🇱 [262.8ms +/-291ms] vless-1827147029
   server: 2.26.231.218
   port: 2063
   type: vless
@@ -98,56 +49,97 @@ proxies:
     public-key: MMpt_jWc4J3oySBdf5sPDVRkiWlZmOObth6A1scM9BM
     short-id: ''
   client-fingerprint: chrome
-- name: '[397.5ms +/-874ms] http-149.88.21.140'
+- name: 🇺🇸 [263.8ms +/-713ms] shadowsocks-1827146122
+  server: 37.19.198.236
+  port: 443
+  type: ss
+  cipher: aes-128-gcm
+  password: shadowsocks
+  udp: true
+- name: '[275.4ms +/-701ms] http-147.182.216.4'
+  server: 147.182.216.4
+  port: 443
+  type: http
+  username: testuser1
+  password: e4b72b531a2d10900519
+  tls: true
+  skip-cert-verify: true
+- name: 🇺🇸 [280.4ms +/-730ms] vless-1827154079
+  server: 195.123.235.183
+  port: 443
+  type: vless
+  uuid: c14ec728-3eca-4750-87fc-fd1e6aeb81d5
+  udp: true
+  flow: xtls-rprx-vision
+  tls: true
+  servername: gateway.icloud.com
+  skip-cert-verify: true
+  reality-opts:
+    public-key: H3R3BUAl7thrIZsznTbb-eRREIjQOH2f3WO0oTN7OGY
+    short-id: a0e2a6074c6456b0
+  client-fingerprint: chrome
+- name: '[280.7ms +/-742ms] http-149.88.21.140'
   server: 149.88.21.140
   port: 9443
   type: http
   tls: true
   skip-cert-verify: true
-- name: 🇨🇦 [416.6ms +/-918ms] shadowsocks-1827147187
-  server: 51.222.136.236
-  port: 8882
-  type: ss
-  cipher: aes-256-gcm
-  password: kDWvXYZoTBcGkC4
-  udp: true
-- name: 🇺🇸 [417.3ms +/-688ms] vless-1828138090
-  server: 154.44.0.40
-  port: 18319
+- name: 🇨🇦 [295.8ms +/-731ms] vless-1827162767
+  server: 66.70.179.198
+  port: 2053
   type: vless
-  uuid: 4dc796cb-5617-42e0-8003-187afd83fa13
+  uuid: dc620cd6-a9d8-4a0f-8f18-006b895db77e
+  udp: true
+  tls: true
+  servername: www.cloudflare.com
+  skip-cert-verify: true
+  reality-opts:
+    public-key: k4l6TxwkBbx9DhZAFpByq5rfCWFSgyOex3f_eFe9CWU
+    short-id: 83f8317a948bb769
+  client-fingerprint: firefox
+- name: 🇺🇸 [314.2ms +/-860ms] shadowsocks-1827146248
+  server: 37.19.198.160
+  port: 443
+  type: ss
+  cipher: aes-128-gcm
+  password: shadowsocks
+  udp: true
+- name: 🇺🇸 [322.2ms +/-612ms] vless-1828139001
+  server: 216.234.140.15
+  port: 47832
+  type: vless
+  uuid: 6b042879-f382-46ce-8965-866186eb7e33
   udp: true
   flow: xtls-rprx-vision
   tls: true
-  servername: www.apple.com
+  servername: www.amd.com
   skip-cert-verify: true
   reality-opts:
-    public-key: JO-5AKvbFUlZieDWC8oIVsUzUhFNvG7dt8o3MkN7IT8
-    short-id: 57d6e1335cc506b9
+    public-key: hDRm-rHVu-ClNhBhPfp-JUGtFM91NGjlhVf-JjnPCnI
+    short-id: 058ea2b1
   client-fingerprint: chrome
-- name: '[425.7ms +/-948ms] http-198.44.157.19'
-  server: 198.44.157.19
+- name: 🇺🇸 [326.5ms +/-725ms] vless-1827154784
+  server: 193.233.202.250
   port: 9443
-  type: http
-  tls: true
-  skip-cert-verify: true
-- name: 🇩🇪 [433.2ms +/-746ms] vless-1827188712
-  server: 178.17.57.33
-  port: 8444
   type: vless
-  uuid: f55e9aba-7b14-4f6f-b59a-d5b3d45c9309
+  uuid: c3db7657-88ce-42a6-b998-1e0364b277ac
   udp: true
+  flow: xtls-rprx-vision
   tls: true
-  servername: github.com
+  servername: usa.edgeses.org
   skip-cert-verify: true
   reality-opts:
-    public-key: FWitre1jinQR7qz5HQ0q2Q4Gg9xA9B0SyizCziN7Ch0
-    short-id: 457fab2ac885dbe0
-  client-fingerprint: random
-  network: grpc
-  grpc-opts:
-    grpc-service-name: GunService
-- name: 🇺🇸 [446.4ms +/-1023ms] vless-1827149751
+    public-key: ELJzJkc4SiCeCn6OF-8V9oeoJqXcD1y9WUntP3It53g
+    short-id: 649ab61e575fdbc9
+  client-fingerprint: chrome
+- name: 🇺🇸 [331.0ms +/-652ms] shadowsocks-1827146667
+  server: 173.244.56.9
+  port: 443
+  type: ss
+  cipher: aes-128-gcm
+  password: shadowsocks
+  udp: true
+- name: 🇺🇸 [354.6ms +/-950ms] vless-1827149751
   server: 185.95.231.156
   port: 443
   type: vless
@@ -161,44 +153,19 @@ proxies:
     public-key: 8eXftARun6KH38UZhuqIfPR1VF2DLS9RMBZEnF5k6To
     short-id: a3a578ab
   client-fingerprint: chrome
-- name: 🇺🇸 [450.4ms +/-833ms] vless-1827735105
-  server: 198.23.169.170
+- name: '[361.1ms +/-643ms] http-129.153.93.183'
+  server: 129.153.93.183
   port: 443
-  type: vless
-  uuid: 64c05afc-ce81-4ba0-b697-afa04da1427e
-  udp: true
-  flow: xtls-rprx-vision
+  type: http
   tls: true
-  servername: download-porter.hoyoverse.com
   skip-cert-verify: true
-  reality-opts:
-    public-key: FOl1qibUWpTggolWp30DD7VQ9_xKHZPEPVQs0sQs3gI
-    short-id: 2128e27b
-  client-fingerprint: firefox
-- name: '[459.5ms +/-1087ms] http-198.44.138.27'
-  server: 198.44.138.27
+- name: '[368.9ms +/-907ms] http-198.44.157.19'
+  server: 198.44.157.19
   port: 9443
   type: http
   tls: true
   skip-cert-verify: true
-- name: 🇮🇳 [460.0ms +/-470ms] vless-1827735104
-  server: 13.140.56.100
-  port: 14430
-  type: vless
-  uuid: 68512eac-cd53-4de3-8d1e-08f6e04af1a9
-  udp: true
-  network: ws
-  ws-opts:
-    path: /vless
-    headers:
-      Host: 13.140.56.100
-- name: '[463.9ms +/-717ms] http-38.28.193.188'
-  server: 38.28.193.188
-  port: 443
-  type: http
-  tls: true
-  skip-cert-verify: true
-- name: 🇨🇦 [472.3ms +/-892ms] vless-1827533695
+- name: 🇨🇦 [387.7ms +/-804ms] vless-1827533695
   server: 51.79.31.36
   port: 31146
   type: vless
@@ -212,17 +179,14 @@ proxies:
     public-key: QAoJHZT6_DZsBu-jH74uYZUTpGgxmvN2tXpRKj4CygE
     short-id: cf4e6f8338
   client-fingerprint: chrome
-- name: 🇳🇱 [529.5ms +/-941ms] @confiig_hub
-  server: 130.49.161.70
+- name: '[404.9ms +/-710ms] http-64.98.50.100'
+  server: 64.98.50.100
   port: 443
-  type: hysteria2
-  password: p7Q76LzlnS4hIzr1W3staBOnUe_WwSkR
-  sni: hy2.aspidnet.xyz
+  type: http
+  tls: true
   skip-cert-verify: true
-  obfs: salamander
-  obfs-password: rG07s3COMIEvdnQipRyWzx_H_2xygNC3
-- name: 🇩🇰 [547.5ms +/-953ms] vless-1827156202
-  server: 193.233.253.180
+- name: 🇩🇪 [405.7ms +/-819ms] vless-1827156449
+  server: 178.17.57.33
   port: 8444
   type: vless
   uuid: f55e9aba-7b14-4f6f-b59a-d5b3d45c9309
@@ -237,35 +201,50 @@ proxies:
   network: grpc
   grpc-opts:
     grpc-service-name: GunService
-- name: '[554.3ms +/-1223ms] http-147.182.216.4'
-  server: 147.182.216.4
-  port: 443
-  type: http
-  username: testuser1
-  password: e4b72b531a2d10900519
-  tls: true
-  skip-cert-verify: true
-- name: '[564.6ms +/-1433ms] http-193.239.236.134'
-  server: 193.239.236.134
-  port: 443
+- name: '[409.0ms +/-1014ms] http-198.44.138.27'
+  server: 198.44.138.27
+  port: 9443
   type: http
   tls: true
   skip-cert-verify: true
-- name: 🇩🇪 [565.5ms +/-914ms] vless-1827926875
-  server: 179.61.145.245
+- name: '[428.6ms +/-703ms] vless-1828138087'
+  server: zuoan.tranyoo888.com
   port: 443
   type: vless
-  uuid: 318c935d-c195-41d3-99ad-9bbcfdab3386
+  uuid: 435feec2-0421-44b9-a8b0-60da252556c0
   udp: true
   flow: xtls-rprx-vision
   tls: true
-  servername: de2.srv.vbuste.ru
+  servername: www.mozilla.org
   skip-cert-verify: true
   reality-opts:
-    public-key: 0-or5ogGhYbBgsVSrSC2Fhxyp2BN97Y9pqIdg61Qd08
-    short-id: 4be4110078ebed4a
-  client-fingerprint: randomized
-- name: 🇩🇪 [579.6ms +/-910ms] vless-1828139008
+    public-key: _XNcU39HOvqF8GXyfA8OAG-dp6ZMl9L10r6K646npHc
+    short-id: ce3dccc84e5bac0c
+  client-fingerprint: chrome
+- name: '[433.4ms +/-694ms] socks-104.168.249.36'
+  server: 104.168.249.36
+  port: 1080
+  type: socks5
+  udp: true
+  username: test123
+  password: test123
+- name: '[435.6ms +/-801ms] vless-1828142568'
+  server: se1.h1cloud.net
+  port: 26226
+  type: vless
+  uuid: ec572cf0-1337-4c51-b4ec-ff2f538c1f4c
+  udp: true
+  tls: true
+  servername: www.dn.se
+  skip-cert-verify: true
+  reality-opts:
+    public-key: zsSr4H-YgykAOYdIYFaAnFQtIguRhP825FodeKSoxjA
+    short-id: 2ddf3f1151012c98
+  client-fingerprint: qq
+  network: grpc
+  grpc-opts:
+    grpc-service-name: 69effd3120f4
+- name: 🇩🇪 [453.9ms +/-791ms] vless-1828139008
   server: 37.46.199.138
   port: 443
   type: vless
@@ -279,8 +258,42 @@ proxies:
     public-key: 6VMgXXhZdJCiOG05EyK_zTHh00kpFGrZJeZIEPgqhjY
     short-id: ''
   client-fingerprint: random
-- name: 🇳🇱 [580.8ms +/-892ms] vless-1827152138
-  server: 217.60.67.123
+- name: '[459.0ms +/-1154ms] http-193.239.236.134'
+  server: 193.239.236.134
+  port: 443
+  type: http
+  tls: true
+  skip-cert-verify: true
+- name: 🇺🇸 [462.0ms +/-995ms] vless-1827735105
+  server: 198.23.169.170
+  port: 443
+  type: vless
+  uuid: 64c05afc-ce81-4ba0-b697-afa04da1427e
+  udp: true
+  flow: xtls-rprx-vision
+  tls: true
+  servername: download-porter.hoyoverse.com
+  skip-cert-verify: true
+  reality-opts:
+    public-key: FOl1qibUWpTggolWp30DD7VQ9_xKHZPEPVQs0sQs3gI
+    short-id: 2128e27b
+  client-fingerprint: firefox
+- name: '[471.9ms +/-435ms] vless-1828139012'
+  server: jp3.oh-node.com
+  port: 443
+  type: vless
+  uuid: 7cfd34ae-edad-4cc5-9d6f-066f7add7829
+  udp: true
+  flow: xtls-rprx-vision
+  tls: true
+  servername: www.bandainamcoent.co.jp
+  skip-cert-verify: true
+  reality-opts:
+    public-key: HtrHyKJvjeh9xNVlNXidqFra8n_DhlL8EGu4ERst8QI
+    short-id: 912d2b581f59fb
+  client-fingerprint: chrome
+- name: 🇳🇱 [474.6ms +/-818ms] vless-1827151630
+  server: 31.59.140.188
   port: 443
   type: vless
   uuid: 6338c01a-310e-42c3-bf4f-2a20e161054b
@@ -293,14 +306,148 @@ proxies:
     public-key: vSa3rWZfq5OftXO2RSgggbTOxbHlWGTLpP8bNDki3wk
     short-id: adcbde41b1cf27ba
   client-fingerprint: random
-- name: 🇺🇸 [622.9ms +/-1147ms] shadowsocks-1827146718
-  server: 15.204.246.132
-  port: 7307
-  type: ss
-  cipher: aes-256-gcm
-  password: FoOiGlkAA9yPEGP
+- name: 🇳🇱 [515.1ms +/-825ms] vless-1827188709
+  server: 45.150.33.33
+  port: 443
+  type: vless
+  uuid: eec2f6a7-c10f-43b0-b133-61f9bf9bbc27
   udp: true
-- name: 🇸🇪 [623.5ms +/-1020ms] vless-1827156665
+  flow: xtls-rprx-vision
+  tls: true
+  servername: amazon.de
+  skip-cert-verify: true
+  reality-opts:
+    public-key: G8SING6Ibc_igZ5vI5578fXCT_mBMRuq_o8_Ymnj2SQ
+    short-id: eba1498e012ef580
+  client-fingerprint: ios
+- name: '[521.3ms +/-864ms] http-84.17.47.146'
+  server: 84.17.47.146
+  port: 9002
+  type: http
+  tls: true
+  skip-cert-verify: true
+- name: '[521.4ms +/-886ms] http-84.17.47.148'
+  server: 84.17.47.148
+  port: 9002
+  type: http
+  tls: true
+  skip-cert-verify: true
+- name: 🇮🇳 [522.4ms +/-490ms] vless-1828294362
+  server: 194.61.31.126
+  port: 2053
+  type: vless
+  uuid: 1d4e18bd-1f26-4915-b35a-7ace4826e76a
+  udp: true
+  tls: true
+  servername: www.apple.com
+  skip-cert-verify: true
+  reality-opts:
+    public-key: PuAGLfJy6cu1TNoHuKIKSxPetCbZI41fc8hQDjWPIAU
+    short-id: 9980e0609b0d3891
+  client-fingerprint: firefox
+- name: '[523.6ms +/-868ms] vless-1827148888'
+  server: nl5.hap-plus.ru
+  port: 8443
+  type: vless
+  uuid: 05d7a479-a099-40cf-aecf-41aa934767b0
+  udp: true
+  tls: true
+  servername: nl5.hap-plus.ru
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /api/v1/events
+    headers:
+      Host: nl5.hap-plus.ru
+- name: '[525.3ms +/-851ms] http-158.173.154.2'
+  server: 158.173.154.2
+  port: 9002
+  type: http
+  tls: true
+  skip-cert-verify: true
+- name: '[526.1ms +/-891ms] http-84.17.47.125'
+  server: 84.17.47.125
+  port: 9002
+  type: http
+  tls: true
+  skip-cert-verify: true
+- name: '[529.8ms +/-873ms] http-84.17.47.149'
+  server: 84.17.47.149
+  port: 9002
+  type: http
+  tls: true
+  skip-cert-verify: true
+- name: 🇩🇪 [530.2ms +/-1031ms] shadowsocks-1827145974
+  server: 8.209.74.72
+  port: 20001
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: PWpjPo3tqhPN4yRZ
+  udp: true
+- name: '[531.8ms +/-825ms] http-193.233.75.115'
+  server: 193.233.75.115
+  port: 443
+  type: http
+  tls: true
+  skip-cert-verify: true
+- name: '[537.3ms +/-771ms] http-38.28.193.188'
+  server: 38.28.193.188
+  port: 443
+  type: http
+  tls: true
+  skip-cert-verify: true
+- name: 🇩🇪 [537.3ms +/-1027ms] vless-1827926875
+  server: 179.61.145.245
+  port: 443
+  type: vless
+  uuid: 318c935d-c195-41d3-99ad-9bbcfdab3386
+  udp: true
+  flow: xtls-rprx-vision
+  tls: true
+  servername: de2.srv.vbuste.ru
+  skip-cert-verify: true
+  reality-opts:
+    public-key: 0-or5ogGhYbBgsVSrSC2Fhxyp2BN97Y9pqIdg61Qd08
+    short-id: 4be4110078ebed4a
+  client-fingerprint: randomized
+- name: '[540.9ms +/-1045ms] http-34.249.214.108'
+  server: 34.249.214.108
+  port: 443
+  type: http
+  tls: true
+  skip-cert-verify: true
+- name: 🇮🇳 [541.8ms +/-606ms] vless-1827735104
+  server: 13.140.56.100
+  port: 14430
+  type: vless
+  uuid: 68512eac-cd53-4de3-8d1e-08f6e04af1a9
+  udp: true
+  network: ws
+  ws-opts:
+    path: /vless
+    headers:
+      Host: 13.140.56.100
+- name: '[551.3ms +/-986ms] http-82.65.162.76'
+  server: 82.65.162.76
+  port: 443
+  type: http
+  tls: true
+  skip-cert-verify: true
+- name: '[558.4ms +/-884ms] http-152.233.16.174'
+  server: 152.233.16.174
+  port: 9443
+  type: http
+  tls: true
+  skip-cert-verify: true
+- name: '[558.5ms +/-990ms] http-51.158.243.91'
+  server: 51.158.243.91
+  port: 443
+  type: http
+  username: 'null'
+  password: 'null'
+  tls: true
+  skip-cert-verify: true
+- name: 🇸🇪 [559.9ms +/-983ms] vless-1827156665
   server: 62.60.159.81
   port: 2053
   type: vless
@@ -316,26 +463,60 @@ proxies:
   network: grpc
   grpc-opts:
     grpc-service-name: grpce5bb9e71
-- name: '[626.9ms +/-1053ms] http-34.249.214.108'
-  server: 34.249.214.108
-  port: 443
-  type: http
-  tls: true
-  skip-cert-verify: true
-- name: 🇳🇱 [633.0ms +/-935ms] vless-1827155551
-  server: 162.35.242.252
-  port: 443
+- name: 🇩🇰 [560.7ms +/-928ms] vless-1827156202
+  server: 193.233.253.180
+  port: 8444
   type: vless
-  uuid: e3e9805a-6c8b-4edd-8ee8-621df79806eb
+  uuid: f55e9aba-7b14-4f6f-b59a-d5b3d45c9309
   udp: true
   tls: true
-  servername: nl.aksay.pro
+  servername: github.com
   skip-cert-verify: true
   reality-opts:
-    public-key: ClG6fvriBTK8donGsTlKusJ0dwRCgVDDTAGzAtZzJDY
-    short-id: 82c2b7d5e70ff000
+    public-key: FWitre1jinQR7qz5HQ0q2Q4Gg9xA9B0SyizCziN7Ch0
+    short-id: 457fab2ac885dbe0
   client-fingerprint: chrome
-- name: 🇹🇷 [635.5ms +/-1120ms] vless-1827147108
+  network: grpc
+  grpc-opts:
+    grpc-service-name: GunService
+- name: 🇨🇭 [560.7ms +/-1026ms] vless-1827151310
+  server: 45.90.59.15
+  port: 443
+  type: vless
+  uuid: 3950b45e-740d-4dca-ac95-505ec8534592
+  udp: true
+  flow: xtls-rprx-vision
+  tls: true
+  servername: www.cloudflare.com
+  skip-cert-verify: true
+  reality-opts:
+    public-key: P7S4UPFlQbmiBr4txyy8NZIMTrmO3UdxyH16WBU-YzY
+    short-id: 19253fae84102271
+  client-fingerprint: firefox
+- name: 🇨🇦 [563.5ms +/-521ms] shadowsocks-1827147702
+  server: 51.222.200.165
+  port: 5000
+  type: ss
+  cipher: aes-256-gcm
+  password: Y6R9pAtvxxzmGC
+  udp: true
+- name: '[566.8ms +/-1314ms] http-138.199.35.216'
+  server: 138.199.35.216
+  port: 9002
+  type: http
+  username: 'null'
+  password: 'null'
+  tls: true
+  skip-cert-verify: true
+- name: 🇪🇪 [569.8ms +/-1046ms] trojan-1827913054
+  server: 109.206.241.10
+  port: 449
+  type: trojan
+  password: oiiaB38ywjEHCWRs_O_a_1113_Il_KeyyyHop_Bes1
+  sni: russiapower.accesscam.org
+  skip-cert-verify: true
+  udp: true
+- name: 🇹🇷 [575.1ms +/-1077ms] vless-1827147108
   server: 62.60.233.157
   port: 8444
   type: vless
@@ -351,82 +532,163 @@ proxies:
   network: grpc
   grpc-opts:
     grpc-service-name: GunService
-- name: '[636.1ms +/-958ms] http-84.17.47.146'
-  server: 84.17.47.146
-  port: 9002
+- name: 🇺🇸 [577.9ms +/-999ms] vless-1828138090
+  server: 154.44.0.40
+  port: 18319
+  type: vless
+  uuid: 4dc796cb-5617-42e0-8003-187afd83fa13
+  udp: true
+  flow: xtls-rprx-vision
+  tls: true
+  servername: www.apple.com
+  skip-cert-verify: true
+  reality-opts:
+    public-key: JO-5AKvbFUlZieDWC8oIVsUzUhFNvG7dt8o3MkN7IT8
+    short-id: 57d6e1335cc506b9
+  client-fingerprint: chrome
+- name: 🇩🇪 [578.8ms +/-1070ms] vless-1827153877
+  server: 94.103.168.54
+  port: 2087
+  type: vless
+  uuid: a5db5ab5-8d28-49c0-ad55-0ad4724e5c0d
+  udp: true
+  tls: true
+  servername: fert3retujnbc.localip.ir
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /hokm
+    headers:
+      Host: fert3retujnbc.localip.ir
+- name: '[579.2ms +/-951ms] http-31.7.62.50'
+  server: 31.7.62.50
+  port: 443
   type: http
   tls: true
   skip-cert-verify: true
-- name: 🇳🇱 [642.7ms +/-1095ms] vless-1827154808
-  server: 130.12.242.106
+- name: 🇳🇱 [596.4ms +/-1152ms] vless-1827155551
+  server: 162.35.242.252
   port: 443
   type: vless
-  uuid: bc058e69-0444-4c7b-98da-bd67f0b143da
+  uuid: e3e9805a-6c8b-4edd-8ee8-621df79806eb
   udp: true
-  flow: xtls-rprx-vision
   tls: true
-  servername: deepl.com
+  servername: nl.aksay.pro
   skip-cert-verify: true
   reality-opts:
-    public-key: vnjp7zIK2H3CGdjSis_79KXqS6IG-opmpbETPUD-EC8
-    short-id: 15affa0af66dfc79
+    public-key: ClG6fvriBTK8donGsTlKusJ0dwRCgVDDTAGzAtZzJDY
+    short-id: 82c2b7d5e70ff000
   client-fingerprint: chrome
-- name: 🇩🇪 [643.6ms +/-1060ms] shadowsocks-1827145974
-  server: 8.209.74.72
-  port: 20001
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: PWpjPo3tqhPN4yRZ
-  udp: true
-- name: 🇩🇪 [656.9ms +/-1143ms] vless-1827154777
-  server: 46.28.69.123
-  port: 443
-  type: vless
-  uuid: b945f9aa-1b45-4912-aa7e-248509472bad
-  udp: true
-  flow: xtls-rprx-vision
-  tls: true
-  servername: gateway.icloud.com
-  skip-cert-verify: true
-  reality-opts:
-    public-key: 7KnJYp2-sE3o35mnbSZzX3fNg-ns9n8xyNfkRSHCD3E
-    short-id: 238e23c5150f02e4
-  client-fingerprint: chrome
-- name: 🇸🇬 [657.2ms +/-640ms] vless-1827155341
-  server: 5.34.177.164
-  port: 443
-  type: vless
-  uuid: ca678d26-5435-4d13-b378-06c4c3b070ff
-  udp: true
-  flow: xtls-rprx-vision
-  tls: true
-  servername: gateway.icloud.com
-  skip-cert-verify: true
-  reality-opts:
-    public-key: cwWhNuekusD1iPZZ--7G891dU9PCacxyCYwsZxOApHA
-    short-id: b2efed6d157e7bb0
-  client-fingerprint: chrome
-- name: '[666.8ms +/-1071ms] http-84.17.47.148'
-  server: 84.17.47.148
-  port: 9002
+- name: '[599.9ms +/-1082ms] http-149.88.27.33'
+  server: 149.88.27.33
+  port: 9443
   type: http
   tls: true
   skip-cert-verify: true
-- name: 🇨🇭 [667.3ms +/-1096ms] vless-1827151310
-  server: 45.90.59.15
+- name: '[600.1ms +/-1096ms] http-213.109.163.119'
+  server: 213.109.163.119
+  port: 443
+  type: http
+  tls: true
+  skip-cert-verify: true
+- name: '[603.3ms +/-1104ms] http-161.129.60.66'
+  server: 161.129.60.66
+  port: 443
+  type: http
+  tls: true
+  skip-cert-verify: true
+- name: '[623.4ms +/-1178ms] http-149.36.50.157'
+  server: 149.36.50.157
+  port: 443
+  type: http
+  tls: true
+  skip-cert-verify: true
+- name: 🇫🇮 [626.9ms +/-1182ms] vless-1827531911
+  server: 152.233.71.81
   port: 443
   type: vless
-  uuid: 3950b45e-740d-4dca-ac95-505ec8534592
+  uuid: 741809be-e44e-000b-b411-bf66f0ae3860
   udp: true
   flow: xtls-rprx-vision
   tls: true
-  servername: www.cloudflare.com
+  servername: brointelengence.com
   skip-cert-verify: true
   reality-opts:
-    public-key: P7S4UPFlQbmiBr4txyy8NZIMTrmO3UdxyH16WBU-YzY
-    short-id: 19253fae84102271
-  client-fingerprint: firefox
-- name: 🇬🇧 [667.5ms +/-1136ms] vless-1827188353
+    public-key: 6VMgXXhZdJCiOG05EyK_zTHh00kpFGrZJeZIEPgqhjY
+    short-id: 1c3e8241a8743df9
+  client-fingerprint: chrome
+- name: '[628.4ms +/-995ms] http-5.2.73.112'
+  server: 5.2.73.112
+  port: 443
+  type: http
+  tls: true
+  skip-cert-verify: true
+- name: '[635.8ms +/-1230ms] http-149.88.96.1'
+  server: 149.88.96.1
+  port: 443
+  type: http
+  tls: true
+  skip-cert-verify: true
+- name: '[641.4ms +/-1143ms] http-151.115.54.133'
+  server: 151.115.54.133
+  port: 443
+  type: http
+  username: 'null'
+  password: 'null'
+  tls: true
+  skip-cert-verify: true
+- name: '[642.2ms +/-1122ms] vless-1827149985'
+  server: pl4.h1cloud.net
+  port: 25080
+  type: vless
+  uuid: 0c3ad9d5-cffd-4748-b8df-ab145288144b
+  udp: true
+  tls: true
+  servername: www.ceneo.pl
+  skip-cert-verify: true
+  reality-opts:
+    public-key: CMAkhR1kevtK85rK9B5nmQtFZATsLOIq6nuG83BA8lI
+    short-id: 103d1dc5ed8eaf4c
+  client-fingerprint: chrome
+- name: 🇱🇻 [645.0ms +/-1143ms] vless-1827319129
+  server: 138.124.180.137
+  port: 443
+  type: vless
+  uuid: 5234b2b7-5e07-422c-8159-d62a676c00c6
+  udp: true
+  flow: xtls-rprx-vision
+  tls: true
+  servername: www.apple.com
+  skip-cert-verify: true
+  reality-opts:
+    public-key: GBdkyDLfr0LIZo_94Xv8ycAKOmkjArYzwJAEMhuXX2c
+    short-id: 33acba1b
+  client-fingerprint: chrome
+- name: '[652.9ms +/-1310ms] http-37.120.233.18'
+  server: 37.120.233.18
+  port: 443
+  type: http
+  tls: true
+  skip-cert-verify: true
+- name: '[653.6ms +/-1161ms] http-149.50.216.65'
+  server: 149.50.216.65
+  port: 443
+  type: http
+  tls: true
+  skip-cert-verify: true
+- name: '[654.4ms +/-1303ms] http-37.120.233.50'
+  server: 37.120.233.50
+  port: 443
+  type: http
+  tls: true
+  skip-cert-verify: true
+- name: '[657.0ms +/-1256ms] http-152.233.20.206'
+  server: 152.233.20.206
+  port: 443
+  type: http
+  tls: true
+  skip-cert-verify: true
+- name: 🇬🇧 [667.6ms +/-1336ms] vless-1827188353
   server: 83.147.18.75
   port: 443
   type: vless
@@ -440,222 +702,13 @@ proxies:
     public-key: tfFzmbVByvoZxxIEUiHMv22_k0-nQz00L0XjU0bd_Fc
     short-id: 7f1e29593aa94ad1
   client-fingerprint: qq
-- name: '[668.2ms +/-1119ms] http-51.158.243.91'
-  server: 51.158.243.91
-  port: 443
-  type: http
-  username: 'null'
-  password: 'null'
-  tls: true
-  skip-cert-verify: true
-- name: 🇷🇺 [676.5ms +/-1136ms] vless-1827975756
-  server: 31.59.210.37
-  port: 443
-  type: vless
-  uuid: 5413edfb-08d6-4fba-b51c-809c04feb127
-  udp: true
-  tls: true
-  servername: www.yandex.ru
-  skip-cert-verify: true
-  reality-opts:
-    public-key: 5k0dtOSzmshCubdYeKppsUdHU4i2ghaB9uSJSzGjHW4
-    short-id: 6dbf4931096f9890
-  client-fingerprint: chrome
-  network: grpc
-  grpc-opts:
-    grpc-service-name: astracat
-- name: 🇪🇪 [682.9ms +/-1160ms] trojan-1827913054
-  server: 109.206.241.10
-  port: 449
-  type: trojan
-  password: oiiaB38ywjEHCWRs_O_a_1113_Il_KeyyyHop_Bes1
-  sni: russiapower.accesscam.org
-  skip-cert-verify: true
-  udp: true
-- name: '[688.2ms +/-1131ms] http-161.129.60.66'
-  server: 161.129.60.66
-  port: 443
-  type: http
-  tls: true
-  skip-cert-verify: true
-- name: '[690.0ms +/-1068ms] http-82.65.162.76'
-  server: 82.65.162.76
-  port: 443
-  type: http
-  tls: true
-  skip-cert-verify: true
-- name: 🇳🇱 [691.6ms +/-1138ms] vless-1827155589
-  server: 2.27.71.48
-  port: 443
-  type: vless
-  uuid: df53b6c2-8005-475c-9eb9-74e1be785dc8
-  udp: true
-  flow: xtls-rprx-vision
-  tls: true
-  servername: addons.mozilla.org
-  skip-cert-verify: true
-  reality-opts:
-    public-key: FTB4bvTP-3JAbScj_vvkIOPFGjtN2TaNTUfeY-Ew8EU
-    short-id: 4d767145
-  client-fingerprint: chrome
-- name: '[703.3ms +/-1169ms] http-149.36.50.157'
-  server: 149.36.50.157
-  port: 443
-  type: http
-  tls: true
-  skip-cert-verify: true
-- name: '[706.4ms +/-1127ms] http-213.109.163.119'
-  server: 213.109.163.119
-  port: 443
-  type: http
-  tls: true
-  skip-cert-verify: true
-- name: '[708.1ms +/-1149ms] http-149.88.27.33'
-  server: 149.88.27.33
-  port: 9443
-  type: http
-  tls: true
-  skip-cert-verify: true
-- name: '[711.5ms +/-1088ms] http-31.7.62.50'
-  server: 31.7.62.50
-  port: 443
-  type: http
-  tls: true
-  skip-cert-verify: true
-- name: 🇨🇦 [712.8ms +/-1193ms] shadowsocks-1827147205
-  server: 51.79.49.116
-  port: 8882
-  type: ss
-  cipher: aes-256-gcm
-  password: kDWvXYZoTBcGkC4
-  udp: true
-- name: '[719.2ms +/-1063ms] http-5.2.73.112'
-  server: 5.2.73.112
-  port: 443
-  type: http
-  tls: true
-  skip-cert-verify: true
-- name: 🇳🇱 [720.4ms +/-867ms] vless-1827188709
-  server: 45.150.33.33
-  port: 443
-  type: vless
-  uuid: eec2f6a7-c10f-43b0-b133-61f9bf9bbc27
-  udp: true
-  flow: xtls-rprx-vision
-  tls: true
-  servername: amazon.de
-  skip-cert-verify: true
-  reality-opts:
-    public-key: G8SING6Ibc_igZ5vI5578fXCT_mBMRuq_o8_Ymnj2SQ
-    short-id: eba1498e012ef580
-  client-fingerprint: ios
-- name: '[721.9ms +/-1212ms] http-193.233.75.115'
-  server: 193.233.75.115
-  port: 443
-  type: http
-  tls: true
-  skip-cert-verify: true
-- name: '[731.7ms +/-1286ms] http-149.88.96.1'
-  server: 149.88.96.1
-  port: 443
-  type: http
-  tls: true
-  skip-cert-verify: true
-- name: 🇩🇪 [733.0ms +/-1289ms] vless-1827152964
-  server: 31.70.111.146
-  port: 443
-  type: vless
-  uuid: 84ed0e09-6803-4ef9-a977-74b657d971e5
-  udp: true
-  flow: xtls-rprx-vision
-  tls: true
-  servername: www.apple.com
-  skip-cert-verify: true
-  reality-opts:
-    public-key: ZNmuzIn-zyJi2C0sWRpL9fsMYCgYauXpJElXTqY_LEE
-    short-id: d7de3a6ff4018957
-  client-fingerprint: chrome
-- name: '[735.5ms +/-1223ms] http-158.173.154.2'
-  server: 158.173.154.2
-  port: 9002
-  type: http
-  tls: true
-  skip-cert-verify: true
-- name: '[737.2ms +/-1305ms] http-84.17.47.125'
-  server: 84.17.47.125
-  port: 9002
-  type: http
-  tls: true
-  skip-cert-verify: true
-- name: '[737.9ms +/-1318ms] http-37.120.233.50'
-  server: 37.120.233.50
-  port: 443
-  type: http
-  tls: true
-  skip-cert-verify: true
-- name: '[738.6ms +/-1229ms] http-151.115.54.133'
-  server: 151.115.54.133
-  port: 443
-  type: http
-  username: 'null'
-  password: 'null'
-  tls: true
-  skip-cert-verify: true
-- name: '[743.8ms +/-1335ms] http-84.233.178.33'
-  server: 84.233.178.33
-  port: 9443
-  type: http
-  tls: true
-  skip-cert-verify: true
-- name: '[749.1ms +/-1355ms] http-149.36.51.129'
-  server: 149.36.51.129
-  port: 443
-  type: http
-  tls: true
-  skip-cert-verify: true
-- name: '[757.5ms +/-1398ms] http-37.120.233.18'
-  server: 37.120.233.18
-  port: 443
-  type: http
-  tls: true
-  skip-cert-verify: true
-- name: '[759.3ms +/-1054ms] http-185.219.159.15'
-  server: 185.219.159.15
-  port: 443
-  type: http
-  tls: true
-  skip-cert-verify: true
-- name: '[780.9ms +/-1243ms] http-95.153.31.66'
-  server: 95.153.31.66
-  port: 9443
-  type: http
-  tls: true
-  skip-cert-verify: true
-- name: '[790.8ms +/-1461ms] http-84.17.47.150'
-  server: 84.17.47.150
-  port: 9002
-  type: http
-  tls: true
-  skip-cert-verify: true
-- name: '[791.3ms +/-1192ms] http-185.164.35.16'
+- name: '[669.9ms +/-1085ms] http-185.164.35.16'
   server: 185.164.35.16
   port: 443
   type: http
   tls: true
   skip-cert-verify: true
-- name: '[794.7ms +/-1325ms] http-185.216.35.130'
-  server: 185.216.35.130
-  port: 443
-  type: http
-  tls: true
-  skip-cert-verify: true
-- name: '[800.0ms +/-1497ms] http-84.17.47.123'
-  server: 84.17.47.123
-  port: 9002
-  type: http
-  tls: true
-  skip-cert-verify: true
-- name: 🇳🇱 [812.9ms +/-1599ms] vless-1827147752
+- name: 🇳🇱 [693.3ms +/-1027ms] vless-1827147752
   server: 185.200.199.199
   port: 8444
   type: vless
@@ -671,221 +724,182 @@ proxies:
   network: grpc
   grpc-opts:
     grpc-service-name: GunService
-- name: '[813.9ms +/-1470ms] http-213.177.229.161'
-  server: 213.177.229.161
-  port: 443
-  type: http
-  tls: true
-  skip-cert-verify: true
-- name: '[814.5ms +/-1512ms] http-84.17.47.149'
-  server: 84.17.47.149
+- name: 🇨🇦 [694.0ms +/-1099ms] shadowsocks-1827147205
+  server: 51.79.49.116
+  port: 8882
+  type: ss
+  cipher: aes-256-gcm
+  password: kDWvXYZoTBcGkC4
+  udp: true
+- name: '[697.9ms +/-1350ms] http-84.17.47.150'
+  server: 84.17.47.150
   port: 9002
   type: http
   tls: true
   skip-cert-verify: true
-- name: '[815.5ms +/-1364ms] http-146.70.244.2'
-  server: 146.70.244.2
-  port: 443
-  type: http
-  tls: true
-  skip-cert-verify: true
-- name: '[822.0ms +/-1451ms] http-149.50.216.65'
-  server: 149.50.216.65
-  port: 443
-  type: http
-  tls: true
-  skip-cert-verify: true
-- name: '[824.6ms +/-1387ms] http-109.248.147.66'
-  server: 109.248.147.66
-  port: 443
-  type: http
-  tls: true
-  skip-cert-verify: true
-- name: '[844.4ms +/-1420ms] http-95.153.32.2'
-  server: 95.153.32.2
-  port: 443
-  type: http
-  tls: true
-  skip-cert-verify: true
-- name: '[848.4ms +/-1331ms] http-193.176.84.33'
-  server: 193.176.84.33
-  port: 9002
-  type: http
-  tls: true
-  skip-cert-verify: true
-- name: '[849.8ms +/-1344ms] http-169.150.199.1'
-  server: 169.150.199.1
+- name: '[709.0ms +/-1484ms] http-84.233.178.33'
+  server: 84.233.178.33
   port: 9443
   type: http
   tls: true
   skip-cert-verify: true
-- name: '[854.8ms +/-1317ms] http-193.176.84.22'
-  server: 193.176.84.22
-  port: 9002
-  type: http
-  tls: true
-  skip-cert-verify: true
-- name: '[858.4ms +/-1339ms] http-193.176.84.40'
-  server: 193.176.84.40
-  port: 9002
-  type: http
-  username: 'null'
-  password: 'null'
-  tls: true
-  skip-cert-verify: true
-- name: '[861.5ms +/-1339ms] http-193.176.84.38'
-  server: 193.176.84.38
-  port: 9002
-  type: http
-  tls: true
-  skip-cert-verify: true
-- name: '[862.2ms +/-1359ms] http-193.176.84.25'
-  server: 193.176.84.25
-  port: 9002
-  type: http
-  tls: true
-  skip-cert-verify: true
-- name: '[863.9ms +/-1390ms] http-146.70.221.18'
-  server: 146.70.221.18
-  port: 443
-  type: http
-  tls: true
-  skip-cert-verify: true
-- name: '[864.1ms +/-1249ms] http-193.176.84.27'
-  server: 193.176.84.27
-  port: 9002
-  type: http
-  tls: true
-  skip-cert-verify: true
-- name: '[865.9ms +/-1520ms] http-146.70.244.18'
-  server: 146.70.244.18
-  port: 443
-  type: http
-  tls: true
-  skip-cert-verify: true
-- name: '[869.6ms +/-1287ms] http-193.176.84.17'
-  server: 193.176.84.17
-  port: 9002
-  type: http
-  tls: true
-  skip-cert-verify: true
-- name: 🇿🇦 [869.6ms +/-1300ms] shadowsocks-1827146396
-  server: 102.133.165.160
-  port: 16233
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: Xsy8Ox4yOV3xLlpxtjzs3X
-  udp: true
-- name: '[870.3ms +/-1535ms] http-185.183.105.146'
-  server: 185.183.105.146
-  port: 443
-  type: http
-  tls: true
-  skip-cert-verify: true
-- name: '[872.2ms +/-1308ms] http-193.176.84.34'
-  server: 193.176.84.34
-  port: 9002
-  type: http
-  tls: true
-  skip-cert-verify: true
-- name: '[874.6ms +/-1326ms] http-193.176.84.24'
-  server: 193.176.84.24
-  port: 9002
-  type: http
-  tls: true
-  skip-cert-verify: true
-- name: '[886.0ms +/-1291ms] http-193.176.84.23'
+- name: '[715.5ms +/-1206ms] http-193.176.84.23'
   server: 193.176.84.23
   port: 9002
   type: http
   tls: true
   skip-cert-verify: true
-- name: '[888.7ms +/-1284ms] http-193.176.84.20'
+- name: '[717.2ms +/-1342ms] http-185.216.35.130'
+  server: 185.216.35.130
+  port: 443
+  type: http
+  tls: true
+  skip-cert-verify: true
+- name: '[719.7ms +/-1212ms] http-193.176.84.34'
+  server: 193.176.84.34
+  port: 9002
+  type: http
+  tls: true
+  skip-cert-verify: true
+- name: '[721.8ms +/-1281ms] http-146.70.221.18'
+  server: 146.70.221.18
+  port: 443
+  type: http
+  tls: true
+  skip-cert-verify: true
+- name: '[722.2ms +/-1310ms] http-95.153.31.66'
+  server: 95.153.31.66
+  port: 9443
+  type: http
+  tls: true
+  skip-cert-verify: true
+- name: '[727.5ms +/-1214ms] http-193.176.84.20'
   server: 193.176.84.20
   port: 9002
   type: http
   tls: true
   skip-cert-verify: true
-- name: 🇱🇻 [904.7ms +/-1753ms] vless-1827319129
-  server: 138.124.180.137
-  port: 443
-  type: vless
-  uuid: 5234b2b7-5e07-422c-8159-d62a676c00c6
+- name: 🇺🇸 [728.4ms +/-1668ms] shadowsocks-1827146718
+  server: 15.204.246.132
+  port: 7307
+  type: ss
+  cipher: aes-256-gcm
+  password: FoOiGlkAA9yPEGP
   udp: true
-  flow: xtls-rprx-vision
-  tls: true
-  servername: www.apple.com
-  skip-cert-verify: true
-  reality-opts:
-    public-key: GBdkyDLfr0LIZo_94Xv8ycAKOmkjArYzwJAEMhuXX2c
-    short-id: 33acba1b
-  client-fingerprint: chrome
-- name: '[908.8ms +/-1416ms] http-193.176.84.31'
-  server: 193.176.84.31
-  port: 9002
-  type: http
-  username: 'null'
-  password: 'null'
-  tls: true
-  skip-cert-verify: true
-- name: '[931.6ms +/-1272ms] http-193.176.84.35'
-  server: 193.176.84.35
+- name: '[729.0ms +/-1229ms] http-193.176.84.25'
+  server: 193.176.84.25
   port: 9002
   type: http
   tls: true
   skip-cert-verify: true
-- name: '[931.8ms +/-1329ms] http-156.146.56.97'
-  server: 156.146.56.97
-  port: 443
-  type: http
-  tls: true
-  skip-cert-verify: true
-- name: '[938.3ms +/-1465ms] http-193.176.84.32'
-  server: 193.176.84.32
-  port: 9002
-  type: http
-  username: 'null'
-  password: 'null'
-  tls: true
-  skip-cert-verify: true
-- name: '[953.5ms +/-1616ms] http-146.70.221.34'
-  server: 146.70.221.34
-  port: 443
-  type: http
-  tls: true
-  skip-cert-verify: true
-- name: '[955.2ms +/-1611ms] http-193.176.84.30'
-  server: 193.176.84.30
+- name: '[731.5ms +/-1172ms] http-193.176.84.38'
+  server: 193.176.84.38
   port: 9002
   type: http
   tls: true
   skip-cert-verify: true
-- name: '[966.3ms +/-1263ms] http-193.176.84.39'
+- name: '[732.2ms +/-1249ms] http-193.176.84.17'
+  server: 193.176.84.17
+  port: 9002
+  type: http
+  tls: true
+  skip-cert-verify: true
+- name: '[732.6ms +/-1210ms] http-193.176.84.24'
+  server: 193.176.84.24
+  port: 9002
+  type: http
+  tls: true
+  skip-cert-verify: true
+- name: '[733.4ms +/-1254ms] http-193.176.84.39'
   server: 193.176.84.39
   port: 9002
   type: http
   tls: true
   skip-cert-verify: true
-- name: '[1020.1ms +/-1554ms] http-149.22.86.1'
+- name: '[739.9ms +/-1409ms] http-146.70.244.18'
+  server: 146.70.244.18
+  port: 443
+  type: http
+  tls: true
+  skip-cert-verify: true
+- name: '[747.3ms +/-1510ms] http-213.177.229.161'
+  server: 213.177.229.161
+  port: 443
+  type: http
+  tls: true
+  skip-cert-verify: true
+- name: '[758.1ms +/-1221ms] http-193.176.84.27'
+  server: 193.176.84.27
+  port: 9002
+  type: http
+  tls: true
+  skip-cert-verify: true
+- name: '[763.2ms +/-1413ms] http-185.183.105.146'
+  server: 185.183.105.146
+  port: 443
+  type: http
+  tls: true
+  skip-cert-verify: true
+- name: '[782.9ms +/-1041ms] vless-1827153739'
+  server: test.keoplentuio.xyz
+  port: 2053
+  type: vless
+  uuid: 9ef61079-6f7d-4911-9608-943da85d8e6f
+  udp: true
+- name: '[783.3ms +/-1374ms] http-185.219.159.15'
+  server: 185.219.159.15
+  port: 443
+  type: http
+  tls: true
+  skip-cert-verify: true
+- name: '[791.8ms +/-1658ms] http-84.17.47.123'
+  server: 84.17.47.123
+  port: 9002
+  type: http
+  tls: true
+  skip-cert-verify: true
+- name: '[803.4ms +/-1393ms] http-193.176.84.22'
+  server: 193.176.84.22
+  port: 9002
+  type: http
+  tls: true
+  skip-cert-verify: true
+- name: '[805.5ms +/-1209ms] http-149.22.86.1'
   server: 149.22.86.1
   port: 443
   type: http
   tls: true
   skip-cert-verify: true
-- name: 🇫🇮 [1040.5ms +/-2121ms] vless-1827531911
-  server: 152.233.71.81
+- name: '[832.3ms +/-1818ms] http-149.36.51.129'
+  server: 149.36.51.129
   port: 443
-  type: vless
-  uuid: 741809be-e44e-000b-b411-bf66f0ae3860
-  udp: true
-  flow: xtls-rprx-vision
+  type: http
   tls: true
-  servername: brointelengence.com
   skip-cert-verify: true
-  reality-opts:
-    public-key: 6VMgXXhZdJCiOG05EyK_zTHh00kpFGrZJeZIEPgqhjY
-    short-id: 1c3e8241a8743df9
-  client-fingerprint: chrome
+- name: '[841.6ms +/-1834ms] http-130.195.250.34'
+  server: 130.195.250.34
+  port: 443
+  type: http
+  tls: true
+  skip-cert-verify: true
+- name: '[897.1ms +/-1634ms] http-193.176.84.35'
+  server: 193.176.84.35
+  port: 9002
+  type: http
+  tls: true
+  skip-cert-verify: true
+- name: '[899.6ms +/-1674ms] http-193.176.84.33'
+  server: 193.176.84.33
+  port: 9002
+  type: http
+  tls: true
+  skip-cert-verify: true
+- name: '[908.5ms +/-1752ms] http-193.176.84.30'
+  server: 193.176.84.30
+  port: 9002
+  type: http
+  tls: true
+  skip-cert-verify: true
 proxy-groups:
 - name: 🚀 Proxy
   type: select
@@ -894,335 +908,340 @@ proxy-groups:
   - 其他
   - 🇨🇦 加拿大
   - 🇩🇪 德国
+  - 🇮🇳 印度
   - 🇳🇱 荷兰
   - 🇺🇸 美国
-  - '[252.8ms +/-568ms] http-138.199.35.198'
-  - '[254.4ms +/-559ms] http-138.199.35.216'
-  - 🇮🇹 [255.6ms +/-213ms] 🇮🇹
-  - '[255.7ms +/-566ms] http-64.98.50.100'
-  - 🇺🇸 [300.9ms +/-645ms] shadowsocks-1827146375
-  - 🇺🇸 [304.5ms +/-651ms] shadowsocks-1827146667
-  - '[313.7ms +/-615ms] http-129.153.93.183'
-  - 🇳🇱 [332.9ms +/-371ms] vless-1827975411
-  - 🇺🇸 [346.5ms +/-858ms] hysteria2-1827145638
-  - 🇺🇸 [372.9ms +/-763ms] vless-1827154784
-  - 🇳🇱 [394.4ms +/-261ms] vless-1827975399
-  - '[397.5ms +/-874ms] http-149.88.21.140'
-  - 🇨🇦 [416.6ms +/-918ms] shadowsocks-1827147187
-  - 🇺🇸 [417.3ms +/-688ms] vless-1828138090
-  - '[425.7ms +/-948ms] http-198.44.157.19'
-  - 🇩🇪 [433.2ms +/-746ms] vless-1827188712
-  - 🇺🇸 [446.4ms +/-1023ms] vless-1827149751
-  - 🇺🇸 [450.4ms +/-833ms] vless-1827735105
-  - '[459.5ms +/-1087ms] http-198.44.138.27'
-  - 🇮🇳 [460.0ms +/-470ms] vless-1827735104
-  - '[463.9ms +/-717ms] http-38.28.193.188'
-  - 🇨🇦 [472.3ms +/-892ms] vless-1827533695
-  - 🇳🇱 [529.5ms +/-941ms] @confiig_hub
-  - 🇩🇰 [547.5ms +/-953ms] vless-1827156202
-  - '[554.3ms +/-1223ms] http-147.182.216.4'
-  - '[564.6ms +/-1433ms] http-193.239.236.134'
-  - 🇩🇪 [565.5ms +/-914ms] vless-1827926875
-  - 🇩🇪 [579.6ms +/-910ms] vless-1828139008
-  - 🇳🇱 [580.8ms +/-892ms] vless-1827152138
-  - 🇺🇸 [622.9ms +/-1147ms] shadowsocks-1827146718
-  - 🇸🇪 [623.5ms +/-1020ms] vless-1827156665
-  - '[626.9ms +/-1053ms] http-34.249.214.108'
-  - 🇳🇱 [633.0ms +/-935ms] vless-1827155551
-  - 🇹🇷 [635.5ms +/-1120ms] vless-1827147108
-  - '[636.1ms +/-958ms] http-84.17.47.146'
-  - 🇳🇱 [642.7ms +/-1095ms] vless-1827154808
-  - 🇩🇪 [643.6ms +/-1060ms] shadowsocks-1827145974
-  - 🇩🇪 [656.9ms +/-1143ms] vless-1827154777
-  - 🇸🇬 [657.2ms +/-640ms] vless-1827155341
-  - '[666.8ms +/-1071ms] http-84.17.47.148'
-  - 🇨🇭 [667.3ms +/-1096ms] vless-1827151310
-  - 🇬🇧 [667.5ms +/-1136ms] vless-1827188353
-  - '[668.2ms +/-1119ms] http-51.158.243.91'
-  - 🇷🇺 [676.5ms +/-1136ms] vless-1827975756
-  - 🇪🇪 [682.9ms +/-1160ms] trojan-1827913054
-  - '[688.2ms +/-1131ms] http-161.129.60.66'
-  - '[690.0ms +/-1068ms] http-82.65.162.76'
-  - 🇳🇱 [691.6ms +/-1138ms] vless-1827155589
-  - '[703.3ms +/-1169ms] http-149.36.50.157'
-  - '[706.4ms +/-1127ms] http-213.109.163.119'
-  - '[708.1ms +/-1149ms] http-149.88.27.33'
-  - '[711.5ms +/-1088ms] http-31.7.62.50'
-  - 🇨🇦 [712.8ms +/-1193ms] shadowsocks-1827147205
-  - '[719.2ms +/-1063ms] http-5.2.73.112'
-  - 🇳🇱 [720.4ms +/-867ms] vless-1827188709
-  - '[721.9ms +/-1212ms] http-193.233.75.115'
-  - '[731.7ms +/-1286ms] http-149.88.96.1'
-  - 🇩🇪 [733.0ms +/-1289ms] vless-1827152964
-  - '[735.5ms +/-1223ms] http-158.173.154.2'
-  - '[737.2ms +/-1305ms] http-84.17.47.125'
-  - '[737.9ms +/-1318ms] http-37.120.233.50'
-  - '[738.6ms +/-1229ms] http-151.115.54.133'
-  - '[743.8ms +/-1335ms] http-84.233.178.33'
-  - '[749.1ms +/-1355ms] http-149.36.51.129'
-  - '[757.5ms +/-1398ms] http-37.120.233.18'
-  - '[759.3ms +/-1054ms] http-185.219.159.15'
-  - '[780.9ms +/-1243ms] http-95.153.31.66'
-  - '[790.8ms +/-1461ms] http-84.17.47.150'
-  - '[791.3ms +/-1192ms] http-185.164.35.16'
-  - '[794.7ms +/-1325ms] http-185.216.35.130'
-  - '[800.0ms +/-1497ms] http-84.17.47.123'
-  - 🇳🇱 [812.9ms +/-1599ms] vless-1827147752
-  - '[813.9ms +/-1470ms] http-213.177.229.161'
-  - '[814.5ms +/-1512ms] http-84.17.47.149'
-  - '[815.5ms +/-1364ms] http-146.70.244.2'
-  - '[822.0ms +/-1451ms] http-149.50.216.65'
-  - '[824.6ms +/-1387ms] http-109.248.147.66'
-  - '[844.4ms +/-1420ms] http-95.153.32.2'
-  - '[848.4ms +/-1331ms] http-193.176.84.33'
-  - '[849.8ms +/-1344ms] http-169.150.199.1'
-  - '[854.8ms +/-1317ms] http-193.176.84.22'
-  - '[858.4ms +/-1339ms] http-193.176.84.40'
-  - '[861.5ms +/-1339ms] http-193.176.84.38'
-  - '[862.2ms +/-1359ms] http-193.176.84.25'
-  - '[863.9ms +/-1390ms] http-146.70.221.18'
-  - '[864.1ms +/-1249ms] http-193.176.84.27'
-  - '[865.9ms +/-1520ms] http-146.70.244.18'
-  - '[869.6ms +/-1287ms] http-193.176.84.17'
-  - 🇿🇦 [869.6ms +/-1300ms] shadowsocks-1827146396
-  - '[870.3ms +/-1535ms] http-185.183.105.146'
-  - '[872.2ms +/-1308ms] http-193.176.84.34'
-  - '[874.6ms +/-1326ms] http-193.176.84.24'
-  - '[886.0ms +/-1291ms] http-193.176.84.23'
-  - '[888.7ms +/-1284ms] http-193.176.84.20'
-  - 🇱🇻 [904.7ms +/-1753ms] vless-1827319129
-  - '[908.8ms +/-1416ms] http-193.176.84.31'
-  - '[931.6ms +/-1272ms] http-193.176.84.35'
-  - '[931.8ms +/-1329ms] http-156.146.56.97'
-  - '[938.3ms +/-1465ms] http-193.176.84.32'
-  - '[953.5ms +/-1616ms] http-146.70.221.34'
-  - '[955.2ms +/-1611ms] http-193.176.84.30'
-  - '[966.3ms +/-1263ms] http-193.176.84.39'
-  - '[1020.1ms +/-1554ms] http-149.22.86.1'
-  - 🇫🇮 [1040.5ms +/-2121ms] vless-1827531911
+  - '[242.6ms +/-244ms] ☀️12@oneclickvpnkeys'
+  - 🇺🇸 [253.2ms +/-651ms] vless-1828137284
+  - 🇳🇱 [256.3ms +/-286ms] vless-1827154847
+  - 🇳🇱 [262.8ms +/-291ms] vless-1827147029
+  - 🇺🇸 [263.8ms +/-713ms] shadowsocks-1827146122
+  - '[275.4ms +/-701ms] http-147.182.216.4'
+  - 🇺🇸 [280.4ms +/-730ms] vless-1827154079
+  - '[280.7ms +/-742ms] http-149.88.21.140'
+  - 🇨🇦 [295.8ms +/-731ms] vless-1827162767
+  - 🇺🇸 [314.2ms +/-860ms] shadowsocks-1827146248
+  - 🇺🇸 [322.2ms +/-612ms] vless-1828139001
+  - 🇺🇸 [326.5ms +/-725ms] vless-1827154784
+  - 🇺🇸 [331.0ms +/-652ms] shadowsocks-1827146667
+  - 🇺🇸 [354.6ms +/-950ms] vless-1827149751
+  - '[361.1ms +/-643ms] http-129.153.93.183'
+  - '[368.9ms +/-907ms] http-198.44.157.19'
+  - 🇨🇦 [387.7ms +/-804ms] vless-1827533695
+  - '[404.9ms +/-710ms] http-64.98.50.100'
+  - 🇩🇪 [405.7ms +/-819ms] vless-1827156449
+  - '[409.0ms +/-1014ms] http-198.44.138.27'
+  - '[428.6ms +/-703ms] vless-1828138087'
+  - '[433.4ms +/-694ms] socks-104.168.249.36'
+  - '[435.6ms +/-801ms] vless-1828142568'
+  - 🇩🇪 [453.9ms +/-791ms] vless-1828139008
+  - '[459.0ms +/-1154ms] http-193.239.236.134'
+  - 🇺🇸 [462.0ms +/-995ms] vless-1827735105
+  - '[471.9ms +/-435ms] vless-1828139012'
+  - 🇳🇱 [474.6ms +/-818ms] vless-1827151630
+  - 🇳🇱 [515.1ms +/-825ms] vless-1827188709
+  - '[521.3ms +/-864ms] http-84.17.47.146'
+  - '[521.4ms +/-886ms] http-84.17.47.148'
+  - 🇮🇳 [522.4ms +/-490ms] vless-1828294362
+  - '[523.6ms +/-868ms] vless-1827148888'
+  - '[525.3ms +/-851ms] http-158.173.154.2'
+  - '[526.1ms +/-891ms] http-84.17.47.125'
+  - '[529.8ms +/-873ms] http-84.17.47.149'
+  - 🇩🇪 [530.2ms +/-1031ms] shadowsocks-1827145974
+  - '[531.8ms +/-825ms] http-193.233.75.115'
+  - '[537.3ms +/-771ms] http-38.28.193.188'
+  - 🇩🇪 [537.3ms +/-1027ms] vless-1827926875
+  - '[540.9ms +/-1045ms] http-34.249.214.108'
+  - 🇮🇳 [541.8ms +/-606ms] vless-1827735104
+  - '[551.3ms +/-986ms] http-82.65.162.76'
+  - '[558.4ms +/-884ms] http-152.233.16.174'
+  - '[558.5ms +/-990ms] http-51.158.243.91'
+  - 🇸🇪 [559.9ms +/-983ms] vless-1827156665
+  - 🇩🇰 [560.7ms +/-928ms] vless-1827156202
+  - 🇨🇭 [560.7ms +/-1026ms] vless-1827151310
+  - 🇨🇦 [563.5ms +/-521ms] shadowsocks-1827147702
+  - '[566.8ms +/-1314ms] http-138.199.35.216'
+  - 🇪🇪 [569.8ms +/-1046ms] trojan-1827913054
+  - 🇹🇷 [575.1ms +/-1077ms] vless-1827147108
+  - 🇺🇸 [577.9ms +/-999ms] vless-1828138090
+  - 🇩🇪 [578.8ms +/-1070ms] vless-1827153877
+  - '[579.2ms +/-951ms] http-31.7.62.50'
+  - 🇳🇱 [596.4ms +/-1152ms] vless-1827155551
+  - '[599.9ms +/-1082ms] http-149.88.27.33'
+  - '[600.1ms +/-1096ms] http-213.109.163.119'
+  - '[603.3ms +/-1104ms] http-161.129.60.66'
+  - '[623.4ms +/-1178ms] http-149.36.50.157'
+  - 🇫🇮 [626.9ms +/-1182ms] vless-1827531911
+  - '[628.4ms +/-995ms] http-5.2.73.112'
+  - '[635.8ms +/-1230ms] http-149.88.96.1'
+  - '[641.4ms +/-1143ms] http-151.115.54.133'
+  - '[642.2ms +/-1122ms] vless-1827149985'
+  - 🇱🇻 [645.0ms +/-1143ms] vless-1827319129
+  - '[652.9ms +/-1310ms] http-37.120.233.18'
+  - '[653.6ms +/-1161ms] http-149.50.216.65'
+  - '[654.4ms +/-1303ms] http-37.120.233.50'
+  - '[657.0ms +/-1256ms] http-152.233.20.206'
+  - 🇬🇧 [667.6ms +/-1336ms] vless-1827188353
+  - '[669.9ms +/-1085ms] http-185.164.35.16'
+  - 🇳🇱 [693.3ms +/-1027ms] vless-1827147752
+  - 🇨🇦 [694.0ms +/-1099ms] shadowsocks-1827147205
+  - '[697.9ms +/-1350ms] http-84.17.47.150'
+  - '[709.0ms +/-1484ms] http-84.233.178.33'
+  - '[715.5ms +/-1206ms] http-193.176.84.23'
+  - '[717.2ms +/-1342ms] http-185.216.35.130'
+  - '[719.7ms +/-1212ms] http-193.176.84.34'
+  - '[721.8ms +/-1281ms] http-146.70.221.18'
+  - '[722.2ms +/-1310ms] http-95.153.31.66'
+  - '[727.5ms +/-1214ms] http-193.176.84.20'
+  - 🇺🇸 [728.4ms +/-1668ms] shadowsocks-1827146718
+  - '[729.0ms +/-1229ms] http-193.176.84.25'
+  - '[731.5ms +/-1172ms] http-193.176.84.38'
+  - '[732.2ms +/-1249ms] http-193.176.84.17'
+  - '[732.6ms +/-1210ms] http-193.176.84.24'
+  - '[733.4ms +/-1254ms] http-193.176.84.39'
+  - '[739.9ms +/-1409ms] http-146.70.244.18'
+  - '[747.3ms +/-1510ms] http-213.177.229.161'
+  - '[758.1ms +/-1221ms] http-193.176.84.27'
+  - '[763.2ms +/-1413ms] http-185.183.105.146'
+  - '[782.9ms +/-1041ms] vless-1827153739'
+  - '[783.3ms +/-1374ms] http-185.219.159.15'
+  - '[791.8ms +/-1658ms] http-84.17.47.123'
+  - '[803.4ms +/-1393ms] http-193.176.84.22'
+  - '[805.5ms +/-1209ms] http-149.22.86.1'
+  - '[832.3ms +/-1818ms] http-149.36.51.129'
+  - '[841.6ms +/-1834ms] http-130.195.250.34'
+  - '[897.1ms +/-1634ms] http-193.176.84.35'
+  - '[899.6ms +/-1674ms] http-193.176.84.33'
+  - '[908.5ms +/-1752ms] http-193.176.84.30'
 - name: ♻️ Auto
   type: url-test
   proxies:
-  - '[252.8ms +/-568ms] http-138.199.35.198'
-  - '[254.4ms +/-559ms] http-138.199.35.216'
-  - 🇮🇹 [255.6ms +/-213ms] 🇮🇹
-  - '[255.7ms +/-566ms] http-64.98.50.100'
-  - 🇺🇸 [300.9ms +/-645ms] shadowsocks-1827146375
-  - 🇺🇸 [304.5ms +/-651ms] shadowsocks-1827146667
-  - '[313.7ms +/-615ms] http-129.153.93.183'
-  - 🇳🇱 [332.9ms +/-371ms] vless-1827975411
-  - 🇺🇸 [346.5ms +/-858ms] hysteria2-1827145638
-  - 🇺🇸 [372.9ms +/-763ms] vless-1827154784
-  - 🇳🇱 [394.4ms +/-261ms] vless-1827975399
-  - '[397.5ms +/-874ms] http-149.88.21.140'
-  - 🇨🇦 [416.6ms +/-918ms] shadowsocks-1827147187
-  - 🇺🇸 [417.3ms +/-688ms] vless-1828138090
-  - '[425.7ms +/-948ms] http-198.44.157.19'
-  - 🇩🇪 [433.2ms +/-746ms] vless-1827188712
-  - 🇺🇸 [446.4ms +/-1023ms] vless-1827149751
-  - 🇺🇸 [450.4ms +/-833ms] vless-1827735105
-  - '[459.5ms +/-1087ms] http-198.44.138.27'
-  - 🇮🇳 [460.0ms +/-470ms] vless-1827735104
-  - '[463.9ms +/-717ms] http-38.28.193.188'
-  - 🇨🇦 [472.3ms +/-892ms] vless-1827533695
-  - 🇳🇱 [529.5ms +/-941ms] @confiig_hub
-  - 🇩🇰 [547.5ms +/-953ms] vless-1827156202
-  - '[554.3ms +/-1223ms] http-147.182.216.4'
-  - '[564.6ms +/-1433ms] http-193.239.236.134'
-  - 🇩🇪 [565.5ms +/-914ms] vless-1827926875
-  - 🇩🇪 [579.6ms +/-910ms] vless-1828139008
-  - 🇳🇱 [580.8ms +/-892ms] vless-1827152138
-  - 🇺🇸 [622.9ms +/-1147ms] shadowsocks-1827146718
-  - 🇸🇪 [623.5ms +/-1020ms] vless-1827156665
-  - '[626.9ms +/-1053ms] http-34.249.214.108'
-  - 🇳🇱 [633.0ms +/-935ms] vless-1827155551
-  - 🇹🇷 [635.5ms +/-1120ms] vless-1827147108
-  - '[636.1ms +/-958ms] http-84.17.47.146'
-  - 🇳🇱 [642.7ms +/-1095ms] vless-1827154808
-  - 🇩🇪 [643.6ms +/-1060ms] shadowsocks-1827145974
-  - 🇩🇪 [656.9ms +/-1143ms] vless-1827154777
-  - 🇸🇬 [657.2ms +/-640ms] vless-1827155341
-  - '[666.8ms +/-1071ms] http-84.17.47.148'
-  - 🇨🇭 [667.3ms +/-1096ms] vless-1827151310
-  - 🇬🇧 [667.5ms +/-1136ms] vless-1827188353
-  - '[668.2ms +/-1119ms] http-51.158.243.91'
-  - 🇷🇺 [676.5ms +/-1136ms] vless-1827975756
-  - 🇪🇪 [682.9ms +/-1160ms] trojan-1827913054
-  - '[688.2ms +/-1131ms] http-161.129.60.66'
-  - '[690.0ms +/-1068ms] http-82.65.162.76'
-  - 🇳🇱 [691.6ms +/-1138ms] vless-1827155589
-  - '[703.3ms +/-1169ms] http-149.36.50.157'
-  - '[706.4ms +/-1127ms] http-213.109.163.119'
-  - '[708.1ms +/-1149ms] http-149.88.27.33'
-  - '[711.5ms +/-1088ms] http-31.7.62.50'
-  - 🇨🇦 [712.8ms +/-1193ms] shadowsocks-1827147205
-  - '[719.2ms +/-1063ms] http-5.2.73.112'
-  - 🇳🇱 [720.4ms +/-867ms] vless-1827188709
-  - '[721.9ms +/-1212ms] http-193.233.75.115'
-  - '[731.7ms +/-1286ms] http-149.88.96.1'
-  - 🇩🇪 [733.0ms +/-1289ms] vless-1827152964
-  - '[735.5ms +/-1223ms] http-158.173.154.2'
-  - '[737.2ms +/-1305ms] http-84.17.47.125'
-  - '[737.9ms +/-1318ms] http-37.120.233.50'
-  - '[738.6ms +/-1229ms] http-151.115.54.133'
-  - '[743.8ms +/-1335ms] http-84.233.178.33'
-  - '[749.1ms +/-1355ms] http-149.36.51.129'
-  - '[757.5ms +/-1398ms] http-37.120.233.18'
-  - '[759.3ms +/-1054ms] http-185.219.159.15'
-  - '[780.9ms +/-1243ms] http-95.153.31.66'
-  - '[790.8ms +/-1461ms] http-84.17.47.150'
-  - '[791.3ms +/-1192ms] http-185.164.35.16'
-  - '[794.7ms +/-1325ms] http-185.216.35.130'
-  - '[800.0ms +/-1497ms] http-84.17.47.123'
-  - 🇳🇱 [812.9ms +/-1599ms] vless-1827147752
-  - '[813.9ms +/-1470ms] http-213.177.229.161'
-  - '[814.5ms +/-1512ms] http-84.17.47.149'
-  - '[815.5ms +/-1364ms] http-146.70.244.2'
-  - '[822.0ms +/-1451ms] http-149.50.216.65'
-  - '[824.6ms +/-1387ms] http-109.248.147.66'
-  - '[844.4ms +/-1420ms] http-95.153.32.2'
-  - '[848.4ms +/-1331ms] http-193.176.84.33'
-  - '[849.8ms +/-1344ms] http-169.150.199.1'
-  - '[854.8ms +/-1317ms] http-193.176.84.22'
-  - '[858.4ms +/-1339ms] http-193.176.84.40'
-  - '[861.5ms +/-1339ms] http-193.176.84.38'
-  - '[862.2ms +/-1359ms] http-193.176.84.25'
-  - '[863.9ms +/-1390ms] http-146.70.221.18'
-  - '[864.1ms +/-1249ms] http-193.176.84.27'
-  - '[865.9ms +/-1520ms] http-146.70.244.18'
-  - '[869.6ms +/-1287ms] http-193.176.84.17'
-  - 🇿🇦 [869.6ms +/-1300ms] shadowsocks-1827146396
-  - '[870.3ms +/-1535ms] http-185.183.105.146'
-  - '[872.2ms +/-1308ms] http-193.176.84.34'
-  - '[874.6ms +/-1326ms] http-193.176.84.24'
-  - '[886.0ms +/-1291ms] http-193.176.84.23'
-  - '[888.7ms +/-1284ms] http-193.176.84.20'
-  - 🇱🇻 [904.7ms +/-1753ms] vless-1827319129
-  - '[908.8ms +/-1416ms] http-193.176.84.31'
-  - '[931.6ms +/-1272ms] http-193.176.84.35'
-  - '[931.8ms +/-1329ms] http-156.146.56.97'
-  - '[938.3ms +/-1465ms] http-193.176.84.32'
-  - '[953.5ms +/-1616ms] http-146.70.221.34'
-  - '[955.2ms +/-1611ms] http-193.176.84.30'
-  - '[966.3ms +/-1263ms] http-193.176.84.39'
-  - '[1020.1ms +/-1554ms] http-149.22.86.1'
-  - 🇫🇮 [1040.5ms +/-2121ms] vless-1827531911
+  - '[242.6ms +/-244ms] ☀️12@oneclickvpnkeys'
+  - 🇺🇸 [253.2ms +/-651ms] vless-1828137284
+  - 🇳🇱 [256.3ms +/-286ms] vless-1827154847
+  - 🇳🇱 [262.8ms +/-291ms] vless-1827147029
+  - 🇺🇸 [263.8ms +/-713ms] shadowsocks-1827146122
+  - '[275.4ms +/-701ms] http-147.182.216.4'
+  - 🇺🇸 [280.4ms +/-730ms] vless-1827154079
+  - '[280.7ms +/-742ms] http-149.88.21.140'
+  - 🇨🇦 [295.8ms +/-731ms] vless-1827162767
+  - 🇺🇸 [314.2ms +/-860ms] shadowsocks-1827146248
+  - 🇺🇸 [322.2ms +/-612ms] vless-1828139001
+  - 🇺🇸 [326.5ms +/-725ms] vless-1827154784
+  - 🇺🇸 [331.0ms +/-652ms] shadowsocks-1827146667
+  - 🇺🇸 [354.6ms +/-950ms] vless-1827149751
+  - '[361.1ms +/-643ms] http-129.153.93.183'
+  - '[368.9ms +/-907ms] http-198.44.157.19'
+  - 🇨🇦 [387.7ms +/-804ms] vless-1827533695
+  - '[404.9ms +/-710ms] http-64.98.50.100'
+  - 🇩🇪 [405.7ms +/-819ms] vless-1827156449
+  - '[409.0ms +/-1014ms] http-198.44.138.27'
+  - '[428.6ms +/-703ms] vless-1828138087'
+  - '[433.4ms +/-694ms] socks-104.168.249.36'
+  - '[435.6ms +/-801ms] vless-1828142568'
+  - 🇩🇪 [453.9ms +/-791ms] vless-1828139008
+  - '[459.0ms +/-1154ms] http-193.239.236.134'
+  - 🇺🇸 [462.0ms +/-995ms] vless-1827735105
+  - '[471.9ms +/-435ms] vless-1828139012'
+  - 🇳🇱 [474.6ms +/-818ms] vless-1827151630
+  - 🇳🇱 [515.1ms +/-825ms] vless-1827188709
+  - '[521.3ms +/-864ms] http-84.17.47.146'
+  - '[521.4ms +/-886ms] http-84.17.47.148'
+  - 🇮🇳 [522.4ms +/-490ms] vless-1828294362
+  - '[523.6ms +/-868ms] vless-1827148888'
+  - '[525.3ms +/-851ms] http-158.173.154.2'
+  - '[526.1ms +/-891ms] http-84.17.47.125'
+  - '[529.8ms +/-873ms] http-84.17.47.149'
+  - 🇩🇪 [530.2ms +/-1031ms] shadowsocks-1827145974
+  - '[531.8ms +/-825ms] http-193.233.75.115'
+  - '[537.3ms +/-771ms] http-38.28.193.188'
+  - 🇩🇪 [537.3ms +/-1027ms] vless-1827926875
+  - '[540.9ms +/-1045ms] http-34.249.214.108'
+  - 🇮🇳 [541.8ms +/-606ms] vless-1827735104
+  - '[551.3ms +/-986ms] http-82.65.162.76'
+  - '[558.4ms +/-884ms] http-152.233.16.174'
+  - '[558.5ms +/-990ms] http-51.158.243.91'
+  - 🇸🇪 [559.9ms +/-983ms] vless-1827156665
+  - 🇩🇰 [560.7ms +/-928ms] vless-1827156202
+  - 🇨🇭 [560.7ms +/-1026ms] vless-1827151310
+  - 🇨🇦 [563.5ms +/-521ms] shadowsocks-1827147702
+  - '[566.8ms +/-1314ms] http-138.199.35.216'
+  - 🇪🇪 [569.8ms +/-1046ms] trojan-1827913054
+  - 🇹🇷 [575.1ms +/-1077ms] vless-1827147108
+  - 🇺🇸 [577.9ms +/-999ms] vless-1828138090
+  - 🇩🇪 [578.8ms +/-1070ms] vless-1827153877
+  - '[579.2ms +/-951ms] http-31.7.62.50'
+  - 🇳🇱 [596.4ms +/-1152ms] vless-1827155551
+  - '[599.9ms +/-1082ms] http-149.88.27.33'
+  - '[600.1ms +/-1096ms] http-213.109.163.119'
+  - '[603.3ms +/-1104ms] http-161.129.60.66'
+  - '[623.4ms +/-1178ms] http-149.36.50.157'
+  - 🇫🇮 [626.9ms +/-1182ms] vless-1827531911
+  - '[628.4ms +/-995ms] http-5.2.73.112'
+  - '[635.8ms +/-1230ms] http-149.88.96.1'
+  - '[641.4ms +/-1143ms] http-151.115.54.133'
+  - '[642.2ms +/-1122ms] vless-1827149985'
+  - 🇱🇻 [645.0ms +/-1143ms] vless-1827319129
+  - '[652.9ms +/-1310ms] http-37.120.233.18'
+  - '[653.6ms +/-1161ms] http-149.50.216.65'
+  - '[654.4ms +/-1303ms] http-37.120.233.50'
+  - '[657.0ms +/-1256ms] http-152.233.20.206'
+  - 🇬🇧 [667.6ms +/-1336ms] vless-1827188353
+  - '[669.9ms +/-1085ms] http-185.164.35.16'
+  - 🇳🇱 [693.3ms +/-1027ms] vless-1827147752
+  - 🇨🇦 [694.0ms +/-1099ms] shadowsocks-1827147205
+  - '[697.9ms +/-1350ms] http-84.17.47.150'
+  - '[709.0ms +/-1484ms] http-84.233.178.33'
+  - '[715.5ms +/-1206ms] http-193.176.84.23'
+  - '[717.2ms +/-1342ms] http-185.216.35.130'
+  - '[719.7ms +/-1212ms] http-193.176.84.34'
+  - '[721.8ms +/-1281ms] http-146.70.221.18'
+  - '[722.2ms +/-1310ms] http-95.153.31.66'
+  - '[727.5ms +/-1214ms] http-193.176.84.20'
+  - 🇺🇸 [728.4ms +/-1668ms] shadowsocks-1827146718
+  - '[729.0ms +/-1229ms] http-193.176.84.25'
+  - '[731.5ms +/-1172ms] http-193.176.84.38'
+  - '[732.2ms +/-1249ms] http-193.176.84.17'
+  - '[732.6ms +/-1210ms] http-193.176.84.24'
+  - '[733.4ms +/-1254ms] http-193.176.84.39'
+  - '[739.9ms +/-1409ms] http-146.70.244.18'
+  - '[747.3ms +/-1510ms] http-213.177.229.161'
+  - '[758.1ms +/-1221ms] http-193.176.84.27'
+  - '[763.2ms +/-1413ms] http-185.183.105.146'
+  - '[782.9ms +/-1041ms] vless-1827153739'
+  - '[783.3ms +/-1374ms] http-185.219.159.15'
+  - '[791.8ms +/-1658ms] http-84.17.47.123'
+  - '[803.4ms +/-1393ms] http-193.176.84.22'
+  - '[805.5ms +/-1209ms] http-149.22.86.1'
+  - '[832.3ms +/-1818ms] http-149.36.51.129'
+  - '[841.6ms +/-1834ms] http-130.195.250.34'
+  - '[897.1ms +/-1634ms] http-193.176.84.35'
+  - '[899.6ms +/-1674ms] http-193.176.84.33'
+  - '[908.5ms +/-1752ms] http-193.176.84.30'
   url: https://www.gstatic.com/generate_204
   interval: 600
 - name: 其他
   type: url-test
   proxies:
-  - '[252.8ms +/-568ms] http-138.199.35.198'
-  - '[254.4ms +/-559ms] http-138.199.35.216'
-  - '[255.7ms +/-566ms] http-64.98.50.100'
-  - '[313.7ms +/-615ms] http-129.153.93.183'
-  - '[397.5ms +/-874ms] http-149.88.21.140'
-  - '[425.7ms +/-948ms] http-198.44.157.19'
-  - '[459.5ms +/-1087ms] http-198.44.138.27'
-  - '[463.9ms +/-717ms] http-38.28.193.188'
-  - '[554.3ms +/-1223ms] http-147.182.216.4'
-  - '[564.6ms +/-1433ms] http-193.239.236.134'
-  - '[626.9ms +/-1053ms] http-34.249.214.108'
-  - '[636.1ms +/-958ms] http-84.17.47.146'
-  - '[666.8ms +/-1071ms] http-84.17.47.148'
-  - '[668.2ms +/-1119ms] http-51.158.243.91'
-  - '[688.2ms +/-1131ms] http-161.129.60.66'
-  - '[690.0ms +/-1068ms] http-82.65.162.76'
-  - '[703.3ms +/-1169ms] http-149.36.50.157'
-  - '[706.4ms +/-1127ms] http-213.109.163.119'
-  - '[708.1ms +/-1149ms] http-149.88.27.33'
-  - '[711.5ms +/-1088ms] http-31.7.62.50'
-  - '[719.2ms +/-1063ms] http-5.2.73.112'
-  - '[721.9ms +/-1212ms] http-193.233.75.115'
-  - '[731.7ms +/-1286ms] http-149.88.96.1'
-  - '[735.5ms +/-1223ms] http-158.173.154.2'
-  - '[737.2ms +/-1305ms] http-84.17.47.125'
-  - '[737.9ms +/-1318ms] http-37.120.233.50'
-  - '[738.6ms +/-1229ms] http-151.115.54.133'
-  - '[743.8ms +/-1335ms] http-84.233.178.33'
-  - '[749.1ms +/-1355ms] http-149.36.51.129'
-  - '[757.5ms +/-1398ms] http-37.120.233.18'
-  - '[759.3ms +/-1054ms] http-185.219.159.15'
-  - '[780.9ms +/-1243ms] http-95.153.31.66'
-  - '[790.8ms +/-1461ms] http-84.17.47.150'
-  - '[791.3ms +/-1192ms] http-185.164.35.16'
-  - '[794.7ms +/-1325ms] http-185.216.35.130'
-  - '[800.0ms +/-1497ms] http-84.17.47.123'
-  - '[813.9ms +/-1470ms] http-213.177.229.161'
-  - '[814.5ms +/-1512ms] http-84.17.47.149'
-  - '[815.5ms +/-1364ms] http-146.70.244.2'
-  - '[822.0ms +/-1451ms] http-149.50.216.65'
-  - '[824.6ms +/-1387ms] http-109.248.147.66'
-  - '[844.4ms +/-1420ms] http-95.153.32.2'
-  - '[848.4ms +/-1331ms] http-193.176.84.33'
-  - '[849.8ms +/-1344ms] http-169.150.199.1'
-  - '[854.8ms +/-1317ms] http-193.176.84.22'
-  - '[858.4ms +/-1339ms] http-193.176.84.40'
-  - '[861.5ms +/-1339ms] http-193.176.84.38'
-  - '[862.2ms +/-1359ms] http-193.176.84.25'
-  - '[863.9ms +/-1390ms] http-146.70.221.18'
-  - '[864.1ms +/-1249ms] http-193.176.84.27'
-  - '[865.9ms +/-1520ms] http-146.70.244.18'
-  - '[869.6ms +/-1287ms] http-193.176.84.17'
-  - '[870.3ms +/-1535ms] http-185.183.105.146'
-  - '[872.2ms +/-1308ms] http-193.176.84.34'
-  - '[874.6ms +/-1326ms] http-193.176.84.24'
-  - '[886.0ms +/-1291ms] http-193.176.84.23'
-  - '[888.7ms +/-1284ms] http-193.176.84.20'
-  - '[908.8ms +/-1416ms] http-193.176.84.31'
-  - '[931.6ms +/-1272ms] http-193.176.84.35'
-  - '[931.8ms +/-1329ms] http-156.146.56.97'
-  - '[938.3ms +/-1465ms] http-193.176.84.32'
-  - '[953.5ms +/-1616ms] http-146.70.221.34'
-  - '[955.2ms +/-1611ms] http-193.176.84.30'
-  - '[966.3ms +/-1263ms] http-193.176.84.39'
-  - '[1020.1ms +/-1554ms] http-149.22.86.1'
+  - '[242.6ms +/-244ms] ☀️12@oneclickvpnkeys'
+  - '[275.4ms +/-701ms] http-147.182.216.4'
+  - '[280.7ms +/-742ms] http-149.88.21.140'
+  - '[361.1ms +/-643ms] http-129.153.93.183'
+  - '[368.9ms +/-907ms] http-198.44.157.19'
+  - '[404.9ms +/-710ms] http-64.98.50.100'
+  - '[409.0ms +/-1014ms] http-198.44.138.27'
+  - '[428.6ms +/-703ms] vless-1828138087'
+  - '[433.4ms +/-694ms] socks-104.168.249.36'
+  - '[435.6ms +/-801ms] vless-1828142568'
+  - '[459.0ms +/-1154ms] http-193.239.236.134'
+  - '[471.9ms +/-435ms] vless-1828139012'
+  - '[521.3ms +/-864ms] http-84.17.47.146'
+  - '[521.4ms +/-886ms] http-84.17.47.148'
+  - '[523.6ms +/-868ms] vless-1827148888'
+  - '[525.3ms +/-851ms] http-158.173.154.2'
+  - '[526.1ms +/-891ms] http-84.17.47.125'
+  - '[529.8ms +/-873ms] http-84.17.47.149'
+  - '[531.8ms +/-825ms] http-193.233.75.115'
+  - '[537.3ms +/-771ms] http-38.28.193.188'
+  - '[540.9ms +/-1045ms] http-34.249.214.108'
+  - '[551.3ms +/-986ms] http-82.65.162.76'
+  - '[558.4ms +/-884ms] http-152.233.16.174'
+  - '[558.5ms +/-990ms] http-51.158.243.91'
+  - '[566.8ms +/-1314ms] http-138.199.35.216'
+  - '[579.2ms +/-951ms] http-31.7.62.50'
+  - '[599.9ms +/-1082ms] http-149.88.27.33'
+  - '[600.1ms +/-1096ms] http-213.109.163.119'
+  - '[603.3ms +/-1104ms] http-161.129.60.66'
+  - '[623.4ms +/-1178ms] http-149.36.50.157'
+  - '[628.4ms +/-995ms] http-5.2.73.112'
+  - '[635.8ms +/-1230ms] http-149.88.96.1'
+  - '[641.4ms +/-1143ms] http-151.115.54.133'
+  - '[642.2ms +/-1122ms] vless-1827149985'
+  - '[652.9ms +/-1310ms] http-37.120.233.18'
+  - '[653.6ms +/-1161ms] http-149.50.216.65'
+  - '[654.4ms +/-1303ms] http-37.120.233.50'
+  - '[657.0ms +/-1256ms] http-152.233.20.206'
+  - '[669.9ms +/-1085ms] http-185.164.35.16'
+  - '[697.9ms +/-1350ms] http-84.17.47.150'
+  - '[709.0ms +/-1484ms] http-84.233.178.33'
+  - '[715.5ms +/-1206ms] http-193.176.84.23'
+  - '[717.2ms +/-1342ms] http-185.216.35.130'
+  - '[719.7ms +/-1212ms] http-193.176.84.34'
+  - '[721.8ms +/-1281ms] http-146.70.221.18'
+  - '[722.2ms +/-1310ms] http-95.153.31.66'
+  - '[727.5ms +/-1214ms] http-193.176.84.20'
+  - '[729.0ms +/-1229ms] http-193.176.84.25'
+  - '[731.5ms +/-1172ms] http-193.176.84.38'
+  - '[732.2ms +/-1249ms] http-193.176.84.17'
+  - '[732.6ms +/-1210ms] http-193.176.84.24'
+  - '[733.4ms +/-1254ms] http-193.176.84.39'
+  - '[739.9ms +/-1409ms] http-146.70.244.18'
+  - '[747.3ms +/-1510ms] http-213.177.229.161'
+  - '[758.1ms +/-1221ms] http-193.176.84.27'
+  - '[763.2ms +/-1413ms] http-185.183.105.146'
+  - '[782.9ms +/-1041ms] vless-1827153739'
+  - '[783.3ms +/-1374ms] http-185.219.159.15'
+  - '[791.8ms +/-1658ms] http-84.17.47.123'
+  - '[803.4ms +/-1393ms] http-193.176.84.22'
+  - '[805.5ms +/-1209ms] http-149.22.86.1'
+  - '[832.3ms +/-1818ms] http-149.36.51.129'
+  - '[841.6ms +/-1834ms] http-130.195.250.34'
+  - '[897.1ms +/-1634ms] http-193.176.84.35'
+  - '[899.6ms +/-1674ms] http-193.176.84.33'
+  - '[908.5ms +/-1752ms] http-193.176.84.30'
   url: https://www.gstatic.com/generate_204
   interval: 600
 - name: 🇨🇦 加拿大
   type: url-test
   proxies:
-  - 🇨🇦 [416.6ms +/-918ms] shadowsocks-1827147187
-  - 🇨🇦 [472.3ms +/-892ms] vless-1827533695
-  - 🇨🇦 [712.8ms +/-1193ms] shadowsocks-1827147205
+  - 🇨🇦 [295.8ms +/-731ms] vless-1827162767
+  - 🇨🇦 [387.7ms +/-804ms] vless-1827533695
+  - 🇨🇦 [563.5ms +/-521ms] shadowsocks-1827147702
+  - 🇨🇦 [694.0ms +/-1099ms] shadowsocks-1827147205
   url: https://www.gstatic.com/generate_204
   interval: 600
 - name: 🇩🇪 德国
   type: url-test
   proxies:
-  - 🇩🇪 [433.2ms +/-746ms] vless-1827188712
-  - 🇩🇪 [565.5ms +/-914ms] vless-1827926875
-  - 🇩🇪 [579.6ms +/-910ms] vless-1828139008
-  - 🇩🇪 [643.6ms +/-1060ms] shadowsocks-1827145974
-  - 🇩🇪 [656.9ms +/-1143ms] vless-1827154777
-  - 🇩🇪 [733.0ms +/-1289ms] vless-1827152964
+  - 🇩🇪 [405.7ms +/-819ms] vless-1827156449
+  - 🇩🇪 [453.9ms +/-791ms] vless-1828139008
+  - 🇩🇪 [530.2ms +/-1031ms] shadowsocks-1827145974
+  - 🇩🇪 [537.3ms +/-1027ms] vless-1827926875
+  - 🇩🇪 [578.8ms +/-1070ms] vless-1827153877
+  url: https://www.gstatic.com/generate_204
+  interval: 600
+- name: 🇮🇳 印度
+  type: url-test
+  proxies:
+  - 🇮🇳 [522.4ms +/-490ms] vless-1828294362
+  - 🇮🇳 [541.8ms +/-606ms] vless-1827735104
   url: https://www.gstatic.com/generate_204
   interval: 600
 - name: 🇳🇱 荷兰
   type: url-test
   proxies:
-  - 🇳🇱 [332.9ms +/-371ms] vless-1827975411
-  - 🇳🇱 [394.4ms +/-261ms] vless-1827975399
-  - 🇳🇱 [529.5ms +/-941ms] @confiig_hub
-  - 🇳🇱 [580.8ms +/-892ms] vless-1827152138
-  - 🇳🇱 [633.0ms +/-935ms] vless-1827155551
-  - 🇳🇱 [642.7ms +/-1095ms] vless-1827154808
-  - 🇳🇱 [691.6ms +/-1138ms] vless-1827155589
-  - 🇳🇱 [720.4ms +/-867ms] vless-1827188709
-  - 🇳🇱 [812.9ms +/-1599ms] vless-1827147752
+  - 🇳🇱 [256.3ms +/-286ms] vless-1827154847
+  - 🇳🇱 [262.8ms +/-291ms] vless-1827147029
+  - 🇳🇱 [474.6ms +/-818ms] vless-1827151630
+  - 🇳🇱 [515.1ms +/-825ms] vless-1827188709
+  - 🇳🇱 [596.4ms +/-1152ms] vless-1827155551
+  - 🇳🇱 [693.3ms +/-1027ms] vless-1827147752
   url: https://www.gstatic.com/generate_204
   interval: 600
 - name: 🇺🇸 美国
   type: url-test
   proxies:
-  - 🇺🇸 [300.9ms +/-645ms] shadowsocks-1827146375
-  - 🇺🇸 [304.5ms +/-651ms] shadowsocks-1827146667
-  - 🇺🇸 [346.5ms +/-858ms] hysteria2-1827145638
-  - 🇺🇸 [372.9ms +/-763ms] vless-1827154784
-  - 🇺🇸 [417.3ms +/-688ms] vless-1828138090
-  - 🇺🇸 [446.4ms +/-1023ms] vless-1827149751
-  - 🇺🇸 [450.4ms +/-833ms] vless-1827735105
-  - 🇺🇸 [622.9ms +/-1147ms] shadowsocks-1827146718
+  - 🇺🇸 [253.2ms +/-651ms] vless-1828137284
+  - 🇺🇸 [263.8ms +/-713ms] shadowsocks-1827146122
+  - 🇺🇸 [280.4ms +/-730ms] vless-1827154079
+  - 🇺🇸 [314.2ms +/-860ms] shadowsocks-1827146248
+  - 🇺🇸 [322.2ms +/-612ms] vless-1828139001
+  - 🇺🇸 [326.5ms +/-725ms] vless-1827154784
+  - 🇺🇸 [331.0ms +/-652ms] shadowsocks-1827146667
+  - 🇺🇸 [354.6ms +/-950ms] vless-1827149751
+  - 🇺🇸 [462.0ms +/-995ms] vless-1827735105
+  - 🇺🇸 [577.9ms +/-999ms] vless-1828138090
+  - 🇺🇸 [728.4ms +/-1668ms] shadowsocks-1827146718
   url: https://www.gstatic.com/generate_204
   interval: 600
 dns:

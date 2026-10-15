@@ -1,14 +1,14 @@
 # 订阅源质量评分
 
-生成时间：2026-10-15 11:15:54
+生成时间：2026-10-15 11:37:21
 
 ## 摘要
 
 | 指标 | 值 |
 | --- | --- |
 | 已评分订阅源总数 | 94 |
-| 建议优先 | 2 |
-| 继续观察 | 92 |
+| 建议优先 | 3 |
+| 继续观察 | 91 |
 | 建议降权 | 0 |
 | 建议禁用 | 0 |
 
@@ -16,8 +16,9 @@
 
 | 订阅源 | 评分 | 建议 | 已测 | 通过 | 失败 | 通过率 | 解析数 | 连续死亡 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| ermaozi | 0.956 | prefer | 81 | 76 | 5 | 0.938 | 703 | 0 |
-| Au1rxx-base64 | 0.821 | prefer | 274 | 206 | 68 | 0.752 | 1769 | 0 |
+| ermaozi | 0.979 | prefer | 80 | 77 | 3 | 0.963 | 703 | 0 |
+| Au1rxx-base64 | 0.814 | prefer | 326 | 242 | 84 | 0.742 | 1830 | 0 |
+| mheidari-all | 0.716 | prefer | 20 | 13 | 7 | 0.65 | 24005 | 0 |
 
 ## 建议降权
 
@@ -31,10 +32,11 @@
 
 | 订阅源 | 评分 | 建议 | 已测 | 通过 | 失败 | 通过率 | 解析数 | 连续死亡 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| ermaozi | 0.956 | prefer | 81 | 76 | 5 | 0.938 | 703 | 0 |
-| Au1rxx-base64 | 0.821 | prefer | 274 | 206 | 68 | 0.752 | 1769 | 0 |
-| mheidari-all | 0.671 | observe | 20 | 12 | 8 | 0.6 | 24005 | 0 |
-| Surfboard-tg-mixed | 0.337 | observe | 7 | 3 | 4 | 0.429 | 7139 | 0 |
+| ermaozi | 0.979 | prefer | 80 | 77 | 3 | 0.963 | 703 | 0 |
+| Au1rxx-base64 | 0.814 | prefer | 326 | 242 | 84 | 0.742 | 1830 | 0 |
+| mheidari-all | 0.716 | prefer | 20 | 13 | 7 | 0.65 | 24005 | 0 |
+| Surfboard-tg-mixed | 0.391 | observe | 2 | 2 | 0 | 1.0 | 7139 | 0 |
+| 10ium-HighSpeed | 0.289 | observe | 1 | 1 | 0 | 1.0 | 839 | 0 |
 | SoliSpirit-all | 0.255 | observe | 0 | 0 | 0 | None | 10113 | 0 |
 | Epodonios-all | 0.255 | observe | 0 | 0 | 0 | None | 7652 | 0 |
 | xiaoji235-airport-v2ray-all | 0.255 | observe | 0 | 0 | 0 | None | 6752 | 0 |
@@ -44,10 +46,9 @@
 | 10ium-ScrapeCategorize-Vless | 0.255 | observe | 0 | 0 | 0 | None | 5089 | 0 |
 | mahdibland-V2RayAggregator | 0.255 | observe | 0 | 0 | 0 | None | 4338 | 0 |
 | MatinGhanbari-all-sub | 0.255 | observe | 0 | 0 | 0 | None | 3999 | 0 |
+| Au1rxx-clash | 0.248 | observe | 0 | 0 | 0 | None | 1830 | 0 |
 | ninja-vless | 0.247 | observe | 0 | 0 | 0 | None | 1791 | 0 |
-| Au1rxx-clash | 0.246 | observe | 0 | 0 | 0 | None | 1769 | 0 |
 | moneyfly1-collectSub | 0.222 | observe | 0 | 0 | 0 | None | 1164 | 0 |
-| 10ium-HighSpeed | 0.209 | observe | 0 | 0 | 0 | None | 839 | 0 |
 | ermaozi-get_subscribe | 0.199 | observe | 0 | 0 | 0 | None | 595 | 0 |
 | barry-far-Sub1 | 0.195 | observe | 0 | 0 | 0 | None | 493 | 0 |
 | barry-far-Sub2 | 0.195 | observe | 0 | 0 | 0 | None | 492 | 0 |
@@ -59,7 +60,7 @@
 | ts-sf | 0.183 | observe | 0 | 0 | 0 | None | 200 | 0 |
 | Barabama-yudou | 0.182 | observe | 0 | 0 | 0 | None | 166 | 0 |
 | barabama-yudou66 | 0.182 | observe | 0 | 0 | 0 | None | 163 | 0 |
-| tg-LonUp_M | 0.181 | observe | 0 | 0 | 0 | None | 158 | 0 |
+| tg-LonUp_M | 0.181 | observe | 0 | 0 | 0 | None | 160 | 0 |
 | roosterkid-openproxylist-v2ray | 0.181 | observe | 0 | 0 | 0 | None | 150 | 0 |
 
 ## 综合后 30
