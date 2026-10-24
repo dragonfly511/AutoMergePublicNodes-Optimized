@@ -324,17 +324,17 @@ MIT
 
 | 指标 | 数值 |
 | --- | --- |
-| 更新时间 | 2026-10-24 03:55:16 |
+| 更新时间 | 2026-10-24 10:39:01 |
 | 版本 | 2.4.0 |
-| 订阅源 | 87/108 |
-| 原始节点 | 138168 |
-| 去重后 | 58569 |
+| 订阅源 | 88/108 |
+| 原始节点 | 138286 |
+| 去重后 | 58672 |
 | TCP 可达 | 3000 |
-| 真实可用 | 82 |
-| 真测通过率 | 2.7% |
-| Verified 输出 | 82 |
-| Global 输出 | 83 |
-| All 输出 | 58569 |
+| 真实可用 | 57 |
+| 真测通过率 | 1.9% |
+| Verified 输出 | 57 |
+| Global 输出 | 58 |
+| All 输出 | 58672 |
 
 > 输出保护：无。完整报告见 `output/health_report.md`、`output/stats.json`。
 
@@ -342,21 +342,21 @@ MIT
 
 | 评分 | 协议 | 延迟(ms) | 来源 |
 | --- | --- | --- | --- |
-| 76.53 | shadowsocks | 244.9 | dragon |
-| 76.45 | shadowsocks | 249.1 | dragon |
-| 75.63 | shadowsocks | 294.7 | dragon |
-| 75.52 | shadowsocks | 297.3 | dragon |
-| 75.18 | shadowsocks | 298.1 | dragon |
+| 77.65 | shadowsocks | 310.1 | dragon |
+| 77.63 | shadowsocks | 318.2 | dragon |
+| 77.29 | shadowsocks | 333.1 | dragon |
+| 74.25 | shadowsocks | 331.0 | dragon |
+| 74.24 | hysteria2 | 363.4 | dragon |
 
 ### Top 来源质量
 
 | 来源 | 评分 | 测试数 | 建议 |
 | --- | --- | --- | --- |
-| dragon | 0.926 | 193 | prefer |
-| ermaozi | 0.524 | 80 | observe |
-| tg-oneclickvpnkeys | 0.315 | 2 | observe |
-| mheidari-all | 0.287 | 2 | observe |
+| dragon | 0.984 | 165 | prefer |
+| ermaozi | 0.635 | 52 | observe |
+| tg-oneclickvpnkeys | 0.316 | 2 | observe |
 | 10ium-ScrapeCategorize-Vless | 0.255 | 0 | observe |
+| Epodonios-all | 0.255 | 0 | observe |
 
 <!-- AUTONODES_STATS_END -->
 
