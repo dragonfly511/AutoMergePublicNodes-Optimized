@@ -324,17 +324,17 @@ MIT
 
 | 指标 | 数值 |
 | --- | --- |
-| 更新时间 | 2026-10-24 20:32:59 |
+| 更新时间 | 2026-10-25 03:54:04 |
 | 版本 | 2.4.0 |
 | 订阅源 | 89/108 |
-| 原始节点 | 143049 |
-| 去重后 | 59962 |
+| 原始节点 | 142469 |
+| 去重后 | 60019 |
 | TCP 可达 | 3000 |
-| 真实可用 | 45 |
-| 真测通过率 | 1.5% |
-| Verified 输出 | 45 |
-| Global 输出 | 46 |
-| All 输出 | 59962 |
+| 真实可用 | 91 |
+| 真测通过率 | 3.0% |
+| Verified 输出 | 91 |
+| Global 输出 | 92 |
+| All 输出 | 60019 |
 
 > 输出保护：无。完整报告见 `output/health_report.md`、`output/stats.json`。
 
@@ -342,18 +342,18 @@ MIT
 
 | 评分 | 协议 | 延迟(ms) | 来源 |
 | --- | --- | --- | --- |
-| 73.97 | shadowsocks | 228.1 | dragon |
-| 72.78 | shadowsocks | 233.0 | dragon |
-| 71.12 | shadowsocks | 233.8 | dragon |
-| 69.63 | shadowsocks | 299.3 | dragon |
-| 68.9 | shadowsocks | 295.7 | dragon |
+| 73.98 | http | 210.7 | ermaozi |
+| 73.93 | http | 212.9 | ermaozi |
+| 73.82 | http | 217.4 | ermaozi |
+| 73.78 | http | 219.2 | ermaozi |
+| 73.33 | http | 238.7 | ermaozi |
 
 ### Top 来源质量
 
 | 来源 | 评分 | 测试数 | 建议 |
 | --- | --- | --- | --- |
-| ermaozi | 0.983 | 23 | prefer |
-| dragon | 0.918 | 177 | prefer |
+| ermaozi | 0.964 | 81 | prefer |
+| dragon | 0.962 | 185 | prefer |
 | mheidari-all | 0.335 | 1 | observe |
 | tg-oneclickvpnkeys | 0.259 | 1 | observe |
 | 10ium-ScrapeCategorize-Vless | 0.255 | 0 | observe |

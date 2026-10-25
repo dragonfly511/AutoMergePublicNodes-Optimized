@@ -1,6 +1,6 @@
 # AutoNodes 每日报告
 
-生成时间：2026-10-24 20:33:32
+生成时间：2026-10-25 03:54:45
 
 ## 摘要
 
@@ -11,26 +11,26 @@
 | 健康源数量 | 89/108 |
 | 清理建议：禁用/降权 | 14/0 |
 | 清理建议：优先/观察 | 2/92 |
-| 原始节点数 | 143049 |
-| 去重后节点数 | 59962 |
+| 原始节点数 | 142469 |
+| 去重后节点数 | 60019 |
 | TCP 可达数 | 3000 |
-| 真测通过数 | 45 |
-| verified 输出数 | 45 |
-| global 输出数 | 46 |
-| all 输出数 | 59962 |
+| 真测通过数 | 91 |
+| verified 输出数 | 91 |
+| global 输出数 | 92 |
+| all 输出数 | 60019 |
 | all 输出模式 | full |
 
 ## 阶段耗时
 
 | 阶段 | 秒 |
 | --- | --- |
-| china_check | 23.1 |
-| fetch | 5.4 |
-| generate | 19.2 |
-| geo | 1.5 |
-| probe | 112.7 |
-| real_test | 35.8 |
-| tcp | 203.5 |
+| china_check | 38.1 |
+| fetch | 7.1 |
+| generate | 23.7 |
+| geo | 1.6 |
+| probe | 117.2 |
+| real_test | 51.8 |
+| tcp | 209.2 |
 | write_verified | 0.0 |
 
 ## 协议通过率
@@ -38,49 +38,51 @@
 | 协议 | 已测 | 通过 | 失败 | 通过率 |
 | --- | --- | --- | --- | --- |
 | anytls | 1 | 1 | 0 | 100.0% |
-| http | 24 | 24 | 0 | 100.0% |
-| hysteria2 | 16 | 11 | 5 | 68.8% |
-| shadowsocks | 143 | 128 | 15 | 89.5% |
-| socks | 8 | 3 | 5 | 37.5% |
-| trojan | 9 | 5 | 4 | 55.6% |
+| http | 80 | 76 | 4 | 95.0% |
+| hysteria2 | 15 | 13 | 2 | 86.7% |
+| shadowsocks | 153 | 139 | 14 | 90.8% |
+| socks | 5 | 3 | 2 | 60.0% |
+| trojan | 11 | 8 | 3 | 72.7% |
+| vless | 1 | 1 | 0 | 100.0% |
 | vmess | 2 | 2 | 0 | 100.0% |
 
 ## 主要真测错误
 
 | 错误 | 数量 |
 | --- | --- |
-| test_one_timeout:15.0s | 20 |
-| 204:ClientOSError | 3 |
-| 204:ProxyError | 2 |
-| cn-block:ClientOSError | 2 |
-| 204:TimeoutError | 1 |
+| test_one_timeout:15.0s | 13 |
+| 204:ProxyError | 5 |
+| 204:ClientOSError | 2 |
+| sing-box exited 1: [31mFATAL[0m[0000] start service: start inbound: start inbound/socks[socks-in]: listen tcp 127.0.0.1:36896: bind: address already in use | 1 |
+| cn-block:ClientOSError | 1 |
 | cn-block:TimeoutError | 1 |
+| 204:TimeoutError | 1 |
+| geo:ClientOSError | 1 |
 
 ## TCP 预筛选错误
 
 | 错误 | 数量 |
 | --- | --- |
-| TimeoutError | 15662 |
+| TimeoutError | 15767 |
 | ConnectionRefusedError | 2483 |
-| gaierror | 501 |
-| OSError | 321 |
-| SSRFBlocked | 4 |
-| ConnectionResetError | 2 |
+| gaierror | 568 |
+| OSError | 319 |
+| SSRFBlocked | 1 |
 
 ## 高评分订阅源
 
 | 订阅源 | 评分 | 建议 | 已测 | 通过率 | 解析数 |
 | --- | --- | --- | --- | --- | --- |
-| ermaozi | 0.983 | prefer | 23 | 1.0 | 567 |
-| dragon | 0.918 | prefer | 177 | 0.842 | 46036 |
-| mheidari-all | 0.335 | observe | 1 | 1.0 | 24512 |
+| ermaozi | 0.964 | prefer | 81 | 0.951 | 604 |
+| dragon | 0.962 | prefer | 185 | 0.886 | 46036 |
+| mheidari-all | 0.335 | observe | 1 | 1.0 | 24115 |
 | tg-oneclickvpnkeys | 0.259 | observe | 1 | 1.0 | 107 |
 | 10ium-ScrapeCategorize-Vless | 0.255 | observe | 0 | None | 4911 |
 | DeltaKronecker-all | 0.255 | observe | 0 | None | 3780 |
-| Epodonios-all | 0.255 | observe | 0 | None | 7708 |
-| MatinGhanbari-all-sub | 0.255 | observe | 0 | None | 3999 |
-| SoliSpirit-all | 0.255 | observe | 0 | None | 10157 |
-| Surfboard-tg-vless | 0.255 | observe | 0 | None | 5485 |
+| Epodonios-all | 0.255 | observe | 0 | None | 7585 |
+| MatinGhanbari-all-sub | 0.255 | observe | 0 | None | 3998 |
+| SoliSpirit-all | 0.255 | observe | 0 | None | 10198 |
+| Surfboard-tg-mixed | 0.255 | observe | 0 | None | 7102 |
 
 ## 需关注订阅源
 
@@ -101,53 +103,52 @@
 
 | 分类 | 订阅源 | 评分 | 已测 | 通过率 | 连续死亡 | 原因 |
 | --- | --- | --- | --- | --- | --- | --- |
-| disable | tg-V2rayngVpn | 0.0 | 0 | None | 492 | 连续死亡次数 >= 2 |
-| disable | tg-Letiranbreath | 0.0 | 0 | None | 383 | 连续死亡次数 >= 2 |
-| disable | snakem982 | 0.0 | 0 | None | 378 | 连续死亡次数 >= 2 |
-| disable | tg-ernoxin_shop | 0.0 | 0 | None | 261 | 连续死亡次数 >= 2 |
-| disable | abc-configs-readme-latest30 | 0.0 | 0 | None | 239 | 连续死亡次数 >= 2 |
-| disable | tg-abc_configs | 0.0 | 0 | None | 238 | 连续死亡次数 >= 2 |
-| disable | tg-Parsashonam | 0.0 | 0 | None | 230 | 连续死亡次数 >= 2 |
-| disable | nscl5-all | 0.0 | 0 | None | 208 | 连续死亡次数 >= 2 |
-| disable | mfuu-v2ray | 0.0 | 0 | None | 203 | 连续死亡次数 >= 2 |
-| disable | tg-CaV2ray | 0.0 | 0 | None | 127 | 连续死亡次数 >= 2 |
+| disable | tg-V2rayngVpn | 0.0 | 0 | None | 493 | 连续死亡次数 >= 2 |
+| disable | tg-Letiranbreath | 0.0 | 0 | None | 384 | 连续死亡次数 >= 2 |
+| disable | snakem982 | 0.0 | 0 | None | 379 | 连续死亡次数 >= 2 |
+| disable | tg-ernoxin_shop | 0.0 | 0 | None | 262 | 连续死亡次数 >= 2 |
+| disable | abc-configs-readme-latest30 | 0.0 | 0 | None | 240 | 连续死亡次数 >= 2 |
+| disable | tg-abc_configs | 0.0 | 0 | None | 239 | 连续死亡次数 >= 2 |
+| disable | tg-Parsashonam | 0.0 | 0 | None | 231 | 连续死亡次数 >= 2 |
+| disable | nscl5-all | 0.0 | 0 | None | 209 | 连续死亡次数 >= 2 |
+| disable | mfuu-v2ray | 0.0 | 0 | None | 204 | 连续死亡次数 >= 2 |
+| disable | tg-CaV2ray | 0.0 | 0 | None | 128 | 连续死亡次数 >= 2 |
 
 ## 真测通过率较低的订阅源
 
 | 订阅源 | 通过率 | 通过 | 失败 | 已测 |
 | --- | --- | --- | --- | --- |
-| Surfboard-tg-mixed | 0.0 | 0 | 1 | 1 |
-| dragon | 0.842 | 149 | 28 | 177 |
-| mheidari-all | 1.0 | 1 | 0 | 1 |
+| dragon | 0.886 | 164 | 21 | 185 |
+| ermaozi | 0.951 | 77 | 4 | 81 |
 | tg-oneclickvpnkeys | 1.0 | 1 | 0 | 1 |
-| ermaozi | 1.0 | 23 | 0 | 23 |
+| mheidari-all | 1.0 | 1 | 0 | 1 |
 
 ## 解析节点数较高的订阅源
 
 | 订阅源 | 节点数 | 是否正常 | 耗时 | 连续死亡 |
 | --- | --- | --- | --- | --- |
-| dragon | 46036 | yes | 5.05 | 0 |
-| mheidari-all | 24512 | yes | 3.82 | 0 |
-| SoliSpirit-all | 10157 | yes | 2.43 | 0 |
-| Epodonios-all | 7708 | yes | 3.15 | 0 |
-| Surfboard-tg-mixed | 7114 | yes | 2.11 | 0 |
-| xiaoji235-airport-v2ray-all | 6752 | yes | 0.98 | 0 |
-| barry-far-vless | 5771 | yes | 1.55 | 0 |
-| Surfboard-tg-vless | 5485 | yes | 2.29 | 0 |
-| 10ium-ScrapeCategorize-Vless | 4911 | yes | 1.47 | 0 |
-| mahdibland-V2RayAggregator | 4150 | yes | 0.09 | 0 |
+| dragon | 46036 | yes | 6.44 | 0 |
+| mheidari-all | 24115 | yes | 4.58 | 0 |
+| SoliSpirit-all | 10198 | yes | 2.53 | 0 |
+| Epodonios-all | 7585 | yes | 1.68 | 0 |
+| Surfboard-tg-mixed | 7102 | yes | 2.96 | 0 |
+| xiaoji235-airport-v2ray-all | 6752 | yes | 1.68 | 0 |
+| barry-far-vless | 5635 | yes | 0.87 | 0 |
+| Surfboard-tg-vless | 5419 | yes | 2.59 | 0 |
+| 10ium-ScrapeCategorize-Vless | 4911 | yes | 1.03 | 0 |
+| mahdibland-V2RayAggregator | 4150 | yes | 2.35 | 0 |
 
 ## 趋势报警
 
-| 类型 | 信息 |
-| --- | --- |
-| verified_downtrend_4_runs | verified output decreased for 4 consecutive runs |
+无趋势报警。
 
 ## 健康报警
 
 ### 真测错误报警
 | 错误 | 数量 |
 | --- | --- |
-| test_one_timeout | 20 |
-| 204 | 6 |
-| cn-block | 3 |
+| test_one_timeout | 13 |
+| 204 | 8 |
+| cn-block | 2 |
+| sing-box exited 1 | 1 |
+| geo | 1 |
