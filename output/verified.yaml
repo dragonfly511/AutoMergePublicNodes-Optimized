@@ -2,68 +2,9 @@ mixed-port: 7890
 allow-lan: false
 mode: rule
 proxies:
-- name: 🇨🇦 [390.9ms +/-705ms] 0120
-  server: 155.138.138.2
+- name: 🇪🇸 [451.5ms +/-788ms] 🔒
+  server: 185.18.250.245
   port: 443
-  type: trojan
-  password: Trojan@82164024
-  sni: ca.tronsg.com
-  skip-cert-verify: true
-  udp: true
-- name: 🇺🇸 [314.0ms +/-623ms] 🔒
-  server: 216.106.186.32
-  port: 443
-  type: trojan
-  password: dba20dcb635e430fa4d3bfc303a149d2
-  sni: blog.findlocaljobnetworkandbuildcommunityconnections.com
-  skip-cert-verify: true
-  udp: true
-- name: '[304.8ms +/-612ms] http-64.98.50.100'
-  server: 64.98.50.100
-  port: 443
-  type: http
-  tls: true
-  skip-cert-verify: true
-- name: '[315.6ms +/-721ms] http-38.247.141.135'
-  server: 38.247.141.135
-  port: 443
-  type: http
-  tls: true
-  skip-cert-verify: true
-- name: '[355.3ms +/-652ms] http-44.248.167.117'
-  server: 44.248.167.117
-  port: 8443
-  type: http
-  tls: true
-  skip-cert-verify: true
-- name: '[372.5ms +/-891ms] http-198.44.138.27'
-  server: 198.44.138.27
-  port: 9443
-  type: http
-  tls: true
-  skip-cert-verify: true
-- name: 🇺🇸 [439.7ms +/-1158ms] trojan-66.23.203.21
-  server: 66.23.203.21
-  port: 59689
-  type: trojan
-  password: ae7eb4dwyaz25pxwgq59
-  sni: 66.23.203.21
-  skip-cert-verify: true
-  udp: true
-- name: '[502.4ms +/-987ms] 🔒'
-  server: 45.149.147.213
-  port: 4444
-  type: trojan
-  password: 9b347a9b-d7a6-4b51-9890-eff62b832834
-  sni: 45-149-147-213.sslip.io
-  skip-cert-verify: true
-  udp: true
-  network: grpc
-  grpc-opts:
-    grpc-service-name: kobedin-server1-trojan
-- name: 🇳🇱 [630.9ms +/-977ms] 🔒
-  server: 89.150.34.41
-  port: 2053
   type: trojan
   password: humanity
   sni: www.calmlunch.com
@@ -74,20 +15,46 @@ proxies:
     path: /assignment
     headers:
       Host: www.calmlunch.com
-- name: '[696.2ms +/-1002ms] 🔒'
-  server: 172.66.40.99
+- name: '[453.1ms +/-782ms] trojan-104.16.72.50'
+  server: 104.16.72.50
   port: 443
   type: trojan
   password: humanity
-  sni: www.trusteeforward.com
+  sni: www.calmlunch.com
   skip-cert-verify: true
   udp: true
   network: ws
   ws-opts:
     path: /assignment
     headers:
-      Host: www.trusteeforward.com
-- name: 🇺🇸 [453.1ms +/-1141ms] trojan-69.164.240.85
+      Host: www.calmlunch.com
+- name: 🇺🇸 [455.7ms +/-775ms] 🔒
+  server: 165.215.250.14
+  port: 443
+  type: trojan
+  password: humanity
+  sni: www.calmlunch.com
+  skip-cert-verify: true
+  udp: true
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.calmlunch.com
+- name: '[465.5ms +/-812ms] CA'
+  server: 172.64.150.28
+  port: 443
+  type: trojan
+  password: humanity
+  sni: www.calmlunch.com
+  skip-cert-verify: true
+  udp: true
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.calmlunch.com
+- name: 🇺🇸 [417.9ms +/-1172ms] trojan-69.164.240.85
   server: 69.164.240.85
   port: 50875
   type: trojan
@@ -95,26 +62,20 @@ proxies:
   sni: 69.164.240.85
   skip-cert-verify: true
   udp: true
-- name: '[377.0ms +/-625ms] http-154.81.36.92'
-  server: 154.81.36.92
-  port: 8443
-  type: http
-  tls: true
-  skip-cert-verify: true
-- name: 🇳🇱 [656.5ms +/-1102ms] 0032
-  server: 164.92.223.252
+- name: '[522.1ms +/-704ms] @DeltaKroneckerGithub'
+  server: 172.67.231.254
   port: 443
   type: trojan
   password: humanity
-  sni: www.pleadcourt.org
+  sni: www.calmlunch.com
   skip-cert-verify: true
   udp: true
   network: ws
   ws-opts:
     path: /assignment
     headers:
-      Host: www.pleadcourt.org
-- name: 🇨🇦 [714.1ms +/-1208ms] 🔒
+      Host: www.calmlunch.com
+- name: 🇨🇦 [521.6ms +/-979ms] 🔒
   server: 108.162.194.134
   port: 443
   type: trojan
@@ -127,21 +88,8 @@ proxies:
     path: /assignment
     headers:
       Host: www.pleadcourt.org
-- name: '[680.2ms +/-1004ms] 🔒'
-  server: 172.66.1.36
-  port: 443
-  type: trojan
-  password: humanity
-  sni: www.pleadcourt.org
-  skip-cert-verify: true
-  udp: true
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.pleadcourt.org
-- name: 🇩🇪 [713.8ms +/-999ms] @DeltaKroneckerGithub
-  server: 5.44.46.142
+- name: '[478.9ms +/-828ms] @DeltaKroneckerGithub'
+  server: 162.159.91.211
   port: 443
   type: trojan
   password: humanity
@@ -153,7 +101,83 @@ proxies:
     path: /assignment
     headers:
       Host: www.calmlunch.com
-- name: 🇨🇦 [744.1ms +/-1321ms] 🔒
+- name: '[466.9ms +/-775ms] @DeltaKroneckerGithub'
+  server: 104.18.37.228
+  port: 443
+  type: trojan
+  password: humanity
+  sni: www.calmlunch.com
+  skip-cert-verify: true
+  udp: true
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.calmlunch.com
+- name: 🇫🇮 [472.2ms +/-1006ms] 🔒
+  server: 45.149.147.213
+  port: 4444
+  type: trojan
+  password: 9b347a9b-d7a6-4b51-9890-eff62b832834
+  sni: 45-149-147-213.sslip.io
+  skip-cert-verify: true
+  udp: true
+  network: grpc
+  grpc-opts:
+    grpc-service-name: kobedin-server1-trojan
+- name: '[481.6ms +/-777ms] @DeltaKroneckerGithub'
+  server: 104.17.121.43
+  port: 443
+  type: trojan
+  password: humanity
+  sni: www.calmlunch.com
+  skip-cert-verify: true
+  udp: true
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.calmlunch.com
+- name: '[527.4ms +/-997ms] 🔒'
+  server: 172.66.40.99
+  port: 443
+  type: trojan
+  password: humanity
+  sni: www.trusteeforward.com
+  skip-cert-verify: true
+  udp: true
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.trusteeforward.com
+- name: 🇸🇨 [470.1ms +/-844ms] @DeltaKroneckerGithub
+  server: 45.130.125.69
+  port: 443
+  type: trojan
+  password: humanity
+  sni: www.calmlunch.com
+  skip-cert-verify: true
+  udp: true
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.calmlunch.com
+- name: '[478.0ms +/-890ms] @DeltaKroneckerGithub'
+  server: 162.159.244.91
+  port: 443
+  type: trojan
+  password: humanity
+  sni: www.calmlunch.com
+  skip-cert-verify: true
+  udp: true
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.calmlunch.com
+- name: 🇨🇦 [550.2ms +/-1084ms] 🔒
   server: 188.114.97.2
   port: 443
   type: trojan
@@ -166,21 +190,8 @@ proxies:
     path: /assignment
     headers:
       Host: www.pleadcourt.org
-- name: 🇳🇱 [472.6ms +/-941ms] 0082
-  server: 5.129.235.85
-  port: 443
-  type: hysteria2
-  password: gf1:gfhysteria2024
-  sni: google.com
-  skip-cert-verify: true
-- name: '[557.1ms +/-887ms] http-34.249.214.108'
-  server: 34.249.214.108
-  port: 443
-  type: http
-  tls: true
-  skip-cert-verify: true
-- name: 🇳🇱 [659.0ms +/-1012ms] 0045
-  server: 5.253.189.238
+- name: '[504.3ms +/-947ms] @DeltaKroneckerGithub'
+  server: 104.19.64.105
   port: 443
   type: trojan
   password: humanity
@@ -192,21 +203,85 @@ proxies:
     path: /assignment
     headers:
       Host: www.calmlunch.com
-- name: '[486.9ms +/-406ms] 🔒'
-  server: 89.185.28.38
-  port: 24999
+- name: '[471.0ms +/-822ms] @DeltaKroneckerGithub'
+  server: 104.21.13.204
+  port: 443
   type: trojan
-  password: 29086912-33e4-4e06-ba2b-60f1a195864f
-  sni: www.itunes.com
+  password: humanity
+  sni: www.calmlunch.com
   skip-cert-verify: true
   udp: true
-- name: '[573.6ms +/-913ms] http-84.17.47.148'
-  server: 84.17.47.148
-  port: 9002
-  type: http
-  tls: true
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.calmlunch.com
+- name: 🇸🇨 [502.2ms +/-869ms] @DeltaKroneckerGithub
+  server: 45.130.125.190
+  port: 443
+  type: trojan
+  password: humanity
+  sni: www.calmlunch.com
   skip-cert-verify: true
-- name: 🇨🇷 [696.3ms +/-1300ms] 4Mohsen-08ce18d31d
+  udp: true
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.calmlunch.com
+- name: '[521.4ms +/-873ms] @DeltaKroneckerGithub'
+  server: 162.159.253.41
+  port: 443
+  type: trojan
+  password: humanity
+  sni: www.calmlunch.com
+  skip-cert-verify: true
+  udp: true
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.calmlunch.com
+- name: '[524.5ms +/-966ms] 🔒'
+  server: 172.66.1.36
+  port: 443
+  type: trojan
+  password: humanity
+  sni: www.pleadcourt.org
+  skip-cert-verify: true
+  udp: true
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.pleadcourt.org
+- name: '[528.4ms +/-990ms] 🔒'
+  server: 104.27.201.80
+  port: 443
+  type: trojan
+  password: humanity
+  sni: www.pleadcourt.org
+  skip-cert-verify: true
+  udp: true
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.pleadcourt.org
+- name: 🇳🇱 [564.1ms +/-895ms] 🔒
+  server: 89.150.34.41
+  port: 2053
+  type: trojan
+  password: humanity
+  sni: www.calmlunch.com
+  skip-cert-verify: true
+  udp: true
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.calmlunch.com
+- name: '[551.4ms +/-1054ms] 4Mohsen-08ce18d31d'
   server: 190.93.245.148
   port: 443
   type: trojan
@@ -219,31 +294,20 @@ proxies:
     path: /assignment
     headers:
       Host: www.pleadcourt.org
-- name: '[588.9ms +/-905ms] http-158.173.154.5'
-  server: 158.173.154.5
-  port: 9002
-  type: http
-  tls: true
+- name: 🇬🇧 [556.6ms +/-1015ms] @DeltaKroneckerGithub
+  server: 57.128.183.108
+  port: 443
+  type: trojan
+  password: humanity
+  sni: www.pleadcourt.org
   skip-cert-verify: true
-- name: '[587.7ms +/-888ms] http-158.173.154.1'
-  server: 158.173.154.1
-  port: 9002
-  type: http
-  tls: true
-  skip-cert-verify: true
-- name: '[578.9ms +/-915ms] http-84.17.47.125'
-  server: 84.17.47.125
-  port: 9002
-  type: http
-  tls: true
-  skip-cert-verify: true
-- name: '[584.2ms +/-894ms] http-84.17.47.124'
-  server: 84.17.47.124
-  port: 9002
-  type: http
-  tls: true
-  skip-cert-verify: true
-- name: '[757.2ms +/-1108ms] 🔒'
+  udp: true
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.pleadcourt.org
+- name: '[569.7ms +/-1085ms] 🔒'
   server: 104.18.45.38
   port: 443
   type: trojan
@@ -256,50 +320,8 @@ proxies:
     path: /assignment
     headers:
       Host: www.trusteeforward.com
-- name: '[642.7ms +/-1054ms] 0079'
-  server: 172.67.203.46
-  port: 443
-  type: trojan
-  password: humanity
-  sni: www.cordweave.com
-  skip-cert-verify: true
-  udp: true
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.cordweave.com
-- name: 🇦🇺 [468.4ms +/-678ms] 𔒰‎ ＳＥＧＡＲＯ
-  server: 152.67.115.203
-  port: 443
-  type: hysteria2
-  password: 633bc3be486b646190661ac2387c150a
-  sni: www.bing.com
-  skip-cert-verify: true
-  obfs: salamander
-  obfs-password: 850a3fb1cd33a28f12d837578ae1a2e7
-- name: '[640.6ms +/-1159ms] http-212.102.63.1'
-  server: 212.102.63.1
-  port: 443
-  type: http
-  tls: true
-  skip-cert-verify: true
-- name: '[619.6ms +/-1067ms] http-51.159.225.197'
-  server: 51.159.225.197
-  port: 19362
-  type: http
-  tls: true
-  skip-cert-verify: true
-- name: '[631.5ms +/-1081ms] http-51.159.225.196'
-  server: 51.159.225.196
-  port: 23856
-  type: http
-  username: 'null'
-  password: 'null'
-  tls: true
-  skip-cert-verify: true
-- name: '[676.2ms +/-986ms] 🔒'
-  server: 88.216.69.253
+- name: 🇺🇸 [525.8ms +/-978ms] 🔒
+  server: 8.47.69.0
   port: 443
   type: trojan
   password: humanity
@@ -311,32 +333,26 @@ proxies:
     path: /assignment
     headers:
       Host: www.pleadcourt.org
-- name: '[702.8ms +/-990ms] 🔒'
-  server: 172.64.190.13
+- name: 🇳🇱 [556.9ms +/-932ms] 0045
+  server: 5.253.189.238
   port: 443
   type: trojan
   password: humanity
-  sni: www.pleadcourt.org
+  sni: www.calmlunch.com
   skip-cert-verify: true
   udp: true
   network: ws
   ws-opts:
     path: /assignment
     headers:
-      Host: www.pleadcourt.org
-- name: '[600.5ms +/-1039ms] http-212.102.63.61'
-  server: 212.102.63.61
+      Host: www.calmlunch.com
+- name: '[395.1ms +/-964ms] http-12.202.180.10'
+  server: 12.202.180.10
   port: 443
   type: http
   tls: true
   skip-cert-verify: true
-- name: '[694.1ms +/-1015ms] http-213.109.163.119'
-  server: 213.109.163.119
-  port: 443
-  type: http
-  tls: true
-  skip-cert-verify: true
-- name: 🇩🇪 [882.4ms +/-848ms] 🔒
+- name: 🇩🇪 [636.3ms +/-923ms] 🔒
   server: 185.220.100.168
   port: 443
   type: trojan
@@ -349,100 +365,7 @@ proxies:
     path: /assignment
     headers:
       Host: www.calmlunch.com
-- name: '[830.9ms +/-1436ms] 🔒'
-  server: 92.42.99.143
-  port: 443
-  type: trojan
-  password: humanity
-  sni: www.pleadcourt.org
-  skip-cert-verify: true
-  udp: true
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.pleadcourt.org
-- name: 🇳🇱 [689.3ms +/-1162ms] 0065
-  server: 139.28.240.24
-  port: 443
-  type: trojan
-  password: humanity
-  sni: www.pleadcourt.org
-  skip-cert-verify: true
-  udp: true
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.pleadcourt.org
-- name: 🇩🇪 [572.6ms +/-918ms] 𔒰‎ ＳＥＧＡＲＯ
-  server: 162.249.125.133
-  port: 443
-  type: hysteria2
-  password: QCgqi_I4EkV8UR-OgQ_tG4EnVTEVvIyR2GgRBzrIn2s
-  sni: hy2-new.aspidnet.xyz
-  skip-cert-verify: true
-  obfs: salamander
-  obfs-password: c1b4086fea89914496c7e10967a419216566
-- name: '[688.1ms +/-941ms] http-152.233.16.174'
-  server: 152.233.16.174
-  port: 9443
-  type: http
-  tls: true
-  skip-cert-verify: true
-- name: 🇳🇱 [692.5ms +/-1215ms] @DeltaKroneckerGithub
-  server: 153.92.127.26
-  port: 443
-  type: trojan
-  password: humanity
-  sni: www.pleadcourt.org
-  skip-cert-verify: true
-  udp: true
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.pleadcourt.org
-- name: 🇬🇧 [664.0ms +/-1107ms] @DeltaKroneckerGithub
-  server: 178.128.45.156
-  port: 443
-  type: trojan
-  password: humanity
-  sni: www.pleadcourt.org
-  skip-cert-verify: true
-  udp: true
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.pleadcourt.org
-- name: '[795.4ms +/-1504ms] http-149.88.27.46'
-  server: 149.88.27.46
-  port: 9443
-  type: http
-  tls: true
-  skip-cert-verify: true
-- name: 🇸🇬 [703.4ms +/-503ms] trojan-43.156.36.253
-  server: 43.156.36.253
-  port: 443
-  type: trojan
-  password: WvH8ooM9hom4KOOJHFJz1x5umE0aV4R0
-  sni: 43.156.36.253
-  skip-cert-verify: true
-  udp: true
-- name: '[813.7ms +/-1528ms] http-37.120.213.210'
-  server: 37.120.213.210
-  port: 9443
-  type: http
-  tls: true
-  skip-cert-verify: true
-- name: '[589.5ms +/-924ms] http-138.199.47.247'
-  server: 138.199.47.247
-  port: 9443
-  type: http
-  tls: true
-  skip-cert-verify: true
-- name: '[828.6ms +/-1634ms] @DeltaKroneckerGithub'
+- name: '[546.1ms +/-1043ms] @DeltaKroneckerGithub'
   server: 162.159.228.224
   port: 443
   type: trojan
@@ -455,53 +378,7 @@ proxies:
     path: /assignment
     headers:
       Host: www.pleadcourt.org
-- name: '[858.3ms +/-1465ms] http-185.219.159.15'
-  server: 185.219.159.15
-  port: 443
-  type: http
-  tls: true
-  skip-cert-verify: true
-- name: '[829.3ms +/-1538ms] http-146.70.244.2'
-  server: 146.70.244.2
-  port: 443
-  type: http
-  tls: true
-  skip-cert-verify: true
-- name: '[806.5ms +/-1368ms] http-103.97.88.154'
-  server: 103.97.88.154
-  port: 443
-  type: http
-  username: 'null'
-  password: 'null'
-  tls: true
-  skip-cert-verify: true
-- name: '[557.8ms +/-590ms] US'
-  server: 151.101.36.244
-  port: 443
-  type: trojan
-  password: mitivpn
-  sni: ns2.firefox.com
-  skip-cert-verify: true
-  udp: true
-  network: ws
-  ws-opts:
-    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/NLSus---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
-    headers:
-      Host: mitivpn-mitivpn.ac.ir
-- name: '[744.9ms +/-1103ms] 0239'
-  server: 212.227.90.142
-  port: 443
-  type: trojan
-  password: humanity
-  sni: www.calmlunch.com
-  skip-cert-verify: true
-  udp: true
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.calmlunch.com
-- name: '[934.8ms +/-1629ms] 🔒'
+- name: '[521.0ms +/-984ms] 🔒'
   server: 104.16.6.70
   port: 443
   type: trojan
@@ -514,33 +391,20 @@ proxies:
     path: /assignment
     headers:
       Host: www.pleadcourt.org
-- name: '[1028.3ms +/-1699ms] 美国+3COM公司企业网'
-  server: starlink-ft.251313.xyz
+- name: '[525.6ms +/-985ms] 🔒'
+  server: 104.18.37.127
   port: 443
-  type: hysteria2
-  password: https://xship.best
-  sni: xship.top
+  type: trojan
+  password: humanity
+  sni: www.trusteeforward.com
   skip-cert-verify: true
-- name: '[558.0ms +/-1152ms] 🇫🇷'
-  server: 31.185.105.12
-  port: 443
-  type: hysteria2
-  password: 1953e43b-605c-4262-83eb-41a80646b801
-  sni: fr.song69.fun
-  skip-cert-verify: true
-- name: '[866.9ms +/-1419ms] http-31.186.220.204'
-  server: 31.186.220.204
-  port: 443
-  type: http
-  tls: true
-  skip-cert-verify: true
-- name: '[869.4ms +/-1651ms] http-154.47.29.174'
-  server: 154.47.29.174
-  port: 443
-  type: http
-  tls: true
-  skip-cert-verify: true
-- name: 🇨🇦 [975.5ms +/-2030ms] 🔒
+  udp: true
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.trusteeforward.com
+- name: 🇨🇦 [527.0ms +/-988ms] 🔒
   server: 188.114.97.5
   port: 443
   type: trojan
@@ -553,7 +417,278 @@ proxies:
     path: /assignment
     headers:
       Host: www.pleadcourt.org
-- name: 🇪🇪 [942.1ms +/-1518ms] @DeltaKroneckerGithub
+- name: 🇱🇹 [527.7ms +/-988ms] 🔒
+  server: 88.216.69.253
+  port: 443
+  type: trojan
+  password: humanity
+  sni: www.pleadcourt.org
+  skip-cert-verify: true
+  udp: true
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.pleadcourt.org
+- name: 🇳🇱 [401.9ms +/-837ms] 0082
+  server: 5.129.235.85
+  port: 443
+  type: hysteria2
+  password: gf1:gfhysteria2024
+  sni: google.com
+  skip-cert-verify: true
+- name: '[546.2ms +/-1000ms] 0079'
+  server: 172.67.203.46
+  port: 443
+  type: trojan
+  password: humanity
+  sni: www.cordweave.com
+  skip-cert-verify: true
+  udp: true
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.cordweave.com
+- name: '[551.8ms +/-1084ms] 🔒'
+  server: 172.64.190.13
+  port: 443
+  type: trojan
+  password: humanity
+  sni: www.pleadcourt.org
+  skip-cert-verify: true
+  udp: true
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.pleadcourt.org
+- name: '[501.5ms +/-773ms] @DeltaKroneckerGithub'
+  server: 104.21.103.254
+  port: 443
+  type: trojan
+  password: humanity
+  sni: www.calmlunch.com
+  skip-cert-verify: true
+  udp: true
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.calmlunch.com
+- name: '[261.5ms +/-687ms] 0013'
+  server: 194.113.194.231
+  port: 1443
+  type: anytls
+  password: b652305a-0c63-4527-8cb3-0ea582076124
+  sni: ny.freeguard.org
+  skip-cert-verify: true
+- name: '[466.5ms +/-828ms] @DeltaKroneckerGithub'
+  server: www.calmlunch.com
+  port: 443
+  type: trojan
+  password: humanity
+  sni: www.calmlunch.com
+  skip-cert-verify: true
+  udp: true
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.calmlunch.com
+- name: '[531.7ms +/-976ms] @DeltaKroneckerGithub'
+  server: www.pleadcourt.org
+  port: 443
+  type: trojan
+  password: humanity
+  sni: www.pleadcourt.org
+  skip-cert-verify: true
+  udp: true
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers: {}
+- name: '[406.2ms +/-951ms] http-38.247.141.135'
+  server: 38.247.141.135
+  port: 443
+  type: http
+  tls: true
+  skip-cert-verify: true
+- name: 🇱🇻 [712.3ms +/-1135ms] 0037
+  server: 185.22.172.249
+  port: 443
+  type: trojan
+  password: humanity
+  sni: www.pleadcourt.org
+  skip-cert-verify: true
+  udp: true
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.pleadcourt.org
+- name: 🇳🇱 [595.3ms +/-1117ms] @DeltaKroneckerGithub
+  server: 188.226.181.61
+  port: 443
+  type: trojan
+  password: humanity
+  sni: www.pleadcourt.org
+  skip-cert-verify: true
+  udp: true
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.pleadcourt.org
+- name: 🇺🇸 [454.9ms +/-590ms] US
+  server: 151.101.36.244
+  port: 443
+  type: trojan
+  password: mitivpn
+  sni: ns2.firefox.com
+  skip-cert-verify: true
+  udp: true
+  network: ws
+  ws-opts:
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/NLSus---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+    headers:
+      Host: mitivpn-mitivpn.ac.ir
+- name: 🇳🇱 [562.4ms +/-1027ms] @DeltaKroneckerGithub
+  server: 153.92.127.26
+  port: 443
+  type: trojan
+  password: humanity
+  sni: www.pleadcourt.org
+  skip-cert-verify: true
+  udp: true
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.pleadcourt.org
+- name: '[364.8ms +/-917ms] http-198.44.157.19'
+  server: 198.44.157.19
+  port: 9443
+  type: http
+  tls: true
+  skip-cert-verify: true
+- name: '[351.9ms +/-893ms] http-198.44.157.27'
+  server: 198.44.157.27
+  port: 9443
+  type: http
+  tls: true
+  skip-cert-verify: true
+- name: '[522.5ms +/-1368ms] http-154.47.25.78'
+  server: 154.47.25.78
+  port: 9443
+  type: http
+  tls: true
+  skip-cert-verify: true
+- name: '[374.0ms +/-696ms] http-64.98.50.100'
+  server: 64.98.50.100
+  port: 443
+  type: http
+  tls: true
+  skip-cert-verify: true
+- name: '[681.9ms +/-1083ms] @DeltaKroneckerGithub'
+  server: 192.145.30.27
+  port: 443
+  type: trojan
+  password: humanity
+  sni: www.pleadcourt.org
+  skip-cert-verify: true
+  udp: true
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.pleadcourt.org
+- name: 🇩🇪 [496.1ms +/-853ms] 𔒰‎ ＳＥＧＡＲＯ
+  server: 162.249.125.133
+  port: 443
+  type: hysteria2
+  password: QCgqi_I4EkV8UR-OgQ_tG4EnVTEVvIyR2GgRBzrIn2s
+  sni: hy2-new.aspidnet.xyz
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: c1b4086fea89914496c7e10967a419216566
+- name: 🇩🇪 [681.0ms +/-1112ms] @DeltaKroneckerGithub
+  server: 64.227.115.28
+  port: 443
+  type: trojan
+  password: humanity
+  sni: www.pleadcourt.org
+  skip-cert-verify: true
+  udp: true
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.pleadcourt.org
+- name: '[604.0ms +/-956ms] 0239'
+  server: 212.227.90.142
+  port: 443
+  type: trojan
+  password: humanity
+  sni: www.calmlunch.com
+  skip-cert-verify: true
+  udp: true
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.calmlunch.com
+- name: '[404.3ms +/-782ms] http-38.95.111.226'
+  server: 38.95.111.226
+  port: 9443
+  type: http
+  tls: true
+  skip-cert-verify: true
+- name: 🇳🇱 [904.8ms +/-2051ms] 0032
+  server: 164.92.223.252
+  port: 443
+  type: trojan
+  password: humanity
+  sni: www.pleadcourt.org
+  skip-cert-verify: true
+  udp: true
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.pleadcourt.org
+- name: 🇬🇧 [587.0ms +/-1099ms] @DeltaKroneckerGithub
+  server: 178.128.45.156
+  port: 443
+  type: trojan
+  password: humanity
+  sni: www.pleadcourt.org
+  skip-cert-verify: true
+  udp: true
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.pleadcourt.org
+- name: '[555.4ms +/-1499ms] http-206.223.161.47'
+  server: 206.223.161.47
+  port: 443
+  type: http
+  tls: true
+  skip-cert-verify: true
+- name: '[423.2ms +/-683ms] http-44.248.167.117'
+  server: 44.248.167.117
+  port: 8443
+  type: http
+  tls: true
+  skip-cert-verify: true
+- name: '[595.0ms +/-1593ms] http-121.127.34.82'
+  server: 121.127.34.82
+  port: 443
+  type: http
+  tls: true
+  skip-cert-verify: true
+- name: 🇪🇪 [819.7ms +/-1208ms] @DeltaKroneckerGithub
   server: 38.180.163.250
   port: 443
   type: trojan
@@ -566,12 +701,308 @@ proxies:
     path: /assignment
     headers:
       Host: www.pleadcourt.org
-- name: '[837.7ms +/-912ms] MY-KualaLumpur1'
+- name: '[414.6ms +/-691ms] 🇫🇷'
+  server: 31.185.105.12
+  port: 443
+  type: hysteria2
+  password: 1953e43b-605c-4262-83eb-41a80646b801
+  sni: fr.song69.fun
+  skip-cert-verify: true
+- name: '[449.3ms +/-809ms] http-18.200.158.139'
+  server: 18.200.158.139
+  port: 443
+  type: http
+  tls: true
+  skip-cert-verify: true
+- name: 🇳🇱 [696.4ms +/-1203ms] @DeltaKroneckerGithub
+  server: 95.85.54.197
+  port: 443
+  type: trojan
+  password: humanity
+  sni: www.pleadcourt.org
+  skip-cert-verify: true
+  udp: true
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.pleadcourt.org
+- name: 🇭🇰 [624.1ms +/-494ms] 🔒
+  server: 89.185.28.38
+  port: 24999
+  type: trojan
+  password: 29086912-33e4-4e06-ba2b-60f1a195864f
+  sni: www.itunes.com
+  skip-cert-verify: true
+  udp: true
+- name: '[455.7ms +/-804ms] http-34.249.214.108'
+  server: 34.249.214.108
+  port: 443
+  type: http
+  tls: true
+  skip-cert-verify: true
+- name: '[507.9ms +/-865ms] http-84.17.47.146'
+  server: 84.17.47.146
+  port: 9002
+  type: http
+  tls: true
+  skip-cert-verify: true
+- name: '[498.6ms +/-825ms] http-84.17.47.149'
+  server: 84.17.47.149
+  port: 9002
+  type: http
+  tls: true
+  skip-cert-verify: true
+- name: '[513.7ms +/-874ms] http-84.17.47.125'
+  server: 84.17.47.125
+  port: 9002
+  type: http
+  tls: true
+  skip-cert-verify: true
+- name: '[575.5ms +/-1536ms] http-149.88.98.81'
+  server: 149.88.98.81
+  port: 9443
+  type: http
+  tls: true
+  skip-cert-verify: true
+- name: '[523.7ms +/-883ms] http-84.17.47.148'
+  server: 84.17.47.148
+  port: 9002
+  type: http
+  tls: true
+  skip-cert-verify: true
+- name: '[500.3ms +/-850ms] http-84.17.47.123'
+  server: 84.17.47.123
+  port: 9002
+  type: http
+  tls: true
+  skip-cert-verify: true
+- name: '[546.7ms +/-1006ms] http-149.36.51.157'
+  server: 149.36.51.157
+  port: 9443
+  type: http
+  tls: true
+  skip-cert-verify: true
+- name: '[862.7ms +/-1247ms] 0129'
+  server: 62.60.152.14
+  port: 8443
+  type: trojan
+  password: humanity
+  sni: www.calmlunch.com
+  skip-cert-verify: true
+  udp: true
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.calmlunch.com
+- name: '[511.8ms +/-833ms] http-158.173.154.1'
+  server: 158.173.154.1
+  port: 9002
+  type: http
+  tls: true
+  skip-cert-verify: true
+- name: '[537.0ms +/-958ms] http-82.65.162.76'
+  server: 82.65.162.76
+  port: 443
+  type: http
+  tls: true
+  skip-cert-verify: true
+- name: '[518.2ms +/-875ms] http-158.173.154.3'
+  server: 158.173.154.3
+  port: 9002
+  type: http
+  tls: true
+  skip-cert-verify: true
+- name: '[563.3ms +/-772ms] http-87.249.132.97'
+  server: 87.249.132.97
+  port: 9443
+  type: http
+  tls: true
+  skip-cert-verify: true
+- name: '[505.8ms +/-841ms] http-185.93.106.214'
+  server: 185.93.106.214
+  port: 443
+  type: http
+  tls: true
+  skip-cert-verify: true
+- name: '[635.1ms +/-855ms] vless-172.67.167.179'
+  server: 172.67.167.179
+  port: 443
+  type: vless
+  uuid: a8b1d666-d3ba-4b17-90c4-ba7514c74f78
+  udp: true
+  tls: true
+  servername: xstack.mahanfixe.workers.dev
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /xiron
+    headers:
+      Host: xstack.mahanfixe.workers.dev
+- name: '[499.4ms +/-1004ms] 𔒰‎ ＳＥＧＡＲＯ'
+  server: 217.60.72.225
+  port: 443
+  type: hysteria2
+  password: 329e13e4-ee7c-4802-ac72-5fcab79c2402
+  sni: forshynewh.duckdns.org
+  skip-cert-verify: true
+- name: '[566.5ms +/-782ms] http-158.173.154.2'
+  server: 158.173.154.2
+  port: 9002
+  type: http
+  tls: true
+  skip-cert-verify: true
+- name: '[560.8ms +/-1076ms] http-51.159.225.197'
+  server: 51.159.225.197
+  port: 19362
+  type: http
+  tls: true
+  skip-cert-verify: true
+- name: '[388.4ms +/-643ms] http-167.88.60.242'
+  server: 167.88.60.242
+  port: 443
+  type: http
+  tls: true
+  skip-cert-verify: true
+- name: '[548.8ms +/-1058ms] http-212.102.63.61'
+  server: 212.102.63.61
+  port: 443
+  type: http
+  tls: true
+  skip-cert-verify: true
+- name: '[558.5ms +/-995ms] http-158.173.154.5'
+  server: 158.173.154.5
+  port: 9002
+  type: http
+  tls: true
+  skip-cert-verify: true
+- name: '[627.0ms +/-1226ms] http-149.88.96.12'
+  server: 149.88.96.12
+  port: 443
+  type: http
+  tls: true
+  skip-cert-verify: true
+- name: '[539.7ms +/-1027ms] http-212.102.63.31'
+  server: 212.102.63.31
+  port: 443
+  type: http
+  tls: true
+  skip-cert-verify: true
+- name: '[645.1ms +/-942ms] http-149.88.27.46'
+  server: 149.88.27.46
+  port: 9443
+  type: http
+  tls: true
+  skip-cert-verify: true
+- name: '[520.7ms +/-666ms] http-68.235.56.59'
+  server: 68.235.56.59
+  port: 443
+  type: http
+  tls: true
+  skip-cert-verify: true
+- name: '[706.4ms +/-1259ms] http-37.120.233.18'
+  server: 37.120.233.18
+  port: 443
+  type: http
+  tls: true
+  skip-cert-verify: true
+- name: '[689.5ms +/-1207ms] http-51.159.225.196'
+  server: 51.159.225.196
+  port: 23856
+  type: http
+  username: 'null'
+  password: 'null'
+  tls: true
+  skip-cert-verify: true
+- name: '[691.7ms +/-1127ms] http-185.219.159.16'
+  server: 185.219.159.16
+  port: 443
+  type: http
+  tls: true
+  skip-cert-verify: true
+- name: '[696.9ms +/-1148ms] http-146.70.176.242'
+  server: 146.70.176.242
+  port: 443
+  type: http
+  tls: true
+  skip-cert-verify: true
+- name: '[535.1ms +/-1018ms] http-138.199.47.247'
+  server: 138.199.47.247
+  port: 9443
+  type: http
+  tls: true
+  skip-cert-verify: true
+- name: 🇵🇱 [714.4ms +/-1186ms] trojan-92.118.150.146
+  server: 92.118.150.146
+  port: 443
+  type: trojan
+  password: Trojan@82164024
+  sni: pl.tronsg.com
+  skip-cert-verify: true
+  udp: true
+- name: '[723.9ms +/-1230ms] http-103.97.88.154'
+  server: 103.97.88.154
+  port: 443
+  type: http
+  username: 'null'
+  password: 'null'
+  tls: true
+  skip-cert-verify: true
+- name: '[572.4ms +/-1102ms] http-84.233.178.33'
+  server: 84.233.178.33
+  port: 9443
+  type: http
+  tls: true
+  skip-cert-verify: true
+- name: '[703.7ms +/-1258ms] http-37.120.233.34'
+  server: 37.120.233.34
+  port: 9443
+  type: http
+  tls: true
+  skip-cert-verify: true
+- name: '[740.7ms +/-1392ms] http-185.164.138.156'
+  server: 185.164.138.156
+  port: 443
+  type: http
+  tls: true
+  skip-cert-verify: true
+- name: '[384.5ms +/-715ms] hysteria2-1927344967'
+  server: 87.76.211.161
+  port: 443
+  type: hysteria2
+  password: 1953e43b-605c-4262-83eb-41a80646b801
+  sni: fastlinkdownload.song69.fun
+  skip-cert-verify: true
+- name: '[543.0ms +/-917ms] 👉🆔@Goodbaye_filtering
+
+    📡🇩🇪 (…)'
+  server: 31.58.144.19
+  port: 1080
+  type: socks5
+  udp: true
+- name: 🇩🇪 [682.5ms +/-978ms] D🔴🇩🇪hos[🎬🤖📺🎭]_dokng.com(…)
+  server: 91.107.179.68
+  port: 10809
+  type: socks5
+  udp: true
+- name: '[688.6ms +/-637ms] D🔴🇭🇰hos[🎬📺🎭🎪]_dokng.com_1b(…)'
+  server: 47.238.126.208
+  port: 1080
+  type: socks5
+  udp: true
+- name: '[992.2ms +/-1164ms] MY-KualaLumpur1'
   server: 111.246.28.1
   port: 2053
   type: anytls
   password: f5f0babe-aea2-4f07-a1fc-3c9820253f49
   sni: my.gosthk.site
+  skip-cert-verify: true
+- name: '[1284.1ms +/-2854ms] http-83.206.1.225'
+  server: 83.206.1.225
+  port: 8090
+  type: http
+  tls: true
   skip-cert-verify: true
 proxy-groups:
 - name: 🚀 Proxy
@@ -581,217 +1012,365 @@ proxy-groups:
   - 其他
   - 🇨🇦 加拿大
   - 🇩🇪 德国
+  - 🇬🇧 英国
   - 🇳🇱 荷兰
+  - 🇸🇨 其他
   - 🇺🇸 美国
-  - 🇨🇦 [390.9ms +/-705ms] 0120
-  - 🇺🇸 [314.0ms +/-623ms] 🔒
-  - '[304.8ms +/-612ms] http-64.98.50.100'
-  - '[315.6ms +/-721ms] http-38.247.141.135'
-  - '[355.3ms +/-652ms] http-44.248.167.117'
-  - '[372.5ms +/-891ms] http-198.44.138.27'
-  - 🇺🇸 [439.7ms +/-1158ms] trojan-66.23.203.21
-  - '[502.4ms +/-987ms] 🔒'
-  - 🇳🇱 [630.9ms +/-977ms] 🔒
-  - '[696.2ms +/-1002ms] 🔒'
-  - 🇺🇸 [453.1ms +/-1141ms] trojan-69.164.240.85
-  - '[377.0ms +/-625ms] http-154.81.36.92'
-  - 🇳🇱 [656.5ms +/-1102ms] 0032
-  - 🇨🇦 [714.1ms +/-1208ms] 🔒
-  - '[680.2ms +/-1004ms] 🔒'
-  - 🇩🇪 [713.8ms +/-999ms] @DeltaKroneckerGithub
-  - 🇨🇦 [744.1ms +/-1321ms] 🔒
-  - 🇳🇱 [472.6ms +/-941ms] 0082
-  - '[557.1ms +/-887ms] http-34.249.214.108'
-  - 🇳🇱 [659.0ms +/-1012ms] 0045
-  - '[486.9ms +/-406ms] 🔒'
-  - '[573.6ms +/-913ms] http-84.17.47.148'
-  - 🇨🇷 [696.3ms +/-1300ms] 4Mohsen-08ce18d31d
-  - '[588.9ms +/-905ms] http-158.173.154.5'
-  - '[587.7ms +/-888ms] http-158.173.154.1'
-  - '[578.9ms +/-915ms] http-84.17.47.125'
-  - '[584.2ms +/-894ms] http-84.17.47.124'
-  - '[757.2ms +/-1108ms] 🔒'
-  - '[642.7ms +/-1054ms] 0079'
-  - 🇦🇺 [468.4ms +/-678ms] 𔒰‎ ＳＥＧＡＲＯ
-  - '[640.6ms +/-1159ms] http-212.102.63.1'
-  - '[619.6ms +/-1067ms] http-51.159.225.197'
-  - '[631.5ms +/-1081ms] http-51.159.225.196'
-  - '[676.2ms +/-986ms] 🔒'
-  - '[702.8ms +/-990ms] 🔒'
-  - '[600.5ms +/-1039ms] http-212.102.63.61'
-  - '[694.1ms +/-1015ms] http-213.109.163.119'
-  - 🇩🇪 [882.4ms +/-848ms] 🔒
-  - '[830.9ms +/-1436ms] 🔒'
-  - 🇳🇱 [689.3ms +/-1162ms] 0065
-  - 🇩🇪 [572.6ms +/-918ms] 𔒰‎ ＳＥＧＡＲＯ
-  - '[688.1ms +/-941ms] http-152.233.16.174'
-  - 🇳🇱 [692.5ms +/-1215ms] @DeltaKroneckerGithub
-  - 🇬🇧 [664.0ms +/-1107ms] @DeltaKroneckerGithub
-  - '[795.4ms +/-1504ms] http-149.88.27.46'
-  - 🇸🇬 [703.4ms +/-503ms] trojan-43.156.36.253
-  - '[813.7ms +/-1528ms] http-37.120.213.210'
-  - '[589.5ms +/-924ms] http-138.199.47.247'
-  - '[828.6ms +/-1634ms] @DeltaKroneckerGithub'
-  - '[858.3ms +/-1465ms] http-185.219.159.15'
-  - '[829.3ms +/-1538ms] http-146.70.244.2'
-  - '[806.5ms +/-1368ms] http-103.97.88.154'
-  - '[557.8ms +/-590ms] US'
-  - '[744.9ms +/-1103ms] 0239'
-  - '[934.8ms +/-1629ms] 🔒'
-  - '[1028.3ms +/-1699ms] 美国+3COM公司企业网'
-  - '[558.0ms +/-1152ms] 🇫🇷'
-  - '[866.9ms +/-1419ms] http-31.186.220.204'
-  - '[869.4ms +/-1651ms] http-154.47.29.174'
-  - 🇨🇦 [975.5ms +/-2030ms] 🔒
-  - 🇪🇪 [942.1ms +/-1518ms] @DeltaKroneckerGithub
-  - '[837.7ms +/-912ms] MY-KualaLumpur1'
+  - 🇪🇸 [451.5ms +/-788ms] 🔒
+  - '[453.1ms +/-782ms] trojan-104.16.72.50'
+  - 🇺🇸 [455.7ms +/-775ms] 🔒
+  - '[465.5ms +/-812ms] CA'
+  - 🇺🇸 [417.9ms +/-1172ms] trojan-69.164.240.85
+  - '[522.1ms +/-704ms] @DeltaKroneckerGithub'
+  - 🇨🇦 [521.6ms +/-979ms] 🔒
+  - '[478.9ms +/-828ms] @DeltaKroneckerGithub'
+  - '[466.9ms +/-775ms] @DeltaKroneckerGithub'
+  - 🇫🇮 [472.2ms +/-1006ms] 🔒
+  - '[481.6ms +/-777ms] @DeltaKroneckerGithub'
+  - '[527.4ms +/-997ms] 🔒'
+  - 🇸🇨 [470.1ms +/-844ms] @DeltaKroneckerGithub
+  - '[478.0ms +/-890ms] @DeltaKroneckerGithub'
+  - 🇨🇦 [550.2ms +/-1084ms] 🔒
+  - '[504.3ms +/-947ms] @DeltaKroneckerGithub'
+  - '[471.0ms +/-822ms] @DeltaKroneckerGithub'
+  - 🇸🇨 [502.2ms +/-869ms] @DeltaKroneckerGithub
+  - '[521.4ms +/-873ms] @DeltaKroneckerGithub'
+  - '[524.5ms +/-966ms] 🔒'
+  - '[528.4ms +/-990ms] 🔒'
+  - 🇳🇱 [564.1ms +/-895ms] 🔒
+  - '[551.4ms +/-1054ms] 4Mohsen-08ce18d31d'
+  - 🇬🇧 [556.6ms +/-1015ms] @DeltaKroneckerGithub
+  - '[569.7ms +/-1085ms] 🔒'
+  - 🇺🇸 [525.8ms +/-978ms] 🔒
+  - 🇳🇱 [556.9ms +/-932ms] 0045
+  - '[395.1ms +/-964ms] http-12.202.180.10'
+  - 🇩🇪 [636.3ms +/-923ms] 🔒
+  - '[546.1ms +/-1043ms] @DeltaKroneckerGithub'
+  - '[521.0ms +/-984ms] 🔒'
+  - '[525.6ms +/-985ms] 🔒'
+  - 🇨🇦 [527.0ms +/-988ms] 🔒
+  - 🇱🇹 [527.7ms +/-988ms] 🔒
+  - 🇳🇱 [401.9ms +/-837ms] 0082
+  - '[546.2ms +/-1000ms] 0079'
+  - '[551.8ms +/-1084ms] 🔒'
+  - '[501.5ms +/-773ms] @DeltaKroneckerGithub'
+  - '[261.5ms +/-687ms] 0013'
+  - '[466.5ms +/-828ms] @DeltaKroneckerGithub'
+  - '[531.7ms +/-976ms] @DeltaKroneckerGithub'
+  - '[406.2ms +/-951ms] http-38.247.141.135'
+  - 🇱🇻 [712.3ms +/-1135ms] 0037
+  - 🇳🇱 [595.3ms +/-1117ms] @DeltaKroneckerGithub
+  - 🇺🇸 [454.9ms +/-590ms] US
+  - 🇳🇱 [562.4ms +/-1027ms] @DeltaKroneckerGithub
+  - '[364.8ms +/-917ms] http-198.44.157.19'
+  - '[351.9ms +/-893ms] http-198.44.157.27'
+  - '[522.5ms +/-1368ms] http-154.47.25.78'
+  - '[374.0ms +/-696ms] http-64.98.50.100'
+  - '[681.9ms +/-1083ms] @DeltaKroneckerGithub'
+  - 🇩🇪 [496.1ms +/-853ms] 𔒰‎ ＳＥＧＡＲＯ
+  - 🇩🇪 [681.0ms +/-1112ms] @DeltaKroneckerGithub
+  - '[604.0ms +/-956ms] 0239'
+  - '[404.3ms +/-782ms] http-38.95.111.226'
+  - 🇳🇱 [904.8ms +/-2051ms] 0032
+  - 🇬🇧 [587.0ms +/-1099ms] @DeltaKroneckerGithub
+  - '[555.4ms +/-1499ms] http-206.223.161.47'
+  - '[423.2ms +/-683ms] http-44.248.167.117'
+  - '[595.0ms +/-1593ms] http-121.127.34.82'
+  - 🇪🇪 [819.7ms +/-1208ms] @DeltaKroneckerGithub
+  - '[414.6ms +/-691ms] 🇫🇷'
+  - '[449.3ms +/-809ms] http-18.200.158.139'
+  - 🇳🇱 [696.4ms +/-1203ms] @DeltaKroneckerGithub
+  - 🇭🇰 [624.1ms +/-494ms] 🔒
+  - '[455.7ms +/-804ms] http-34.249.214.108'
+  - '[507.9ms +/-865ms] http-84.17.47.146'
+  - '[498.6ms +/-825ms] http-84.17.47.149'
+  - '[513.7ms +/-874ms] http-84.17.47.125'
+  - '[575.5ms +/-1536ms] http-149.88.98.81'
+  - '[523.7ms +/-883ms] http-84.17.47.148'
+  - '[500.3ms +/-850ms] http-84.17.47.123'
+  - '[546.7ms +/-1006ms] http-149.36.51.157'
+  - '[862.7ms +/-1247ms] 0129'
+  - '[511.8ms +/-833ms] http-158.173.154.1'
+  - '[537.0ms +/-958ms] http-82.65.162.76'
+  - '[518.2ms +/-875ms] http-158.173.154.3'
+  - '[563.3ms +/-772ms] http-87.249.132.97'
+  - '[505.8ms +/-841ms] http-185.93.106.214'
+  - '[635.1ms +/-855ms] vless-172.67.167.179'
+  - '[499.4ms +/-1004ms] 𔒰‎ ＳＥＧＡＲＯ'
+  - '[566.5ms +/-782ms] http-158.173.154.2'
+  - '[560.8ms +/-1076ms] http-51.159.225.197'
+  - '[388.4ms +/-643ms] http-167.88.60.242'
+  - '[548.8ms +/-1058ms] http-212.102.63.61'
+  - '[558.5ms +/-995ms] http-158.173.154.5'
+  - '[627.0ms +/-1226ms] http-149.88.96.12'
+  - '[539.7ms +/-1027ms] http-212.102.63.31'
+  - '[645.1ms +/-942ms] http-149.88.27.46'
+  - '[520.7ms +/-666ms] http-68.235.56.59'
+  - '[706.4ms +/-1259ms] http-37.120.233.18'
+  - '[689.5ms +/-1207ms] http-51.159.225.196'
+  - '[691.7ms +/-1127ms] http-185.219.159.16'
+  - '[696.9ms +/-1148ms] http-146.70.176.242'
+  - '[535.1ms +/-1018ms] http-138.199.47.247'
+  - 🇵🇱 [714.4ms +/-1186ms] trojan-92.118.150.146
+  - '[723.9ms +/-1230ms] http-103.97.88.154'
+  - '[572.4ms +/-1102ms] http-84.233.178.33'
+  - '[703.7ms +/-1258ms] http-37.120.233.34'
+  - '[740.7ms +/-1392ms] http-185.164.138.156'
+  - '[384.5ms +/-715ms] hysteria2-1927344967'
+  - '[543.0ms +/-917ms] 👉🆔@Goodbaye_filtering
+
+    📡🇩🇪 (…)'
+  - 🇩🇪 [682.5ms +/-978ms] D🔴🇩🇪hos[🎬🤖📺🎭]_dokng.com(…)
+  - '[688.6ms +/-637ms] D🔴🇭🇰hos[🎬📺🎭🎪]_dokng.com_1b(…)'
+  - '[992.2ms +/-1164ms] MY-KualaLumpur1'
+  - '[1284.1ms +/-2854ms] http-83.206.1.225'
 - name: ♻️ Auto
   type: url-test
   proxies:
-  - 🇨🇦 [390.9ms +/-705ms] 0120
-  - 🇺🇸 [314.0ms +/-623ms] 🔒
-  - '[304.8ms +/-612ms] http-64.98.50.100'
-  - '[315.6ms +/-721ms] http-38.247.141.135'
-  - '[355.3ms +/-652ms] http-44.248.167.117'
-  - '[372.5ms +/-891ms] http-198.44.138.27'
-  - 🇺🇸 [439.7ms +/-1158ms] trojan-66.23.203.21
-  - '[502.4ms +/-987ms] 🔒'
-  - 🇳🇱 [630.9ms +/-977ms] 🔒
-  - '[696.2ms +/-1002ms] 🔒'
-  - 🇺🇸 [453.1ms +/-1141ms] trojan-69.164.240.85
-  - '[377.0ms +/-625ms] http-154.81.36.92'
-  - 🇳🇱 [656.5ms +/-1102ms] 0032
-  - 🇨🇦 [714.1ms +/-1208ms] 🔒
-  - '[680.2ms +/-1004ms] 🔒'
-  - 🇩🇪 [713.8ms +/-999ms] @DeltaKroneckerGithub
-  - 🇨🇦 [744.1ms +/-1321ms] 🔒
-  - 🇳🇱 [472.6ms +/-941ms] 0082
-  - '[557.1ms +/-887ms] http-34.249.214.108'
-  - 🇳🇱 [659.0ms +/-1012ms] 0045
-  - '[486.9ms +/-406ms] 🔒'
-  - '[573.6ms +/-913ms] http-84.17.47.148'
-  - 🇨🇷 [696.3ms +/-1300ms] 4Mohsen-08ce18d31d
-  - '[588.9ms +/-905ms] http-158.173.154.5'
-  - '[587.7ms +/-888ms] http-158.173.154.1'
-  - '[578.9ms +/-915ms] http-84.17.47.125'
-  - '[584.2ms +/-894ms] http-84.17.47.124'
-  - '[757.2ms +/-1108ms] 🔒'
-  - '[642.7ms +/-1054ms] 0079'
-  - 🇦🇺 [468.4ms +/-678ms] 𔒰‎ ＳＥＧＡＲＯ
-  - '[640.6ms +/-1159ms] http-212.102.63.1'
-  - '[619.6ms +/-1067ms] http-51.159.225.197'
-  - '[631.5ms +/-1081ms] http-51.159.225.196'
-  - '[676.2ms +/-986ms] 🔒'
-  - '[702.8ms +/-990ms] 🔒'
-  - '[600.5ms +/-1039ms] http-212.102.63.61'
-  - '[694.1ms +/-1015ms] http-213.109.163.119'
-  - 🇩🇪 [882.4ms +/-848ms] 🔒
-  - '[830.9ms +/-1436ms] 🔒'
-  - 🇳🇱 [689.3ms +/-1162ms] 0065
-  - 🇩🇪 [572.6ms +/-918ms] 𔒰‎ ＳＥＧＡＲＯ
-  - '[688.1ms +/-941ms] http-152.233.16.174'
-  - 🇳🇱 [692.5ms +/-1215ms] @DeltaKroneckerGithub
-  - 🇬🇧 [664.0ms +/-1107ms] @DeltaKroneckerGithub
-  - '[795.4ms +/-1504ms] http-149.88.27.46'
-  - 🇸🇬 [703.4ms +/-503ms] trojan-43.156.36.253
-  - '[813.7ms +/-1528ms] http-37.120.213.210'
-  - '[589.5ms +/-924ms] http-138.199.47.247'
-  - '[828.6ms +/-1634ms] @DeltaKroneckerGithub'
-  - '[858.3ms +/-1465ms] http-185.219.159.15'
-  - '[829.3ms +/-1538ms] http-146.70.244.2'
-  - '[806.5ms +/-1368ms] http-103.97.88.154'
-  - '[557.8ms +/-590ms] US'
-  - '[744.9ms +/-1103ms] 0239'
-  - '[934.8ms +/-1629ms] 🔒'
-  - '[1028.3ms +/-1699ms] 美国+3COM公司企业网'
-  - '[558.0ms +/-1152ms] 🇫🇷'
-  - '[866.9ms +/-1419ms] http-31.186.220.204'
-  - '[869.4ms +/-1651ms] http-154.47.29.174'
-  - 🇨🇦 [975.5ms +/-2030ms] 🔒
-  - 🇪🇪 [942.1ms +/-1518ms] @DeltaKroneckerGithub
-  - '[837.7ms +/-912ms] MY-KualaLumpur1'
+  - 🇪🇸 [451.5ms +/-788ms] 🔒
+  - '[453.1ms +/-782ms] trojan-104.16.72.50'
+  - 🇺🇸 [455.7ms +/-775ms] 🔒
+  - '[465.5ms +/-812ms] CA'
+  - 🇺🇸 [417.9ms +/-1172ms] trojan-69.164.240.85
+  - '[522.1ms +/-704ms] @DeltaKroneckerGithub'
+  - 🇨🇦 [521.6ms +/-979ms] 🔒
+  - '[478.9ms +/-828ms] @DeltaKroneckerGithub'
+  - '[466.9ms +/-775ms] @DeltaKroneckerGithub'
+  - 🇫🇮 [472.2ms +/-1006ms] 🔒
+  - '[481.6ms +/-777ms] @DeltaKroneckerGithub'
+  - '[527.4ms +/-997ms] 🔒'
+  - 🇸🇨 [470.1ms +/-844ms] @DeltaKroneckerGithub
+  - '[478.0ms +/-890ms] @DeltaKroneckerGithub'
+  - 🇨🇦 [550.2ms +/-1084ms] 🔒
+  - '[504.3ms +/-947ms] @DeltaKroneckerGithub'
+  - '[471.0ms +/-822ms] @DeltaKroneckerGithub'
+  - 🇸🇨 [502.2ms +/-869ms] @DeltaKroneckerGithub
+  - '[521.4ms +/-873ms] @DeltaKroneckerGithub'
+  - '[524.5ms +/-966ms] 🔒'
+  - '[528.4ms +/-990ms] 🔒'
+  - 🇳🇱 [564.1ms +/-895ms] 🔒
+  - '[551.4ms +/-1054ms] 4Mohsen-08ce18d31d'
+  - 🇬🇧 [556.6ms +/-1015ms] @DeltaKroneckerGithub
+  - '[569.7ms +/-1085ms] 🔒'
+  - 🇺🇸 [525.8ms +/-978ms] 🔒
+  - 🇳🇱 [556.9ms +/-932ms] 0045
+  - '[395.1ms +/-964ms] http-12.202.180.10'
+  - 🇩🇪 [636.3ms +/-923ms] 🔒
+  - '[546.1ms +/-1043ms] @DeltaKroneckerGithub'
+  - '[521.0ms +/-984ms] 🔒'
+  - '[525.6ms +/-985ms] 🔒'
+  - 🇨🇦 [527.0ms +/-988ms] 🔒
+  - 🇱🇹 [527.7ms +/-988ms] 🔒
+  - 🇳🇱 [401.9ms +/-837ms] 0082
+  - '[546.2ms +/-1000ms] 0079'
+  - '[551.8ms +/-1084ms] 🔒'
+  - '[501.5ms +/-773ms] @DeltaKroneckerGithub'
+  - '[261.5ms +/-687ms] 0013'
+  - '[466.5ms +/-828ms] @DeltaKroneckerGithub'
+  - '[531.7ms +/-976ms] @DeltaKroneckerGithub'
+  - '[406.2ms +/-951ms] http-38.247.141.135'
+  - 🇱🇻 [712.3ms +/-1135ms] 0037
+  - 🇳🇱 [595.3ms +/-1117ms] @DeltaKroneckerGithub
+  - 🇺🇸 [454.9ms +/-590ms] US
+  - 🇳🇱 [562.4ms +/-1027ms] @DeltaKroneckerGithub
+  - '[364.8ms +/-917ms] http-198.44.157.19'
+  - '[351.9ms +/-893ms] http-198.44.157.27'
+  - '[522.5ms +/-1368ms] http-154.47.25.78'
+  - '[374.0ms +/-696ms] http-64.98.50.100'
+  - '[681.9ms +/-1083ms] @DeltaKroneckerGithub'
+  - 🇩🇪 [496.1ms +/-853ms] 𔒰‎ ＳＥＧＡＲＯ
+  - 🇩🇪 [681.0ms +/-1112ms] @DeltaKroneckerGithub
+  - '[604.0ms +/-956ms] 0239'
+  - '[404.3ms +/-782ms] http-38.95.111.226'
+  - 🇳🇱 [904.8ms +/-2051ms] 0032
+  - 🇬🇧 [587.0ms +/-1099ms] @DeltaKroneckerGithub
+  - '[555.4ms +/-1499ms] http-206.223.161.47'
+  - '[423.2ms +/-683ms] http-44.248.167.117'
+  - '[595.0ms +/-1593ms] http-121.127.34.82'
+  - 🇪🇪 [819.7ms +/-1208ms] @DeltaKroneckerGithub
+  - '[414.6ms +/-691ms] 🇫🇷'
+  - '[449.3ms +/-809ms] http-18.200.158.139'
+  - 🇳🇱 [696.4ms +/-1203ms] @DeltaKroneckerGithub
+  - 🇭🇰 [624.1ms +/-494ms] 🔒
+  - '[455.7ms +/-804ms] http-34.249.214.108'
+  - '[507.9ms +/-865ms] http-84.17.47.146'
+  - '[498.6ms +/-825ms] http-84.17.47.149'
+  - '[513.7ms +/-874ms] http-84.17.47.125'
+  - '[575.5ms +/-1536ms] http-149.88.98.81'
+  - '[523.7ms +/-883ms] http-84.17.47.148'
+  - '[500.3ms +/-850ms] http-84.17.47.123'
+  - '[546.7ms +/-1006ms] http-149.36.51.157'
+  - '[862.7ms +/-1247ms] 0129'
+  - '[511.8ms +/-833ms] http-158.173.154.1'
+  - '[537.0ms +/-958ms] http-82.65.162.76'
+  - '[518.2ms +/-875ms] http-158.173.154.3'
+  - '[563.3ms +/-772ms] http-87.249.132.97'
+  - '[505.8ms +/-841ms] http-185.93.106.214'
+  - '[635.1ms +/-855ms] vless-172.67.167.179'
+  - '[499.4ms +/-1004ms] 𔒰‎ ＳＥＧＡＲＯ'
+  - '[566.5ms +/-782ms] http-158.173.154.2'
+  - '[560.8ms +/-1076ms] http-51.159.225.197'
+  - '[388.4ms +/-643ms] http-167.88.60.242'
+  - '[548.8ms +/-1058ms] http-212.102.63.61'
+  - '[558.5ms +/-995ms] http-158.173.154.5'
+  - '[627.0ms +/-1226ms] http-149.88.96.12'
+  - '[539.7ms +/-1027ms] http-212.102.63.31'
+  - '[645.1ms +/-942ms] http-149.88.27.46'
+  - '[520.7ms +/-666ms] http-68.235.56.59'
+  - '[706.4ms +/-1259ms] http-37.120.233.18'
+  - '[689.5ms +/-1207ms] http-51.159.225.196'
+  - '[691.7ms +/-1127ms] http-185.219.159.16'
+  - '[696.9ms +/-1148ms] http-146.70.176.242'
+  - '[535.1ms +/-1018ms] http-138.199.47.247'
+  - 🇵🇱 [714.4ms +/-1186ms] trojan-92.118.150.146
+  - '[723.9ms +/-1230ms] http-103.97.88.154'
+  - '[572.4ms +/-1102ms] http-84.233.178.33'
+  - '[703.7ms +/-1258ms] http-37.120.233.34'
+  - '[740.7ms +/-1392ms] http-185.164.138.156'
+  - '[384.5ms +/-715ms] hysteria2-1927344967'
+  - '[543.0ms +/-917ms] 👉🆔@Goodbaye_filtering
+
+    📡🇩🇪 (…)'
+  - 🇩🇪 [682.5ms +/-978ms] D🔴🇩🇪hos[🎬🤖📺🎭]_dokng.com(…)
+  - '[688.6ms +/-637ms] D🔴🇭🇰hos[🎬📺🎭🎪]_dokng.com_1b(…)'
+  - '[992.2ms +/-1164ms] MY-KualaLumpur1'
+  - '[1284.1ms +/-2854ms] http-83.206.1.225'
   url: https://www.gstatic.com/generate_204
   interval: 600
 - name: 其他
   type: url-test
   proxies:
-  - '[304.8ms +/-612ms] http-64.98.50.100'
-  - '[315.6ms +/-721ms] http-38.247.141.135'
-  - '[355.3ms +/-652ms] http-44.248.167.117'
-  - '[372.5ms +/-891ms] http-198.44.138.27'
-  - '[502.4ms +/-987ms] 🔒'
-  - '[696.2ms +/-1002ms] 🔒'
-  - '[377.0ms +/-625ms] http-154.81.36.92'
-  - '[680.2ms +/-1004ms] 🔒'
-  - '[557.1ms +/-887ms] http-34.249.214.108'
-  - '[486.9ms +/-406ms] 🔒'
-  - '[573.6ms +/-913ms] http-84.17.47.148'
-  - '[588.9ms +/-905ms] http-158.173.154.5'
-  - '[587.7ms +/-888ms] http-158.173.154.1'
-  - '[578.9ms +/-915ms] http-84.17.47.125'
-  - '[584.2ms +/-894ms] http-84.17.47.124'
-  - '[757.2ms +/-1108ms] 🔒'
-  - '[642.7ms +/-1054ms] 0079'
-  - '[640.6ms +/-1159ms] http-212.102.63.1'
-  - '[619.6ms +/-1067ms] http-51.159.225.197'
-  - '[631.5ms +/-1081ms] http-51.159.225.196'
-  - '[676.2ms +/-986ms] 🔒'
-  - '[702.8ms +/-990ms] 🔒'
-  - '[600.5ms +/-1039ms] http-212.102.63.61'
-  - '[694.1ms +/-1015ms] http-213.109.163.119'
-  - '[830.9ms +/-1436ms] 🔒'
-  - '[688.1ms +/-941ms] http-152.233.16.174'
-  - '[795.4ms +/-1504ms] http-149.88.27.46'
-  - '[813.7ms +/-1528ms] http-37.120.213.210'
-  - '[589.5ms +/-924ms] http-138.199.47.247'
-  - '[828.6ms +/-1634ms] @DeltaKroneckerGithub'
-  - '[858.3ms +/-1465ms] http-185.219.159.15'
-  - '[829.3ms +/-1538ms] http-146.70.244.2'
-  - '[806.5ms +/-1368ms] http-103.97.88.154'
-  - '[557.8ms +/-590ms] US'
-  - '[744.9ms +/-1103ms] 0239'
-  - '[934.8ms +/-1629ms] 🔒'
-  - '[1028.3ms +/-1699ms] 美国+3COM公司企业网'
-  - '[558.0ms +/-1152ms] 🇫🇷'
-  - '[866.9ms +/-1419ms] http-31.186.220.204'
-  - '[869.4ms +/-1651ms] http-154.47.29.174'
-  - '[837.7ms +/-912ms] MY-KualaLumpur1'
+  - '[453.1ms +/-782ms] trojan-104.16.72.50'
+  - '[465.5ms +/-812ms] CA'
+  - '[522.1ms +/-704ms] @DeltaKroneckerGithub'
+  - '[478.9ms +/-828ms] @DeltaKroneckerGithub'
+  - '[466.9ms +/-775ms] @DeltaKroneckerGithub'
+  - '[481.6ms +/-777ms] @DeltaKroneckerGithub'
+  - '[527.4ms +/-997ms] 🔒'
+  - '[478.0ms +/-890ms] @DeltaKroneckerGithub'
+  - '[504.3ms +/-947ms] @DeltaKroneckerGithub'
+  - '[471.0ms +/-822ms] @DeltaKroneckerGithub'
+  - '[521.4ms +/-873ms] @DeltaKroneckerGithub'
+  - '[524.5ms +/-966ms] 🔒'
+  - '[528.4ms +/-990ms] 🔒'
+  - '[551.4ms +/-1054ms] 4Mohsen-08ce18d31d'
+  - '[569.7ms +/-1085ms] 🔒'
+  - '[395.1ms +/-964ms] http-12.202.180.10'
+  - '[546.1ms +/-1043ms] @DeltaKroneckerGithub'
+  - '[521.0ms +/-984ms] 🔒'
+  - '[525.6ms +/-985ms] 🔒'
+  - '[546.2ms +/-1000ms] 0079'
+  - '[551.8ms +/-1084ms] 🔒'
+  - '[501.5ms +/-773ms] @DeltaKroneckerGithub'
+  - '[261.5ms +/-687ms] 0013'
+  - '[466.5ms +/-828ms] @DeltaKroneckerGithub'
+  - '[531.7ms +/-976ms] @DeltaKroneckerGithub'
+  - '[406.2ms +/-951ms] http-38.247.141.135'
+  - '[364.8ms +/-917ms] http-198.44.157.19'
+  - '[351.9ms +/-893ms] http-198.44.157.27'
+  - '[522.5ms +/-1368ms] http-154.47.25.78'
+  - '[374.0ms +/-696ms] http-64.98.50.100'
+  - '[681.9ms +/-1083ms] @DeltaKroneckerGithub'
+  - '[604.0ms +/-956ms] 0239'
+  - '[404.3ms +/-782ms] http-38.95.111.226'
+  - '[555.4ms +/-1499ms] http-206.223.161.47'
+  - '[423.2ms +/-683ms] http-44.248.167.117'
+  - '[595.0ms +/-1593ms] http-121.127.34.82'
+  - '[414.6ms +/-691ms] 🇫🇷'
+  - '[449.3ms +/-809ms] http-18.200.158.139'
+  - '[455.7ms +/-804ms] http-34.249.214.108'
+  - '[507.9ms +/-865ms] http-84.17.47.146'
+  - '[498.6ms +/-825ms] http-84.17.47.149'
+  - '[513.7ms +/-874ms] http-84.17.47.125'
+  - '[575.5ms +/-1536ms] http-149.88.98.81'
+  - '[523.7ms +/-883ms] http-84.17.47.148'
+  - '[500.3ms +/-850ms] http-84.17.47.123'
+  - '[546.7ms +/-1006ms] http-149.36.51.157'
+  - '[862.7ms +/-1247ms] 0129'
+  - '[511.8ms +/-833ms] http-158.173.154.1'
+  - '[537.0ms +/-958ms] http-82.65.162.76'
+  - '[518.2ms +/-875ms] http-158.173.154.3'
+  - '[563.3ms +/-772ms] http-87.249.132.97'
+  - '[505.8ms +/-841ms] http-185.93.106.214'
+  - '[635.1ms +/-855ms] vless-172.67.167.179'
+  - '[499.4ms +/-1004ms] 𔒰‎ ＳＥＧＡＲＯ'
+  - '[566.5ms +/-782ms] http-158.173.154.2'
+  - '[560.8ms +/-1076ms] http-51.159.225.197'
+  - '[388.4ms +/-643ms] http-167.88.60.242'
+  - '[548.8ms +/-1058ms] http-212.102.63.61'
+  - '[558.5ms +/-995ms] http-158.173.154.5'
+  - '[627.0ms +/-1226ms] http-149.88.96.12'
+  - '[539.7ms +/-1027ms] http-212.102.63.31'
+  - '[645.1ms +/-942ms] http-149.88.27.46'
+  - '[520.7ms +/-666ms] http-68.235.56.59'
+  - '[706.4ms +/-1259ms] http-37.120.233.18'
+  - '[689.5ms +/-1207ms] http-51.159.225.196'
+  - '[691.7ms +/-1127ms] http-185.219.159.16'
+  - '[696.9ms +/-1148ms] http-146.70.176.242'
+  - '[535.1ms +/-1018ms] http-138.199.47.247'
+  - '[723.9ms +/-1230ms] http-103.97.88.154'
+  - '[572.4ms +/-1102ms] http-84.233.178.33'
+  - '[703.7ms +/-1258ms] http-37.120.233.34'
+  - '[740.7ms +/-1392ms] http-185.164.138.156'
+  - '[384.5ms +/-715ms] hysteria2-1927344967'
+  - '[543.0ms +/-917ms] 👉🆔@Goodbaye_filtering
+
+    📡🇩🇪 (…)'
+  - '[688.6ms +/-637ms] D🔴🇭🇰hos[🎬📺🎭🎪]_dokng.com_1b(…)'
+  - '[992.2ms +/-1164ms] MY-KualaLumpur1'
+  - '[1284.1ms +/-2854ms] http-83.206.1.225'
   url: https://www.gstatic.com/generate_204
   interval: 600
 - name: 🇨🇦 加拿大
   type: url-test
   proxies:
-  - 🇨🇦 [390.9ms +/-705ms] 0120
-  - 🇨🇦 [714.1ms +/-1208ms] 🔒
-  - 🇨🇦 [744.1ms +/-1321ms] 🔒
-  - 🇨🇦 [975.5ms +/-2030ms] 🔒
+  - 🇨🇦 [521.6ms +/-979ms] 🔒
+  - 🇨🇦 [550.2ms +/-1084ms] 🔒
+  - 🇨🇦 [527.0ms +/-988ms] 🔒
   url: https://www.gstatic.com/generate_204
   interval: 600
 - name: 🇩🇪 德国
   type: url-test
   proxies:
-  - 🇩🇪 [713.8ms +/-999ms] @DeltaKroneckerGithub
-  - 🇩🇪 [882.4ms +/-848ms] 🔒
-  - 🇩🇪 [572.6ms +/-918ms] 𔒰‎ ＳＥＧＡＲＯ
+  - 🇩🇪 [636.3ms +/-923ms] 🔒
+  - 🇩🇪 [496.1ms +/-853ms] 𔒰‎ ＳＥＧＡＲＯ
+  - 🇩🇪 [681.0ms +/-1112ms] @DeltaKroneckerGithub
+  - 🇩🇪 [682.5ms +/-978ms] D🔴🇩🇪hos[🎬🤖📺🎭]_dokng.com(…)
+  url: https://www.gstatic.com/generate_204
+  interval: 600
+- name: 🇬🇧 英国
+  type: url-test
+  proxies:
+  - 🇬🇧 [556.6ms +/-1015ms] @DeltaKroneckerGithub
+  - 🇬🇧 [587.0ms +/-1099ms] @DeltaKroneckerGithub
   url: https://www.gstatic.com/generate_204
   interval: 600
 - name: 🇳🇱 荷兰
   type: url-test
   proxies:
-  - 🇳🇱 [630.9ms +/-977ms] 🔒
-  - 🇳🇱 [656.5ms +/-1102ms] 0032
-  - 🇳🇱 [472.6ms +/-941ms] 0082
-  - 🇳🇱 [659.0ms +/-1012ms] 0045
-  - 🇳🇱 [689.3ms +/-1162ms] 0065
-  - 🇳🇱 [692.5ms +/-1215ms] @DeltaKroneckerGithub
+  - 🇳🇱 [564.1ms +/-895ms] 🔒
+  - 🇳🇱 [556.9ms +/-932ms] 0045
+  - 🇳🇱 [401.9ms +/-837ms] 0082
+  - 🇳🇱 [595.3ms +/-1117ms] @DeltaKroneckerGithub
+  - 🇳🇱 [562.4ms +/-1027ms] @DeltaKroneckerGithub
+  - 🇳🇱 [904.8ms +/-2051ms] 0032
+  - 🇳🇱 [696.4ms +/-1203ms] @DeltaKroneckerGithub
+  url: https://www.gstatic.com/generate_204
+  interval: 600
+- name: 🇸🇨 其他
+  type: url-test
+  proxies:
+  - 🇸🇨 [470.1ms +/-844ms] @DeltaKroneckerGithub
+  - 🇸🇨 [502.2ms +/-869ms] @DeltaKroneckerGithub
   url: https://www.gstatic.com/generate_204
   interval: 600
 - name: 🇺🇸 美国
   type: url-test
   proxies:
-  - 🇺🇸 [314.0ms +/-623ms] 🔒
-  - 🇺🇸 [439.7ms +/-1158ms] trojan-66.23.203.21
-  - 🇺🇸 [453.1ms +/-1141ms] trojan-69.164.240.85
+  - 🇺🇸 [455.7ms +/-775ms] 🔒
+  - 🇺🇸 [417.9ms +/-1172ms] trojan-69.164.240.85
+  - 🇺🇸 [525.8ms +/-978ms] 🔒
+  - 🇺🇸 [454.9ms +/-590ms] US
   url: https://www.gstatic.com/generate_204
   interval: 600
 dns:
