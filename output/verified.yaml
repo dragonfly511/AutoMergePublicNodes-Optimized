@@ -2,13 +2,36 @@ mixed-port: 7890
 allow-lan: false
 mode: rule
 proxies:
-- name: '[243.2ms +/-580ms] http-44.248.167.117'
-  server: 44.248.167.117
-  port: 8443
-  type: http
-  tls: true
+- name: 🇨🇦 [306.0ms +/-800ms] 0120
+  server: 155.138.138.2
+  port: 443
+  type: trojan
+  password: Trojan@82164024
+  sni: ca.tronsg.com
   skip-cert-verify: true
-- name: 🇺🇸 [333.6ms +/-681ms] trojan-66.23.203.21
+  udp: true
+- name: 🇺🇸 [234.7ms +/-660ms] 𔒰‎ ＳＥＧＡＲＯ
+  server: 129.213.91.185
+  port: 35013
+  type: hysteria2
+  password: 4291c983-c520-46ac-82cc-48f14bef573f
+  sni: 129.213.91.185
+  skip-cert-verify: true
+- name: 🇺🇸 [295.6ms +/-832ms] 🇺🇸US-185.230.230.18-0078
+  server: 185.230.230.18
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 🇺🇸 [324.3ms +/-885ms] US 🇺🇸 | @xray_ehi_hub |(…)
+  server: 216.9.225.189
+  port: 443
+  type: ss
+  cipher: 2022-blake3-aes-256-gcm
+  password: Q2YsIzc5YkchSFjsqUZWrQAFtsSpqf7XxYxkG4+Jbsk=:zT1SecPttPY/XPW6NwjK5Wql+/6zbcGSDJK21Jk8uLo=
+  udp: true
+- name: 🇺🇸 [412.9ms +/-1017ms] trojan-66.23.203.21
   server: 66.23.203.21
   port: 59689
   type: trojan
@@ -16,57 +39,32 @@ proxies:
   sni: 66.23.203.21
   skip-cert-verify: true
   udp: true
-- name: '[302.2ms +/-680ms] http-38.95.111.226'
-  server: 38.95.111.226
-  port: 9443
-  type: http
-  tls: true
-  skip-cert-verify: true
-- name: '[305.3ms +/-703ms] http-167.88.60.242'
-  server: 167.88.60.242
-  port: 443
-  type: http
-  tls: true
-  skip-cert-verify: true
-- name: '[646.1ms +/-1001ms] @DeltaKroneckerGithub'
-  server: 104.18.37.228
-  port: 443
-  type: trojan
-  password: humanity
-  sni: www.calmlunch.com
-  skip-cert-verify: true
-  udp: true
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.calmlunch.com
-- name: '[379.9ms +/-785ms] http-38.247.141.135'
+- name: '[372.7ms +/-702ms] http-38.247.141.135'
   server: 38.247.141.135
   port: 443
   type: http
   tls: true
   skip-cert-verify: true
-- name: '[666.8ms +/-988ms] trojan-104.16.72.50'
-  server: 104.16.72.50
-  port: 443
-  type: trojan
-  password: humanity
-  sni: www.calmlunch.com
-  skip-cert-verify: true
-  udp: true
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.calmlunch.com
-- name: '[437.2ms +/-990ms] http-64.98.50.100'
+- name: '[375.0ms +/-702ms] http-64.98.50.100'
   server: 64.98.50.100
   port: 443
   type: http
   tls: true
   skip-cert-verify: true
-- name: '[734.0ms +/-1192ms] 🔒'
+- name: 🇺🇸 [382.0ms +/-990ms] 🇺🇸US-193.151.160.18-0085
+  server: 193.151.160.18
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: '[434.8ms +/-706ms] http-44.248.167.117'
+  server: 44.248.167.117
+  port: 8443
+  type: http
+  tls: true
+  skip-cert-verify: true
+- name: '[624.0ms +/-1133ms] 🔒'
   server: 172.66.40.99
   port: 443
   type: trojan
@@ -79,41 +77,7 @@ proxies:
     path: /assignment
     headers:
       Host: www.trusteeforward.com
-- name: 🇺🇸 [565.4ms +/-1296ms] trojan-69.164.240.85
-  server: 69.164.240.85
-  port: 50875
-  type: trojan
-  password: nwilryafgkyvuxauc8pz
-  sni: 69.164.240.85
-  skip-cert-verify: true
-  udp: true
-- name: '[671.5ms +/-885ms] @DeltaKroneckerGithub'
-  server: 162.159.244.91
-  port: 443
-  type: trojan
-  password: humanity
-  sni: www.calmlunch.com
-  skip-cert-verify: true
-  udp: true
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.calmlunch.com
-- name: 🇳🇱 [725.5ms +/-1016ms] 🔒
-  server: 89.150.34.41
-  port: 2053
-  type: trojan
-  password: humanity
-  sni: www.calmlunch.com
-  skip-cert-verify: true
-  udp: true
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.calmlunch.com
-- name: '[738.5ms +/-1134ms] 🔒'
+- name: '[621.3ms +/-1141ms] 🔒'
   server: 104.18.45.38
   port: 443
   type: trojan
@@ -126,93 +90,25 @@ proxies:
     path: /assignment
     headers:
       Host: www.trusteeforward.com
-- name: '[434.8ms +/-926ms] http-68.235.56.51'
-  server: 68.235.56.51
+- name: '[513.4ms +/-984ms] http-34.249.214.108'
+  server: 34.249.214.108
   port: 443
   type: http
   tls: true
   skip-cert-verify: true
-- name: 🇺🇸 [321.4ms +/-709ms] 𔒰‎ ＳＥＧＡＲＯ
-  server: 129.213.91.185
-  port: 35013
-  type: hysteria2
-  password: 4291c983-c520-46ac-82cc-48f14bef573f
-  sni: 129.213.91.185
-  skip-cert-verify: true
-- name: 🇺🇸 [498.7ms +/-582ms] US
-  server: 151.101.36.244
-  port: 443
-  type: trojan
-  password: mitivpn
-  sni: ns2.firefox.com
-  skip-cert-verify: true
-  udp: true
-  network: ws
-  ws-opts:
-    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/NLSus---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
-    headers:
-      Host: mitivpn-mitivpn.ac.ir
-- name: '[437.1ms +/-945ms] http-121.127.34.82'
-  server: 121.127.34.82
-  port: 443
+- name: '[497.1ms +/-832ms] http-84.17.47.123'
+  server: 84.17.47.123
+  port: 9002
   type: http
   tls: true
   skip-cert-verify: true
-- name: '[431.1ms +/-912ms] http-12.202.180.118'
-  server: 12.202.180.118
-  port: 443
+- name: '[501.4ms +/-834ms] http-84.17.47.125'
+  server: 84.17.47.125
+  port: 9002
   type: http
   tls: true
   skip-cert-verify: true
-- name: '[742.3ms +/-1183ms] 🔒'
-  server: 104.18.37.127
-  port: 443
-  type: trojan
-  password: humanity
-  sni: www.trusteeforward.com
-  skip-cert-verify: true
-  udp: true
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.trusteeforward.com
-- name: 🇳🇱 [780.3ms +/-1075ms] 0045
-  server: 5.253.189.238
-  port: 443
-  type: trojan
-  password: humanity
-  sni: www.calmlunch.com
-  skip-cert-verify: true
-  udp: true
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.calmlunch.com
-- name: '[520.7ms +/-888ms] 𔒰‎ ＳＥＧＡＲＯ'
-  server: hy2.aspidnet.xyz
-  port: 443
-  type: hysteria2
-  password: p7Q76LzlnS4hIzr1W3staBOnUe_WwSkR
-  sni: hy2.aspidnet.xyz
-  skip-cert-verify: true
-  obfs: salamander
-  obfs-password: rG07s3COMIEvdnQipRyWzx_H_2xygNC3
-- name: '[890.0ms +/-806ms] @DeltaKroneckerGithub'
-  server: 162.159.91.211
-  port: 443
-  type: trojan
-  password: humanity
-  sni: www.calmlunch.com
-  skip-cert-verify: true
-  udp: true
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.calmlunch.com
-- name: '[790.2ms +/-1182ms] 0079'
+- name: '[578.9ms +/-1068ms] 0079'
   server: 172.67.203.46
   port: 443
   type: trojan
@@ -225,46 +121,107 @@ proxies:
     path: /assignment
     headers:
       Host: www.cordweave.com
-- name: 🇸🇨 [912.9ms +/-760ms] @DeltaKroneckerGithub
-  server: 45.130.125.190
+- name: '[501.9ms +/-840ms] http-84.17.47.149'
+  server: 84.17.47.149
+  port: 9002
+  type: http
+  tls: true
+  skip-cert-verify: true
+- name: '[501.4ms +/-861ms] http-84.17.47.124'
+  server: 84.17.47.124
+  port: 9002
+  type: http
+  tls: true
+  skip-cert-verify: true
+- name: '[510.7ms +/-844ms] http-84.17.47.148'
+  server: 84.17.47.148
+  port: 9002
+  type: http
+  tls: true
+  skip-cert-verify: true
+- name: '[506.2ms +/-829ms] http-158.173.154.5'
+  server: 158.173.154.5
+  port: 9002
+  type: http
+  tls: true
+  skip-cert-verify: true
+- name: '[509.6ms +/-835ms] http-158.173.154.1'
+  server: 158.173.154.1
+  port: 9002
+  type: http
+  tls: true
+  skip-cert-verify: true
+- name: '[542.4ms +/-987ms] http-82.65.162.76'
+  server: 82.65.162.76
+  port: 443
+  type: http
+  tls: true
+  skip-cert-verify: true
+- name: 🇨🇦 [465.2ms +/-1078ms] 🇨🇦CA-51.222.136.236-0178
+  server: 51.222.136.236
+  port: 8882
+  type: ss
+  cipher: aes-256-gcm
+  password: kDWvXYZoTBcGkC4
+  udp: true
+- name: '[552.3ms +/-1005ms] http-51.159.225.196'
+  server: 51.159.225.196
+  port: 23856
+  type: http
+  username: 'null'
+  password: 'null'
+  tls: true
+  skip-cert-verify: true
+- name: '[619.4ms +/-1119ms] 🔒'
+  server: 104.18.37.127
   port: 443
   type: trojan
   password: humanity
-  sni: www.calmlunch.com
+  sni: www.trusteeforward.com
   skip-cert-verify: true
   udp: true
   network: ws
   ws-opts:
     path: /assignment
     headers:
-      Host: www.calmlunch.com
-- name: '[707.8ms +/-1077ms] @DeltaKroneckerGithub'
-  server: www.calmlunch.com
+      Host: www.trusteeforward.com
+- name: '[347.9ms +/-677ms] 🇺🇸US-173.244.56.6-0117'
+  server: 173.244.56.6
   port: 443
-  type: trojan
-  password: humanity
-  sni: www.calmlunch.com
-  skip-cert-verify: true
+  type: ss
+  cipher: aes-128-gcm
+  password: shadowsocks
   udp: true
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.calmlunch.com
-- name: 🇺🇸 [1039.2ms +/-1567ms] 🔒
-  server: 141.101.115.104
+- name: '[604.8ms +/-1080ms] http-213.109.163.119'
+  server: 213.109.163.119
   port: 443
-  type: trojan
-  password: humanity
-  sni: www.calmlunch.com
+  type: http
+  tls: true
   skip-cert-verify: true
-  udp: true
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.calmlunch.com
-- name: 🇩🇪 [658.7ms +/-1074ms] 𔒰‎ ＳＥＧＡＲＯ
+- name: '[614.6ms +/-1201ms] http-103.97.88.154'
+  server: 103.97.88.154
+  port: 443
+  type: http
+  username: 'null'
+  password: 'null'
+  tls: true
+  skip-cert-verify: true
+- name: '[507.7ms +/-852ms] 𔒰‎ ＳＥＧＡＲＯ'
+  server: hy2-new.aspidnet.xyz
+  port: 443
+  type: hysteria2
+  password: QCgqi_I4EkV8UR-OgQ_tG4EnVTEVvIyR2GgRBzrIn2s
+  sni: hy2-new.aspidnet.xyz
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: c1b4086fea89914496c7e10967a419216566
+- name: '[451.4ms +/-822ms] http-154.81.36.92'
+  server: 154.81.36.92
+  port: 8443
+  type: http
+  tls: true
+  skip-cert-verify: true
+- name: 🇩🇪 [507.8ms +/-867ms] 𔒰‎ ＳＥＧＡＲＯ
   server: 162.249.125.133
   port: 443
   type: hysteria2
@@ -273,790 +230,453 @@ proxies:
   skip-cert-verify: true
   obfs: salamander
   obfs-password: c1b4086fea89914496c7e10967a419216566
-- name: '[659.9ms +/-964ms] http-34.249.214.108'
-  server: 34.249.214.108
-  port: 443
-  type: http
-  tls: true
-  skip-cert-verify: true
-- name: '[667.9ms +/-1574ms] http-149.88.98.81'
-  server: 149.88.98.81
-  port: 9443
-  type: http
-  tls: true
-  skip-cert-verify: true
-- name: '[469.7ms +/-974ms] http-198.44.157.19'
-  server: 198.44.157.19
-  port: 9443
-  type: http
-  tls: true
-  skip-cert-verify: true
-- name: '[804.9ms +/-2021ms] http-12.202.180.10'
-  server: 12.202.180.10
-  port: 443
-  type: http
-  tls: true
-  skip-cert-verify: true
-- name: 🇩🇪 [1002.1ms +/-1338ms] @DeltaKroneckerGithub
-  server: 5.44.46.142
-  port: 443
-  type: trojan
-  password: humanity
-  sni: www.calmlunch.com
-  skip-cert-verify: true
+- name: 🇺🇸 [458.1ms +/-1002ms] US 🇺🇸 | @xray_ehi_hub (…)
+  server: 15.204.246.132
+  port: 7307
+  type: ss
+  cipher: aes-256-gcm
+  password: FoOiGlkAA9yPEGP
   udp: true
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.calmlunch.com
-- name: '[700.3ms +/-1001ms] http-149.36.50.1'
-  server: 149.36.50.1
-  port: 443
-  type: http
-  tls: true
-  skip-cert-verify: true
-- name: '[690.4ms +/-984ms] http-87.249.132.97'
-  server: 87.249.132.97
+- name: '[631.6ms +/-1218ms] http-185.245.84.50'
+  server: 185.245.84.50
   port: 9443
   type: http
   tls: true
   skip-cert-verify: true
-- name: '[690.1ms +/-1016ms] http-84.17.47.123'
-  server: 84.17.47.123
-  port: 9002
+- name: '[623.3ms +/-1251ms] http-51.159.225.197'
+  server: 51.159.225.197
+  port: 19362
   type: http
   tls: true
   skip-cert-verify: true
-- name: '[694.3ms +/-1021ms] http-84.17.47.124'
-  server: 84.17.47.124
-  port: 9002
-  type: http
-  tls: true
-  skip-cert-verify: true
-- name: '[816.5ms +/-2105ms] http-154.47.25.78'
-  server: 154.47.25.78
+- name: '[632.3ms +/-1164ms] http-37.120.213.210'
+  server: 37.120.213.210
   port: 9443
   type: http
   tls: true
   skip-cert-verify: true
-- name: '[710.0ms +/-1014ms] http-158.173.154.3'
-  server: 158.173.154.3
-  port: 9002
-  type: http
-  tls: true
+- name: '[438.8ms +/-844ms] 0013'
+  server: 194.113.194.231
+  port: 1443
+  type: anytls
+  password: b652305a-0c63-4527-8cb3-0ea582076124
+  sni: ny.freeguard.org
   skip-cert-verify: true
-- name: '[735.9ms +/-1181ms] http-18.200.158.139'
-  server: 18.200.158.139
-  port: 443
-  type: http
-  tls: true
-  skip-cert-verify: true
-- name: '[641.2ms +/-1178ms] 𔒰‎ ＳＥＧＡＲＯ'
+- name: '[526.6ms +/-901ms] 𔒰‎ ＳＥＧＡＲＯ'
   server: 217.60.72.225
   port: 443
   type: hysteria2
   password: 329e13e4-ee7c-4802-ac72-5fcab79c2402
   sni: forshynewh.duckdns.org
   skip-cert-verify: true
-- name: '[743.0ms +/-1192ms] http-185.93.106.214'
-  server: 185.93.106.214
-  port: 443
-  type: http
-  tls: true
-  skip-cert-verify: true
-- name: '[715.6ms +/-1059ms] http-84.17.47.125'
-  server: 84.17.47.125
-  port: 9002
-  type: http
-  tls: true
-  skip-cert-verify: true
-- name: '[753.7ms +/-1163ms] http-158.173.154.5'
-  server: 158.173.154.5
-  port: 9002
-  type: http
-  tls: true
-  skip-cert-verify: true
-- name: '[764.3ms +/-1175ms] http-158.173.154.1'
-  server: 158.173.154.1
-  port: 9002
-  type: http
-  tls: true
-  skip-cert-verify: true
-- name: '[1609.8ms +/-3128ms] @DeltaKroneckerGithub'
-  server: 104.21.13.204
-  port: 443
-  type: trojan
-  password: humanity
-  sni: www.calmlunch.com
-  skip-cert-verify: true
+- name: 🇺🇸 [558.2ms +/-1489ms] 🇺🇸
+  server: 185.215.132.18
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.calmlunch.com
-- name: '[768.3ms +/-1192ms] http-158.173.154.2'
-  server: 158.173.154.2
-  port: 9002
-  type: http
-  tls: true
-  skip-cert-verify: true
-- name: '[760.3ms +/-1232ms] http-212.102.63.31'
-  server: 212.102.63.31
-  port: 443
-  type: http
-  tls: true
-  skip-cert-verify: true
-- name: '[770.9ms +/-1152ms] http-84.17.47.146'
-  server: 84.17.47.146
-  port: 9002
-  type: http
-  tls: true
-  skip-cert-verify: true
-- name: '[771.4ms +/-1202ms] http-84.17.47.148'
-  server: 84.17.47.148
-  port: 9002
-  type: http
-  tls: true
-  skip-cert-verify: true
-- name: '[802.1ms +/-1296ms] http-82.65.162.76'
-  server: 82.65.162.76
-  port: 443
-  type: http
-  tls: true
-  skip-cert-verify: true
-- name: '[793.4ms +/-1078ms] http-185.219.159.15'
+- name: '[757.5ms +/-1306ms] http-185.219.159.15'
   server: 185.219.159.15
   port: 443
   type: http
   tls: true
   skip-cert-verify: true
-- name: '[809.7ms +/-1331ms] http-213.109.163.119'
-  server: 213.109.163.119
+- name: 🇯🇵 [410.1ms +/-433ms] 🇯🇵JP-149.22.87.204-0130
+  server: 149.22.87.204
+  port: 443
+  type: ss
+  cipher: aes-128-gcm
+  password: shadowsocks
+  udp: true
+- name: '[843.4ms +/-1416ms] http-149.22.85.78'
+  server: 149.22.85.78
   port: 443
   type: http
   tls: true
   skip-cert-verify: true
-- name: '[790.8ms +/-1211ms] http-149.88.27.46'
-  server: 149.88.27.46
-  port: 9443
-  type: http
-  tls: true
-  skip-cert-verify: true
-- name: '[786.1ms +/-1207ms] http-84.17.47.149'
-  server: 84.17.47.149
-  port: 9002
-  type: http
-  tls: true
-  skip-cert-verify: true
-- name: '[823.5ms +/-1415ms] http-103.97.88.154'
-  server: 103.97.88.154
+- name: 🇲🇾 [673.4ms +/-611ms] 🔒
+  server: 47.250.84.25
   port: 443
-  type: http
-  username: 'null'
-  password: 'null'
-  tls: true
+  type: trojan
+  password: 5931134d1cde66bf83a54acdfebe7ab2
+  sni: moltbot.doctoroyy.net
   skip-cert-verify: true
-- name: '[820.8ms +/-1254ms] http-149.34.248.65'
-  server: 149.34.248.65
+  udp: true
+- name: 🇯🇵 [409.5ms +/-432ms] 🇯🇵JP-149.22.87.240-0131
+  server: 149.22.87.240
   port: 443
-  type: http
-  tls: true
-  skip-cert-verify: true
-- name: '[836.8ms +/-1461ms] http-146.70.176.242'
-  server: 146.70.176.242
+  type: ss
+  cipher: aes-128-gcm
+  password: shadowsocks
+  udp: true
+- name: 🇨🇭 [651.5ms +/-1207ms] 🇨🇭CH-132.243.175.144-0183
+  server: 132.243.175.144
+  port: 8388
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: e8KgS8fD0yDqYFpgN4G5piCOt9aFyqA3
+  udp: true
+- name: '[415.6ms +/-453ms] 🇯🇵JP-149.22.87.241-0132'
+  server: 149.22.87.241
   port: 443
-  type: http
-  tls: true
-  skip-cert-verify: true
-- name: '[855.8ms +/-1520ms] http-37.120.233.18'
-  server: 37.120.233.18
+  type: ss
+  cipher: aes-128-gcm
+  password: shadowsocks
+  udp: true
+- name: '[927.4ms +/-1617ms] http-31.186.220.204'
+  server: 31.186.220.204
   port: 443
   type: http
   tls: true
   skip-cert-verify: true
-- name: '[865.5ms +/-1507ms] http-212.102.63.61'
-  server: 212.102.63.61
+- name: 🇺🇸 [588.3ms +/-685ms] 🇺🇸US-216.105.168.18-0194
+  server: 216.105.168.18
   port: 443
-  type: http
-  tls: true
-  skip-cert-verify: true
-- name: '[844.6ms +/-1500ms] http-51.159.225.197'
-  server: 51.159.225.197
-  port: 19362
-  type: http
-  tls: true
-  skip-cert-verify: true
-- name: '[826.3ms +/-1414ms] http-152.233.20.206'
-  server: 152.233.20.206
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: hCCWOcIsK5wrFz4OX70rWf
+  udp: true
+- name: 🇫🇮 [855.3ms +/-1419ms] 🔒
+  server: 46.62.230.149
   port: 443
-  type: http
-  tls: true
-  skip-cert-verify: true
-- name: '[841.3ms +/-1368ms] http-149.36.51.157'
-  server: 149.36.51.157
-  port: 9443
-  type: http
-  tls: true
-  skip-cert-verify: true
-- name: '[872.7ms +/-1445ms] http-37.120.156.34'
-  server: 37.120.156.34
-  port: 443
-  type: http
-  tls: true
-  skip-cert-verify: true
-- name: '[866.3ms +/-1282ms] http-185.219.159.16'
-  server: 185.219.159.16
-  port: 443
-  type: http
-  tls: true
-  skip-cert-verify: true
-- name: '[874.1ms +/-1391ms] http-146.70.244.18'
-  server: 146.70.244.18
-  port: 443
-  type: http
-  tls: true
-  skip-cert-verify: true
-- name: '[888.3ms +/-1424ms] http-146.70.244.2'
-  server: 146.70.244.2
-  port: 443
-  type: http
-  tls: true
-  skip-cert-verify: true
-- name: '[890.1ms +/-1468ms] http-149.36.51.129'
-  server: 149.36.51.129
-  port: 443
-  type: http
-  tls: true
-  skip-cert-verify: true
-- name: '[879.1ms +/-1293ms] http-152.233.16.174'
-  server: 152.233.16.174
-  port: 9443
-  type: http
-  tls: true
-  skip-cert-verify: true
-- name: '[789.4ms +/-1296ms] http-138.199.47.247'
-  server: 138.199.47.247
-  port: 9443
-  type: http
-  tls: true
-  skip-cert-verify: true
-- name: '[912.8ms +/-1511ms] http-185.216.35.130'
-  server: 185.216.35.130
-  port: 443
-  type: http
-  tls: true
-  skip-cert-verify: true
-- name: '[816.5ms +/-1364ms] http-79.127.156.177'
-  server: 79.127.156.177
-  port: 9443
-  type: http
-  tls: true
-  skip-cert-verify: true
-- name: '[907.5ms +/-1606ms] http-149.88.96.12'
-  server: 149.88.96.12
-  port: 443
-  type: http
-  tls: true
-  skip-cert-verify: true
-- name: '[893.7ms +/-1339ms] http-193.176.84.22'
-  server: 193.176.84.22
-  port: 9002
-  type: http
-  tls: true
-  skip-cert-verify: true
-- name: '[900.7ms +/-1546ms] http-149.88.27.33'
-  server: 149.88.27.33
-  port: 9443
-  type: http
-  tls: true
-  skip-cert-verify: true
-- name: '[970.0ms +/-1744ms] http-68.235.56.59'
-  server: 68.235.56.59
-  port: 443
-  type: http
-  tls: true
-  skip-cert-verify: true
-- name: '[879.9ms +/-1381ms] http-109.204.88.17'
-  server: 109.204.88.17
-  port: 443
-  type: http
-  tls: true
-  skip-cert-verify: true
-- name: '[947.1ms +/-1660ms] http-149.50.216.65'
-  server: 149.50.216.65
-  port: 443
-  type: http
-  tls: true
-  skip-cert-verify: true
-- name: '[853.2ms +/-1470ms] http-37.120.233.34'
-  server: 37.120.233.34
-  port: 9443
-  type: http
-  tls: true
-  skip-cert-verify: true
-- name: '[910.8ms +/-1544ms] http-146.70.242.146'
-  server: 146.70.242.146
-  port: 443
-  type: http
-  tls: true
-  skip-cert-verify: true
-- name: '[1111.6ms +/-1329ms] 0129'
-  server: 62.60.152.14
-  port: 8443
   type: trojan
   password: humanity
-  sni: www.calmlunch.com
+  sni: www.pleadcourt.org
   skip-cert-verify: true
   udp: true
   network: ws
   ws-opts:
     path: /assignment
     headers:
-      Host: www.calmlunch.com
-- name: '[771.7ms +/-1281ms] http-185.164.138.156'
-  server: 185.164.138.156
+      Host: www.pleadcourt.org
+- name: 🇺🇸 [446.3ms +/-961ms] 🇺🇸US-198.98.53.130-0256
+  server: 198.98.53.130
+  port: 443
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: eDfN7SODQceIOmIAbtJJtK
+  udp: true
+- name: '[905.0ms +/-1587ms] 🆔ar14n24b 🔒 SS-TCP-TLS ❔ (…)'
+  server: 102.37.156.224
+  port: 443
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: aduB9HGxQHjA2SBMRjkHX6
+  udp: true
+- name: '[1224.5ms +/-1519ms] 美国+3COM公司企业网'
+  server: starlink-ft.251313.xyz
+  port: 443
+  type: hysteria2
+  password: https://xship.best
+  sni: xship.top
+  skip-cert-verify: true
+- name: '[920.6ms +/-1743ms] http-87.120.103.226'
+  server: 87.120.103.226
   port: 443
   type: http
   tls: true
   skip-cert-verify: true
-- name: '[864.4ms +/-1373ms] http-185.216.35.66'
-  server: 185.216.35.66
-  port: 443
-  type: http
-  tls: true
-  skip-cert-verify: true
-- name: '[870.9ms +/-1284ms] http-109.248.149.34'
-  server: 109.248.149.34
-  port: 443
-  type: http
-  tls: true
-  skip-cert-verify: true
-- name: '[554.8ms +/-657ms] D🔴🇭🇰hos[🎬📺🎭🎪]_dokng.com_1b(…)'
+- name: 🇮🇹 [684.6ms +/-1296ms] 🇮🇹IT-202.50.253.99-0111
+  server: 202.50.253.99
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 🇮🇹 [690.2ms +/-1189ms] 🇮🇹IT-202.50.253.81-0143
+  server: 202.50.253.81
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 🇮🇹 [810.4ms +/-1655ms] US美国(mibei77.com 米贝节点分享)
+  server: 202.50.253.45
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 🇺🇸 [1709.7ms +/-4951ms] 🇺🇸
+  server: 185.215.132.9
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 🇮🇹 [761.8ms +/-1341ms] 🇮🇹IT-202.50.253.90-0125
+  server: 202.50.253.90
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 🇮🇹 [789.4ms +/-1314ms] US美国(mibei77.com 米贝节点分享)
+  server: 202.50.253.54
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: '[665.2ms +/-569ms] D🔴🇭🇰hos[🎬📺🎭🎪]_dokng.com_1b(…)'
   server: 47.238.126.208
   port: 1080
   type: socks5
   udp: true
-- name: '[623.7ms +/-963ms] TW台湾(mibei77.com 米贝节点分享)'
-  server: 684616s4.df6h451rh.xin
-  port: 443
-  type: anytls
-  password: 0324fbc29561
-  sni: px.ads.linkedin.com
-  skip-cert-verify: true
-- name: '[837.8ms +/-1381ms] http-130.195.250.18'
-  server: 130.195.250.18
-  port: 443
-  type: http
-  tls: true
-  skip-cert-verify: true
-- name: '[851.1ms +/-1519ms] http-84.233.178.33'
-  server: 84.233.178.33
-  port: 9443
-  type: http
-  tls: true
-  skip-cert-verify: true
-- name: '[941.6ms +/-1423ms] http-185.94.192.210'
-  server: 185.94.192.210
-  port: 443
-  type: http
-  tls: true
-  skip-cert-verify: true
-- name: '[1027.6ms +/-1508ms] http-195.54.178.210'
-  server: 195.54.178.210
-  port: 443
-  type: http
-  tls: true
-  skip-cert-verify: true
-- name: '[861.9ms +/-1248ms] http-185.164.35.16'
-  server: 185.164.35.16
-  port: 9443
-  type: http
-  tls: true
-  skip-cert-verify: true
-- name: '[983.7ms +/-1647ms] http-146.70.221.34'
-  server: 146.70.221.34
-  port: 443
-  type: http
-  tls: true
-  skip-cert-verify: true
-- name: '[957.7ms +/-1521ms] http-169.150.248.17'
-  server: 169.150.248.17
-  port: 443
-  type: http
-  tls: true
-  skip-cert-verify: true
-- name: '[913.5ms +/-1450ms] http-146.70.221.18'
-  server: 146.70.221.18
-  port: 443
-  type: http
-  tls: true
-  skip-cert-verify: true
-- name: '[948.1ms +/-1556ms] http-109.248.147.66'
-  server: 109.248.147.66
-  port: 443
-  type: http
-  tls: true
-  skip-cert-verify: true
-- name: '[1365.0ms +/-2942ms] http-37.120.156.18'
-  server: 37.120.156.18
-  port: 443
-  type: http
-  tls: true
-  skip-cert-verify: true
-- name: '[972.4ms +/-1718ms] http-95.153.31.66'
-  server: 95.153.31.66
-  port: 9443
-  type: http
-  tls: true
-  skip-cert-verify: true
-- name: '[1516.4ms +/-2779ms] http-149.22.85.65'
-  server: 149.22.85.65
-  port: 443
-  type: http
-  tls: true
-  skip-cert-verify: true
-- name: '[983.4ms +/-1217ms] http-46.29.166.134'
-  server: 46.29.166.134
-  port: 1446
-  type: http
-  tls: true
-  skip-cert-verify: true
-- name: '[1152.9ms +/-1805ms] http-149.22.86.1'
-  server: 149.22.86.1
-  port: 443
-  type: http
-  tls: true
-  skip-cert-verify: true
+- name: '[1276.0ms +/-2538ms] 🆔ar14n24b 🔒 SS-TCP-TLS ❔(…)'
+  server: 102.133.165.160
+  port: 16233
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: Xsy8Ox4yOV3xLlpxtjzs3X
+  udp: true
+- name: 🇩🇪 [924.0ms +/-1402ms] D🔴🇩🇪hos[🎬🤖📺🎭]_dokng.co(…)
+  server: 91.107.179.68
+  port: 10809
+  type: socks5
+  udp: true
+- name: 🇮🇹 [1371.3ms +/-2115ms] US美国(mibei77.com 米贝节点分享)
+  server: 202.50.253.63
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 🇮🇹 [1494.1ms +/-1311ms] 🇮🇹IT-202.50.253.72-0139
+  server: 202.50.253.72
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
 proxy-groups:
 - name: 🚀 Proxy
   type: select
   proxies:
   - ♻️ Auto
   - 其他
+  - 🇨🇦 加拿大
   - 🇩🇪 德国
-  - 🇳🇱 荷兰
+  - 🇮🇹 其他
+  - 🇯🇵 日本
   - 🇺🇸 美国
-  - '[243.2ms +/-580ms] http-44.248.167.117'
-  - 🇺🇸 [333.6ms +/-681ms] trojan-66.23.203.21
-  - '[302.2ms +/-680ms] http-38.95.111.226'
-  - '[305.3ms +/-703ms] http-167.88.60.242'
-  - '[646.1ms +/-1001ms] @DeltaKroneckerGithub'
-  - '[379.9ms +/-785ms] http-38.247.141.135'
-  - '[666.8ms +/-988ms] trojan-104.16.72.50'
-  - '[437.2ms +/-990ms] http-64.98.50.100'
-  - '[734.0ms +/-1192ms] 🔒'
-  - 🇺🇸 [565.4ms +/-1296ms] trojan-69.164.240.85
-  - '[671.5ms +/-885ms] @DeltaKroneckerGithub'
-  - 🇳🇱 [725.5ms +/-1016ms] 🔒
-  - '[738.5ms +/-1134ms] 🔒'
-  - '[434.8ms +/-926ms] http-68.235.56.51'
-  - 🇺🇸 [321.4ms +/-709ms] 𔒰‎ ＳＥＧＡＲＯ
-  - 🇺🇸 [498.7ms +/-582ms] US
-  - '[437.1ms +/-945ms] http-121.127.34.82'
-  - '[431.1ms +/-912ms] http-12.202.180.118'
-  - '[742.3ms +/-1183ms] 🔒'
-  - 🇳🇱 [780.3ms +/-1075ms] 0045
-  - '[520.7ms +/-888ms] 𔒰‎ ＳＥＧＡＲＯ'
-  - '[890.0ms +/-806ms] @DeltaKroneckerGithub'
-  - '[790.2ms +/-1182ms] 0079'
-  - 🇸🇨 [912.9ms +/-760ms] @DeltaKroneckerGithub
-  - '[707.8ms +/-1077ms] @DeltaKroneckerGithub'
-  - 🇺🇸 [1039.2ms +/-1567ms] 🔒
-  - 🇩🇪 [658.7ms +/-1074ms] 𔒰‎ ＳＥＧＡＲＯ
-  - '[659.9ms +/-964ms] http-34.249.214.108'
-  - '[667.9ms +/-1574ms] http-149.88.98.81'
-  - '[469.7ms +/-974ms] http-198.44.157.19'
-  - '[804.9ms +/-2021ms] http-12.202.180.10'
-  - 🇩🇪 [1002.1ms +/-1338ms] @DeltaKroneckerGithub
-  - '[700.3ms +/-1001ms] http-149.36.50.1'
-  - '[690.4ms +/-984ms] http-87.249.132.97'
-  - '[690.1ms +/-1016ms] http-84.17.47.123'
-  - '[694.3ms +/-1021ms] http-84.17.47.124'
-  - '[816.5ms +/-2105ms] http-154.47.25.78'
-  - '[710.0ms +/-1014ms] http-158.173.154.3'
-  - '[735.9ms +/-1181ms] http-18.200.158.139'
-  - '[641.2ms +/-1178ms] 𔒰‎ ＳＥＧＡＲＯ'
-  - '[743.0ms +/-1192ms] http-185.93.106.214'
-  - '[715.6ms +/-1059ms] http-84.17.47.125'
-  - '[753.7ms +/-1163ms] http-158.173.154.5'
-  - '[764.3ms +/-1175ms] http-158.173.154.1'
-  - '[1609.8ms +/-3128ms] @DeltaKroneckerGithub'
-  - '[768.3ms +/-1192ms] http-158.173.154.2'
-  - '[760.3ms +/-1232ms] http-212.102.63.31'
-  - '[770.9ms +/-1152ms] http-84.17.47.146'
-  - '[771.4ms +/-1202ms] http-84.17.47.148'
-  - '[802.1ms +/-1296ms] http-82.65.162.76'
-  - '[793.4ms +/-1078ms] http-185.219.159.15'
-  - '[809.7ms +/-1331ms] http-213.109.163.119'
-  - '[790.8ms +/-1211ms] http-149.88.27.46'
-  - '[786.1ms +/-1207ms] http-84.17.47.149'
-  - '[823.5ms +/-1415ms] http-103.97.88.154'
-  - '[820.8ms +/-1254ms] http-149.34.248.65'
-  - '[836.8ms +/-1461ms] http-146.70.176.242'
-  - '[855.8ms +/-1520ms] http-37.120.233.18'
-  - '[865.5ms +/-1507ms] http-212.102.63.61'
-  - '[844.6ms +/-1500ms] http-51.159.225.197'
-  - '[826.3ms +/-1414ms] http-152.233.20.206'
-  - '[841.3ms +/-1368ms] http-149.36.51.157'
-  - '[872.7ms +/-1445ms] http-37.120.156.34'
-  - '[866.3ms +/-1282ms] http-185.219.159.16'
-  - '[874.1ms +/-1391ms] http-146.70.244.18'
-  - '[888.3ms +/-1424ms] http-146.70.244.2'
-  - '[890.1ms +/-1468ms] http-149.36.51.129'
-  - '[879.1ms +/-1293ms] http-152.233.16.174'
-  - '[789.4ms +/-1296ms] http-138.199.47.247'
-  - '[912.8ms +/-1511ms] http-185.216.35.130'
-  - '[816.5ms +/-1364ms] http-79.127.156.177'
-  - '[907.5ms +/-1606ms] http-149.88.96.12'
-  - '[893.7ms +/-1339ms] http-193.176.84.22'
-  - '[900.7ms +/-1546ms] http-149.88.27.33'
-  - '[970.0ms +/-1744ms] http-68.235.56.59'
-  - '[879.9ms +/-1381ms] http-109.204.88.17'
-  - '[947.1ms +/-1660ms] http-149.50.216.65'
-  - '[853.2ms +/-1470ms] http-37.120.233.34'
-  - '[910.8ms +/-1544ms] http-146.70.242.146'
-  - '[1111.6ms +/-1329ms] 0129'
-  - '[771.7ms +/-1281ms] http-185.164.138.156'
-  - '[864.4ms +/-1373ms] http-185.216.35.66'
-  - '[870.9ms +/-1284ms] http-109.248.149.34'
-  - '[554.8ms +/-657ms] D🔴🇭🇰hos[🎬📺🎭🎪]_dokng.com_1b(…)'
-  - '[623.7ms +/-963ms] TW台湾(mibei77.com 米贝节点分享)'
-  - '[837.8ms +/-1381ms] http-130.195.250.18'
-  - '[851.1ms +/-1519ms] http-84.233.178.33'
-  - '[941.6ms +/-1423ms] http-185.94.192.210'
-  - '[1027.6ms +/-1508ms] http-195.54.178.210'
-  - '[861.9ms +/-1248ms] http-185.164.35.16'
-  - '[983.7ms +/-1647ms] http-146.70.221.34'
-  - '[957.7ms +/-1521ms] http-169.150.248.17'
-  - '[913.5ms +/-1450ms] http-146.70.221.18'
-  - '[948.1ms +/-1556ms] http-109.248.147.66'
-  - '[1365.0ms +/-2942ms] http-37.120.156.18'
-  - '[972.4ms +/-1718ms] http-95.153.31.66'
-  - '[1516.4ms +/-2779ms] http-149.22.85.65'
-  - '[983.4ms +/-1217ms] http-46.29.166.134'
-  - '[1152.9ms +/-1805ms] http-149.22.86.1'
+  - 🇨🇦 [306.0ms +/-800ms] 0120
+  - 🇺🇸 [234.7ms +/-660ms] 𔒰‎ ＳＥＧＡＲＯ
+  - 🇺🇸 [295.6ms +/-832ms] 🇺🇸US-185.230.230.18-0078
+  - 🇺🇸 [324.3ms +/-885ms] US 🇺🇸 | @xray_ehi_hub |(…)
+  - 🇺🇸 [412.9ms +/-1017ms] trojan-66.23.203.21
+  - '[372.7ms +/-702ms] http-38.247.141.135'
+  - '[375.0ms +/-702ms] http-64.98.50.100'
+  - 🇺🇸 [382.0ms +/-990ms] 🇺🇸US-193.151.160.18-0085
+  - '[434.8ms +/-706ms] http-44.248.167.117'
+  - '[624.0ms +/-1133ms] 🔒'
+  - '[621.3ms +/-1141ms] 🔒'
+  - '[513.4ms +/-984ms] http-34.249.214.108'
+  - '[497.1ms +/-832ms] http-84.17.47.123'
+  - '[501.4ms +/-834ms] http-84.17.47.125'
+  - '[578.9ms +/-1068ms] 0079'
+  - '[501.9ms +/-840ms] http-84.17.47.149'
+  - '[501.4ms +/-861ms] http-84.17.47.124'
+  - '[510.7ms +/-844ms] http-84.17.47.148'
+  - '[506.2ms +/-829ms] http-158.173.154.5'
+  - '[509.6ms +/-835ms] http-158.173.154.1'
+  - '[542.4ms +/-987ms] http-82.65.162.76'
+  - 🇨🇦 [465.2ms +/-1078ms] 🇨🇦CA-51.222.136.236-0178
+  - '[552.3ms +/-1005ms] http-51.159.225.196'
+  - '[619.4ms +/-1119ms] 🔒'
+  - '[347.9ms +/-677ms] 🇺🇸US-173.244.56.6-0117'
+  - '[604.8ms +/-1080ms] http-213.109.163.119'
+  - '[614.6ms +/-1201ms] http-103.97.88.154'
+  - '[507.7ms +/-852ms] 𔒰‎ ＳＥＧＡＲＯ'
+  - '[451.4ms +/-822ms] http-154.81.36.92'
+  - 🇩🇪 [507.8ms +/-867ms] 𔒰‎ ＳＥＧＡＲＯ
+  - 🇺🇸 [458.1ms +/-1002ms] US 🇺🇸 | @xray_ehi_hub (…)
+  - '[631.6ms +/-1218ms] http-185.245.84.50'
+  - '[623.3ms +/-1251ms] http-51.159.225.197'
+  - '[632.3ms +/-1164ms] http-37.120.213.210'
+  - '[438.8ms +/-844ms] 0013'
+  - '[526.6ms +/-901ms] 𔒰‎ ＳＥＧＡＲＯ'
+  - 🇺🇸 [558.2ms +/-1489ms] 🇺🇸
+  - '[757.5ms +/-1306ms] http-185.219.159.15'
+  - 🇯🇵 [410.1ms +/-433ms] 🇯🇵JP-149.22.87.204-0130
+  - '[843.4ms +/-1416ms] http-149.22.85.78'
+  - 🇲🇾 [673.4ms +/-611ms] 🔒
+  - 🇯🇵 [409.5ms +/-432ms] 🇯🇵JP-149.22.87.240-0131
+  - 🇨🇭 [651.5ms +/-1207ms] 🇨🇭CH-132.243.175.144-0183
+  - '[415.6ms +/-453ms] 🇯🇵JP-149.22.87.241-0132'
+  - '[927.4ms +/-1617ms] http-31.186.220.204'
+  - 🇺🇸 [588.3ms +/-685ms] 🇺🇸US-216.105.168.18-0194
+  - 🇫🇮 [855.3ms +/-1419ms] 🔒
+  - 🇺🇸 [446.3ms +/-961ms] 🇺🇸US-198.98.53.130-0256
+  - '[905.0ms +/-1587ms] 🆔ar14n24b 🔒 SS-TCP-TLS ❔ (…)'
+  - '[1224.5ms +/-1519ms] 美国+3COM公司企业网'
+  - '[920.6ms +/-1743ms] http-87.120.103.226'
+  - 🇮🇹 [684.6ms +/-1296ms] 🇮🇹IT-202.50.253.99-0111
+  - 🇮🇹 [690.2ms +/-1189ms] 🇮🇹IT-202.50.253.81-0143
+  - 🇮🇹 [810.4ms +/-1655ms] US美国(mibei77.com 米贝节点分享)
+  - 🇺🇸 [1709.7ms +/-4951ms] 🇺🇸
+  - 🇮🇹 [761.8ms +/-1341ms] 🇮🇹IT-202.50.253.90-0125
+  - 🇮🇹 [789.4ms +/-1314ms] US美国(mibei77.com 米贝节点分享)
+  - '[665.2ms +/-569ms] D🔴🇭🇰hos[🎬📺🎭🎪]_dokng.com_1b(…)'
+  - '[1276.0ms +/-2538ms] 🆔ar14n24b 🔒 SS-TCP-TLS ❔(…)'
+  - 🇩🇪 [924.0ms +/-1402ms] D🔴🇩🇪hos[🎬🤖📺🎭]_dokng.co(…)
+  - 🇮🇹 [1371.3ms +/-2115ms] US美国(mibei77.com 米贝节点分享)
+  - 🇮🇹 [1494.1ms +/-1311ms] 🇮🇹IT-202.50.253.72-0139
 - name: ♻️ Auto
   type: url-test
   proxies:
-  - '[243.2ms +/-580ms] http-44.248.167.117'
-  - 🇺🇸 [333.6ms +/-681ms] trojan-66.23.203.21
-  - '[302.2ms +/-680ms] http-38.95.111.226'
-  - '[305.3ms +/-703ms] http-167.88.60.242'
-  - '[646.1ms +/-1001ms] @DeltaKroneckerGithub'
-  - '[379.9ms +/-785ms] http-38.247.141.135'
-  - '[666.8ms +/-988ms] trojan-104.16.72.50'
-  - '[437.2ms +/-990ms] http-64.98.50.100'
-  - '[734.0ms +/-1192ms] 🔒'
-  - 🇺🇸 [565.4ms +/-1296ms] trojan-69.164.240.85
-  - '[671.5ms +/-885ms] @DeltaKroneckerGithub'
-  - 🇳🇱 [725.5ms +/-1016ms] 🔒
-  - '[738.5ms +/-1134ms] 🔒'
-  - '[434.8ms +/-926ms] http-68.235.56.51'
-  - 🇺🇸 [321.4ms +/-709ms] 𔒰‎ ＳＥＧＡＲＯ
-  - 🇺🇸 [498.7ms +/-582ms] US
-  - '[437.1ms +/-945ms] http-121.127.34.82'
-  - '[431.1ms +/-912ms] http-12.202.180.118'
-  - '[742.3ms +/-1183ms] 🔒'
-  - 🇳🇱 [780.3ms +/-1075ms] 0045
-  - '[520.7ms +/-888ms] 𔒰‎ ＳＥＧＡＲＯ'
-  - '[890.0ms +/-806ms] @DeltaKroneckerGithub'
-  - '[790.2ms +/-1182ms] 0079'
-  - 🇸🇨 [912.9ms +/-760ms] @DeltaKroneckerGithub
-  - '[707.8ms +/-1077ms] @DeltaKroneckerGithub'
-  - 🇺🇸 [1039.2ms +/-1567ms] 🔒
-  - 🇩🇪 [658.7ms +/-1074ms] 𔒰‎ ＳＥＧＡＲＯ
-  - '[659.9ms +/-964ms] http-34.249.214.108'
-  - '[667.9ms +/-1574ms] http-149.88.98.81'
-  - '[469.7ms +/-974ms] http-198.44.157.19'
-  - '[804.9ms +/-2021ms] http-12.202.180.10'
-  - 🇩🇪 [1002.1ms +/-1338ms] @DeltaKroneckerGithub
-  - '[700.3ms +/-1001ms] http-149.36.50.1'
-  - '[690.4ms +/-984ms] http-87.249.132.97'
-  - '[690.1ms +/-1016ms] http-84.17.47.123'
-  - '[694.3ms +/-1021ms] http-84.17.47.124'
-  - '[816.5ms +/-2105ms] http-154.47.25.78'
-  - '[710.0ms +/-1014ms] http-158.173.154.3'
-  - '[735.9ms +/-1181ms] http-18.200.158.139'
-  - '[641.2ms +/-1178ms] 𔒰‎ ＳＥＧＡＲＯ'
-  - '[743.0ms +/-1192ms] http-185.93.106.214'
-  - '[715.6ms +/-1059ms] http-84.17.47.125'
-  - '[753.7ms +/-1163ms] http-158.173.154.5'
-  - '[764.3ms +/-1175ms] http-158.173.154.1'
-  - '[1609.8ms +/-3128ms] @DeltaKroneckerGithub'
-  - '[768.3ms +/-1192ms] http-158.173.154.2'
-  - '[760.3ms +/-1232ms] http-212.102.63.31'
-  - '[770.9ms +/-1152ms] http-84.17.47.146'
-  - '[771.4ms +/-1202ms] http-84.17.47.148'
-  - '[802.1ms +/-1296ms] http-82.65.162.76'
-  - '[793.4ms +/-1078ms] http-185.219.159.15'
-  - '[809.7ms +/-1331ms] http-213.109.163.119'
-  - '[790.8ms +/-1211ms] http-149.88.27.46'
-  - '[786.1ms +/-1207ms] http-84.17.47.149'
-  - '[823.5ms +/-1415ms] http-103.97.88.154'
-  - '[820.8ms +/-1254ms] http-149.34.248.65'
-  - '[836.8ms +/-1461ms] http-146.70.176.242'
-  - '[855.8ms +/-1520ms] http-37.120.233.18'
-  - '[865.5ms +/-1507ms] http-212.102.63.61'
-  - '[844.6ms +/-1500ms] http-51.159.225.197'
-  - '[826.3ms +/-1414ms] http-152.233.20.206'
-  - '[841.3ms +/-1368ms] http-149.36.51.157'
-  - '[872.7ms +/-1445ms] http-37.120.156.34'
-  - '[866.3ms +/-1282ms] http-185.219.159.16'
-  - '[874.1ms +/-1391ms] http-146.70.244.18'
-  - '[888.3ms +/-1424ms] http-146.70.244.2'
-  - '[890.1ms +/-1468ms] http-149.36.51.129'
-  - '[879.1ms +/-1293ms] http-152.233.16.174'
-  - '[789.4ms +/-1296ms] http-138.199.47.247'
-  - '[912.8ms +/-1511ms] http-185.216.35.130'
-  - '[816.5ms +/-1364ms] http-79.127.156.177'
-  - '[907.5ms +/-1606ms] http-149.88.96.12'
-  - '[893.7ms +/-1339ms] http-193.176.84.22'
-  - '[900.7ms +/-1546ms] http-149.88.27.33'
-  - '[970.0ms +/-1744ms] http-68.235.56.59'
-  - '[879.9ms +/-1381ms] http-109.204.88.17'
-  - '[947.1ms +/-1660ms] http-149.50.216.65'
-  - '[853.2ms +/-1470ms] http-37.120.233.34'
-  - '[910.8ms +/-1544ms] http-146.70.242.146'
-  - '[1111.6ms +/-1329ms] 0129'
-  - '[771.7ms +/-1281ms] http-185.164.138.156'
-  - '[864.4ms +/-1373ms] http-185.216.35.66'
-  - '[870.9ms +/-1284ms] http-109.248.149.34'
-  - '[554.8ms +/-657ms] D🔴🇭🇰hos[🎬📺🎭🎪]_dokng.com_1b(…)'
-  - '[623.7ms +/-963ms] TW台湾(mibei77.com 米贝节点分享)'
-  - '[837.8ms +/-1381ms] http-130.195.250.18'
-  - '[851.1ms +/-1519ms] http-84.233.178.33'
-  - '[941.6ms +/-1423ms] http-185.94.192.210'
-  - '[1027.6ms +/-1508ms] http-195.54.178.210'
-  - '[861.9ms +/-1248ms] http-185.164.35.16'
-  - '[983.7ms +/-1647ms] http-146.70.221.34'
-  - '[957.7ms +/-1521ms] http-169.150.248.17'
-  - '[913.5ms +/-1450ms] http-146.70.221.18'
-  - '[948.1ms +/-1556ms] http-109.248.147.66'
-  - '[1365.0ms +/-2942ms] http-37.120.156.18'
-  - '[972.4ms +/-1718ms] http-95.153.31.66'
-  - '[1516.4ms +/-2779ms] http-149.22.85.65'
-  - '[983.4ms +/-1217ms] http-46.29.166.134'
-  - '[1152.9ms +/-1805ms] http-149.22.86.1'
+  - 🇨🇦 [306.0ms +/-800ms] 0120
+  - 🇺🇸 [234.7ms +/-660ms] 𔒰‎ ＳＥＧＡＲＯ
+  - 🇺🇸 [295.6ms +/-832ms] 🇺🇸US-185.230.230.18-0078
+  - 🇺🇸 [324.3ms +/-885ms] US 🇺🇸 | @xray_ehi_hub |(…)
+  - 🇺🇸 [412.9ms +/-1017ms] trojan-66.23.203.21
+  - '[372.7ms +/-702ms] http-38.247.141.135'
+  - '[375.0ms +/-702ms] http-64.98.50.100'
+  - 🇺🇸 [382.0ms +/-990ms] 🇺🇸US-193.151.160.18-0085
+  - '[434.8ms +/-706ms] http-44.248.167.117'
+  - '[624.0ms +/-1133ms] 🔒'
+  - '[621.3ms +/-1141ms] 🔒'
+  - '[513.4ms +/-984ms] http-34.249.214.108'
+  - '[497.1ms +/-832ms] http-84.17.47.123'
+  - '[501.4ms +/-834ms] http-84.17.47.125'
+  - '[578.9ms +/-1068ms] 0079'
+  - '[501.9ms +/-840ms] http-84.17.47.149'
+  - '[501.4ms +/-861ms] http-84.17.47.124'
+  - '[510.7ms +/-844ms] http-84.17.47.148'
+  - '[506.2ms +/-829ms] http-158.173.154.5'
+  - '[509.6ms +/-835ms] http-158.173.154.1'
+  - '[542.4ms +/-987ms] http-82.65.162.76'
+  - 🇨🇦 [465.2ms +/-1078ms] 🇨🇦CA-51.222.136.236-0178
+  - '[552.3ms +/-1005ms] http-51.159.225.196'
+  - '[619.4ms +/-1119ms] 🔒'
+  - '[347.9ms +/-677ms] 🇺🇸US-173.244.56.6-0117'
+  - '[604.8ms +/-1080ms] http-213.109.163.119'
+  - '[614.6ms +/-1201ms] http-103.97.88.154'
+  - '[507.7ms +/-852ms] 𔒰‎ ＳＥＧＡＲＯ'
+  - '[451.4ms +/-822ms] http-154.81.36.92'
+  - 🇩🇪 [507.8ms +/-867ms] 𔒰‎ ＳＥＧＡＲＯ
+  - 🇺🇸 [458.1ms +/-1002ms] US 🇺🇸 | @xray_ehi_hub (…)
+  - '[631.6ms +/-1218ms] http-185.245.84.50'
+  - '[623.3ms +/-1251ms] http-51.159.225.197'
+  - '[632.3ms +/-1164ms] http-37.120.213.210'
+  - '[438.8ms +/-844ms] 0013'
+  - '[526.6ms +/-901ms] 𔒰‎ ＳＥＧＡＲＯ'
+  - 🇺🇸 [558.2ms +/-1489ms] 🇺🇸
+  - '[757.5ms +/-1306ms] http-185.219.159.15'
+  - 🇯🇵 [410.1ms +/-433ms] 🇯🇵JP-149.22.87.204-0130
+  - '[843.4ms +/-1416ms] http-149.22.85.78'
+  - 🇲🇾 [673.4ms +/-611ms] 🔒
+  - 🇯🇵 [409.5ms +/-432ms] 🇯🇵JP-149.22.87.240-0131
+  - 🇨🇭 [651.5ms +/-1207ms] 🇨🇭CH-132.243.175.144-0183
+  - '[415.6ms +/-453ms] 🇯🇵JP-149.22.87.241-0132'
+  - '[927.4ms +/-1617ms] http-31.186.220.204'
+  - 🇺🇸 [588.3ms +/-685ms] 🇺🇸US-216.105.168.18-0194
+  - 🇫🇮 [855.3ms +/-1419ms] 🔒
+  - 🇺🇸 [446.3ms +/-961ms] 🇺🇸US-198.98.53.130-0256
+  - '[905.0ms +/-1587ms] 🆔ar14n24b 🔒 SS-TCP-TLS ❔ (…)'
+  - '[1224.5ms +/-1519ms] 美国+3COM公司企业网'
+  - '[920.6ms +/-1743ms] http-87.120.103.226'
+  - 🇮🇹 [684.6ms +/-1296ms] 🇮🇹IT-202.50.253.99-0111
+  - 🇮🇹 [690.2ms +/-1189ms] 🇮🇹IT-202.50.253.81-0143
+  - 🇮🇹 [810.4ms +/-1655ms] US美国(mibei77.com 米贝节点分享)
+  - 🇺🇸 [1709.7ms +/-4951ms] 🇺🇸
+  - 🇮🇹 [761.8ms +/-1341ms] 🇮🇹IT-202.50.253.90-0125
+  - 🇮🇹 [789.4ms +/-1314ms] US美国(mibei77.com 米贝节点分享)
+  - '[665.2ms +/-569ms] D🔴🇭🇰hos[🎬📺🎭🎪]_dokng.com_1b(…)'
+  - '[1276.0ms +/-2538ms] 🆔ar14n24b 🔒 SS-TCP-TLS ❔(…)'
+  - 🇩🇪 [924.0ms +/-1402ms] D🔴🇩🇪hos[🎬🤖📺🎭]_dokng.co(…)
+  - 🇮🇹 [1371.3ms +/-2115ms] US美国(mibei77.com 米贝节点分享)
+  - 🇮🇹 [1494.1ms +/-1311ms] 🇮🇹IT-202.50.253.72-0139
   url: https://www.gstatic.com/generate_204
   interval: 600
 - name: 其他
   type: url-test
   proxies:
-  - '[243.2ms +/-580ms] http-44.248.167.117'
-  - '[302.2ms +/-680ms] http-38.95.111.226'
-  - '[305.3ms +/-703ms] http-167.88.60.242'
-  - '[646.1ms +/-1001ms] @DeltaKroneckerGithub'
-  - '[379.9ms +/-785ms] http-38.247.141.135'
-  - '[666.8ms +/-988ms] trojan-104.16.72.50'
-  - '[437.2ms +/-990ms] http-64.98.50.100'
-  - '[734.0ms +/-1192ms] 🔒'
-  - '[671.5ms +/-885ms] @DeltaKroneckerGithub'
-  - '[738.5ms +/-1134ms] 🔒'
-  - '[434.8ms +/-926ms] http-68.235.56.51'
-  - '[437.1ms +/-945ms] http-121.127.34.82'
-  - '[431.1ms +/-912ms] http-12.202.180.118'
-  - '[742.3ms +/-1183ms] 🔒'
-  - '[520.7ms +/-888ms] 𔒰‎ ＳＥＧＡＲＯ'
-  - '[890.0ms +/-806ms] @DeltaKroneckerGithub'
-  - '[790.2ms +/-1182ms] 0079'
-  - '[707.8ms +/-1077ms] @DeltaKroneckerGithub'
-  - '[659.9ms +/-964ms] http-34.249.214.108'
-  - '[667.9ms +/-1574ms] http-149.88.98.81'
-  - '[469.7ms +/-974ms] http-198.44.157.19'
-  - '[804.9ms +/-2021ms] http-12.202.180.10'
-  - '[700.3ms +/-1001ms] http-149.36.50.1'
-  - '[690.4ms +/-984ms] http-87.249.132.97'
-  - '[690.1ms +/-1016ms] http-84.17.47.123'
-  - '[694.3ms +/-1021ms] http-84.17.47.124'
-  - '[816.5ms +/-2105ms] http-154.47.25.78'
-  - '[710.0ms +/-1014ms] http-158.173.154.3'
-  - '[735.9ms +/-1181ms] http-18.200.158.139'
-  - '[641.2ms +/-1178ms] 𔒰‎ ＳＥＧＡＲＯ'
-  - '[743.0ms +/-1192ms] http-185.93.106.214'
-  - '[715.6ms +/-1059ms] http-84.17.47.125'
-  - '[753.7ms +/-1163ms] http-158.173.154.5'
-  - '[764.3ms +/-1175ms] http-158.173.154.1'
-  - '[1609.8ms +/-3128ms] @DeltaKroneckerGithub'
-  - '[768.3ms +/-1192ms] http-158.173.154.2'
-  - '[760.3ms +/-1232ms] http-212.102.63.31'
-  - '[770.9ms +/-1152ms] http-84.17.47.146'
-  - '[771.4ms +/-1202ms] http-84.17.47.148'
-  - '[802.1ms +/-1296ms] http-82.65.162.76'
-  - '[793.4ms +/-1078ms] http-185.219.159.15'
-  - '[809.7ms +/-1331ms] http-213.109.163.119'
-  - '[790.8ms +/-1211ms] http-149.88.27.46'
-  - '[786.1ms +/-1207ms] http-84.17.47.149'
-  - '[823.5ms +/-1415ms] http-103.97.88.154'
-  - '[820.8ms +/-1254ms] http-149.34.248.65'
-  - '[836.8ms +/-1461ms] http-146.70.176.242'
-  - '[855.8ms +/-1520ms] http-37.120.233.18'
-  - '[865.5ms +/-1507ms] http-212.102.63.61'
-  - '[844.6ms +/-1500ms] http-51.159.225.197'
-  - '[826.3ms +/-1414ms] http-152.233.20.206'
-  - '[841.3ms +/-1368ms] http-149.36.51.157'
-  - '[872.7ms +/-1445ms] http-37.120.156.34'
-  - '[866.3ms +/-1282ms] http-185.219.159.16'
-  - '[874.1ms +/-1391ms] http-146.70.244.18'
-  - '[888.3ms +/-1424ms] http-146.70.244.2'
-  - '[890.1ms +/-1468ms] http-149.36.51.129'
-  - '[879.1ms +/-1293ms] http-152.233.16.174'
-  - '[789.4ms +/-1296ms] http-138.199.47.247'
-  - '[912.8ms +/-1511ms] http-185.216.35.130'
-  - '[816.5ms +/-1364ms] http-79.127.156.177'
-  - '[907.5ms +/-1606ms] http-149.88.96.12'
-  - '[893.7ms +/-1339ms] http-193.176.84.22'
-  - '[900.7ms +/-1546ms] http-149.88.27.33'
-  - '[970.0ms +/-1744ms] http-68.235.56.59'
-  - '[879.9ms +/-1381ms] http-109.204.88.17'
-  - '[947.1ms +/-1660ms] http-149.50.216.65'
-  - '[853.2ms +/-1470ms] http-37.120.233.34'
-  - '[910.8ms +/-1544ms] http-146.70.242.146'
-  - '[1111.6ms +/-1329ms] 0129'
-  - '[771.7ms +/-1281ms] http-185.164.138.156'
-  - '[864.4ms +/-1373ms] http-185.216.35.66'
-  - '[870.9ms +/-1284ms] http-109.248.149.34'
-  - '[554.8ms +/-657ms] D🔴🇭🇰hos[🎬📺🎭🎪]_dokng.com_1b(…)'
-  - '[623.7ms +/-963ms] TW台湾(mibei77.com 米贝节点分享)'
-  - '[837.8ms +/-1381ms] http-130.195.250.18'
-  - '[851.1ms +/-1519ms] http-84.233.178.33'
-  - '[941.6ms +/-1423ms] http-185.94.192.210'
-  - '[1027.6ms +/-1508ms] http-195.54.178.210'
-  - '[861.9ms +/-1248ms] http-185.164.35.16'
-  - '[983.7ms +/-1647ms] http-146.70.221.34'
-  - '[957.7ms +/-1521ms] http-169.150.248.17'
-  - '[913.5ms +/-1450ms] http-146.70.221.18'
-  - '[948.1ms +/-1556ms] http-109.248.147.66'
-  - '[1365.0ms +/-2942ms] http-37.120.156.18'
-  - '[972.4ms +/-1718ms] http-95.153.31.66'
-  - '[1516.4ms +/-2779ms] http-149.22.85.65'
-  - '[983.4ms +/-1217ms] http-46.29.166.134'
-  - '[1152.9ms +/-1805ms] http-149.22.86.1'
+  - '[372.7ms +/-702ms] http-38.247.141.135'
+  - '[375.0ms +/-702ms] http-64.98.50.100'
+  - '[434.8ms +/-706ms] http-44.248.167.117'
+  - '[624.0ms +/-1133ms] 🔒'
+  - '[621.3ms +/-1141ms] 🔒'
+  - '[513.4ms +/-984ms] http-34.249.214.108'
+  - '[497.1ms +/-832ms] http-84.17.47.123'
+  - '[501.4ms +/-834ms] http-84.17.47.125'
+  - '[578.9ms +/-1068ms] 0079'
+  - '[501.9ms +/-840ms] http-84.17.47.149'
+  - '[501.4ms +/-861ms] http-84.17.47.124'
+  - '[510.7ms +/-844ms] http-84.17.47.148'
+  - '[506.2ms +/-829ms] http-158.173.154.5'
+  - '[509.6ms +/-835ms] http-158.173.154.1'
+  - '[542.4ms +/-987ms] http-82.65.162.76'
+  - '[552.3ms +/-1005ms] http-51.159.225.196'
+  - '[619.4ms +/-1119ms] 🔒'
+  - '[347.9ms +/-677ms] 🇺🇸US-173.244.56.6-0117'
+  - '[604.8ms +/-1080ms] http-213.109.163.119'
+  - '[614.6ms +/-1201ms] http-103.97.88.154'
+  - '[507.7ms +/-852ms] 𔒰‎ ＳＥＧＡＲＯ'
+  - '[451.4ms +/-822ms] http-154.81.36.92'
+  - '[631.6ms +/-1218ms] http-185.245.84.50'
+  - '[623.3ms +/-1251ms] http-51.159.225.197'
+  - '[632.3ms +/-1164ms] http-37.120.213.210'
+  - '[438.8ms +/-844ms] 0013'
+  - '[526.6ms +/-901ms] 𔒰‎ ＳＥＧＡＲＯ'
+  - '[757.5ms +/-1306ms] http-185.219.159.15'
+  - '[843.4ms +/-1416ms] http-149.22.85.78'
+  - '[415.6ms +/-453ms] 🇯🇵JP-149.22.87.241-0132'
+  - '[927.4ms +/-1617ms] http-31.186.220.204'
+  - '[905.0ms +/-1587ms] 🆔ar14n24b 🔒 SS-TCP-TLS ❔ (…)'
+  - '[1224.5ms +/-1519ms] 美国+3COM公司企业网'
+  - '[920.6ms +/-1743ms] http-87.120.103.226'
+  - '[665.2ms +/-569ms] D🔴🇭🇰hos[🎬📺🎭🎪]_dokng.com_1b(…)'
+  - '[1276.0ms +/-2538ms] 🆔ar14n24b 🔒 SS-TCP-TLS ❔(…)'
+  url: https://www.gstatic.com/generate_204
+  interval: 600
+- name: 🇨🇦 加拿大
+  type: url-test
+  proxies:
+  - 🇨🇦 [306.0ms +/-800ms] 0120
+  - 🇨🇦 [465.2ms +/-1078ms] 🇨🇦CA-51.222.136.236-0178
   url: https://www.gstatic.com/generate_204
   interval: 600
 - name: 🇩🇪 德国
   type: url-test
   proxies:
-  - 🇩🇪 [658.7ms +/-1074ms] 𔒰‎ ＳＥＧＡＲＯ
-  - 🇩🇪 [1002.1ms +/-1338ms] @DeltaKroneckerGithub
+  - 🇩🇪 [507.8ms +/-867ms] 𔒰‎ ＳＥＧＡＲＯ
+  - 🇩🇪 [924.0ms +/-1402ms] D🔴🇩🇪hos[🎬🤖📺🎭]_dokng.co(…)
   url: https://www.gstatic.com/generate_204
   interval: 600
-- name: 🇳🇱 荷兰
+- name: 🇮🇹 其他
   type: url-test
   proxies:
-  - 🇳🇱 [725.5ms +/-1016ms] 🔒
-  - 🇳🇱 [780.3ms +/-1075ms] 0045
+  - 🇮🇹 [684.6ms +/-1296ms] 🇮🇹IT-202.50.253.99-0111
+  - 🇮🇹 [690.2ms +/-1189ms] 🇮🇹IT-202.50.253.81-0143
+  - 🇮🇹 [810.4ms +/-1655ms] US美国(mibei77.com 米贝节点分享)
+  - 🇮🇹 [761.8ms +/-1341ms] 🇮🇹IT-202.50.253.90-0125
+  - 🇮🇹 [789.4ms +/-1314ms] US美国(mibei77.com 米贝节点分享)
+  - 🇮🇹 [1371.3ms +/-2115ms] US美国(mibei77.com 米贝节点分享)
+  - 🇮🇹 [1494.1ms +/-1311ms] 🇮🇹IT-202.50.253.72-0139
+  url: https://www.gstatic.com/generate_204
+  interval: 600
+- name: 🇯🇵 日本
+  type: url-test
+  proxies:
+  - 🇯🇵 [410.1ms +/-433ms] 🇯🇵JP-149.22.87.204-0130
+  - 🇯🇵 [409.5ms +/-432ms] 🇯🇵JP-149.22.87.240-0131
   url: https://www.gstatic.com/generate_204
   interval: 600
 - name: 🇺🇸 美国
   type: url-test
   proxies:
-  - 🇺🇸 [333.6ms +/-681ms] trojan-66.23.203.21
-  - 🇺🇸 [565.4ms +/-1296ms] trojan-69.164.240.85
-  - 🇺🇸 [321.4ms +/-709ms] 𔒰‎ ＳＥＧＡＲＯ
-  - 🇺🇸 [498.7ms +/-582ms] US
-  - 🇺🇸 [1039.2ms +/-1567ms] 🔒
+  - 🇺🇸 [234.7ms +/-660ms] 𔒰‎ ＳＥＧＡＲＯ
+  - 🇺🇸 [295.6ms +/-832ms] 🇺🇸US-185.230.230.18-0078
+  - 🇺🇸 [324.3ms +/-885ms] US 🇺🇸 | @xray_ehi_hub |(…)
+  - 🇺🇸 [412.9ms +/-1017ms] trojan-66.23.203.21
+  - 🇺🇸 [382.0ms +/-990ms] 🇺🇸US-193.151.160.18-0085
+  - 🇺🇸 [458.1ms +/-1002ms] US 🇺🇸 | @xray_ehi_hub (…)
+  - 🇺🇸 [558.2ms +/-1489ms] 🇺🇸
+  - 🇺🇸 [588.3ms +/-685ms] 🇺🇸US-216.105.168.18-0194
+  - 🇺🇸 [446.3ms +/-961ms] 🇺🇸US-198.98.53.130-0256
+  - 🇺🇸 [1709.7ms +/-4951ms] 🇺🇸
   url: https://www.gstatic.com/generate_204
   interval: 600
 dns:
