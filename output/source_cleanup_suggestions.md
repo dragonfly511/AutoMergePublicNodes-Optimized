@@ -1,6 +1,6 @@
 # 订阅源清理建议
 
-生成时间：2026-10-31 11:58:50
+生成时间：2026-10-31 17:05:53
 
 本报告默认只读。修改 `config/sources.yaml` 前请人工复核。
 
@@ -10,31 +10,31 @@
 | --- | --- |
 | disable | 18 |
 | downweight | 0 |
-| prefer | 2 |
-| observe | 88 |
+| prefer | 1 |
+| observe | 89 |
 
 ## 建议禁用
 
 | 订阅源 | 评分 | 已测 | 通过率 | 解析数 | 连续死亡 | 原因 | URL |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| tg-V2rayngVpn | 0.0 | 0 | None | 0 | 514 | 连续死亡次数 >= 2 | https://t.me/s/V2rayngVpn |
-| tg-Letiranbreath | 0.0 | 0 | None | 0 | 405 | 连续死亡次数 >= 2 | https://t.me/s/Letiranbreath |
-| snakem982 | 0.0 | 0 | None | 0 | 400 | 连续死亡次数 >= 2 | https://raw.githubusercontent.com/snakem982/proxypool/main/source/clash-meta.yaml |
-| tg-ernoxin_shop | 0.0 | 0 | None | 0 | 283 | 连续死亡次数 >= 2 | https://t.me/s/ernoxin_shop |
-| abc-configs-readme-latest30 | 0.0 | 0 | None | 0 | 261 | 连续死亡次数 >= 2 | https://raw.githubusercontent.com/FreeFolksOn/abc-configs-free-vpn-proxy-list/main/README.md |
-| tg-abc_configs | 0.0 | 0 | None | 0 | 260 | 连续死亡次数 >= 2 | https://t.me/s/abc_configs |
-| tg-Parsashonam | 0.0 | 0 | None | 0 | 252 | 连续死亡次数 >= 2 | https://t.me/s/Parsashonam |
-| nscl5-all | 0.0 | 0 | None | 0 | 230 | 连续死亡次数 >= 2 | https://raw.githubusercontent.com/nscl5/5/refs/heads/main/configs/all.txt |
-| mfuu-v2ray | 0.0 | 0 | None | 0 | 225 | 连续死亡次数 >= 2 | https://raw.githubusercontent.com/mfuu/v2ray/master/v2ray |
-| tg-CaV2ray | 0.0 | 0 | None | 0 | 149 | 连续死亡次数 >= 2 | https://t.me/s/CaV2ray |
-| tg-AzadNet | 0.0 | 0 | None | 0 | 136 | 连续死亡次数 >= 2 | https://t.me/s/AzadNet |
-| tg-shadowproxy66 | 0.0 | 0 | None | 0 | 130 | 连续死亡次数 >= 2 | https://t.me/s/shadowproxy66 |
-| tg-ArV2ray | 0.0 | 0 | None | 0 | 72 | 连续死亡次数 >= 2 | https://t.me/s/ArV2ray |
-| tg-ViProxys | 0.0 | 0 | None | 0 | 40 | 连续死亡次数 >= 2 | https://t.me/s/ViProxys |
-| Barabama-we | 0.0 | 0 | None | 0 | 27 | 连续死亡次数 >= 2 | https://raw.githubusercontent.com/Barabama/FreeNodes/main/nodes/wenode.txt |
-| Barabama-yudou | 0.0 | 0 | None | 0 | 26 | 连续死亡次数 >= 2 | https://raw.githubusercontent.com/Barabama/FreeNodes/main/nodes/yudou66.txt |
-| barabama-nodefree | 0.0 | 0 | None | 0 | 26 | 连续死亡次数 >= 2 | https://raw.githubusercontent.com/Barabama/FreeNodes/main/nodes/nodefree.yaml |
-| barabama-yudou66 | 0.0 | 0 | None | 0 | 26 | 连续死亡次数 >= 2 | https://raw.githubusercontent.com/Barabama/FreeNodes/main/nodes/yudou66.yaml |
+| tg-V2rayngVpn | 0.0 | 0 | None | 0 | 515 | 连续死亡次数 >= 2 | https://t.me/s/V2rayngVpn |
+| tg-Letiranbreath | 0.0 | 0 | None | 0 | 406 | 连续死亡次数 >= 2 | https://t.me/s/Letiranbreath |
+| snakem982 | 0.0 | 0 | None | 0 | 401 | 连续死亡次数 >= 2 | https://raw.githubusercontent.com/snakem982/proxypool/main/source/clash-meta.yaml |
+| tg-ernoxin_shop | 0.0 | 0 | None | 0 | 284 | 连续死亡次数 >= 2 | https://t.me/s/ernoxin_shop |
+| abc-configs-readme-latest30 | 0.0 | 0 | None | 0 | 262 | 连续死亡次数 >= 2 | https://raw.githubusercontent.com/FreeFolksOn/abc-configs-free-vpn-proxy-list/main/README.md |
+| tg-abc_configs | 0.0 | 0 | None | 0 | 261 | 连续死亡次数 >= 2 | https://t.me/s/abc_configs |
+| tg-Parsashonam | 0.0 | 0 | None | 0 | 253 | 连续死亡次数 >= 2 | https://t.me/s/Parsashonam |
+| nscl5-all | 0.0 | 0 | None | 0 | 231 | 连续死亡次数 >= 2 | https://raw.githubusercontent.com/nscl5/5/refs/heads/main/configs/all.txt |
+| mfuu-v2ray | 0.0 | 0 | None | 0 | 226 | 连续死亡次数 >= 2 | https://raw.githubusercontent.com/mfuu/v2ray/master/v2ray |
+| tg-CaV2ray | 0.0 | 0 | None | 0 | 150 | 连续死亡次数 >= 2 | https://t.me/s/CaV2ray |
+| tg-AzadNet | 0.0 | 0 | None | 0 | 137 | 连续死亡次数 >= 2 | https://t.me/s/AzadNet |
+| tg-shadowproxy66 | 0.0 | 0 | None | 0 | 131 | 连续死亡次数 >= 2 | https://t.me/s/shadowproxy66 |
+| tg-ArV2ray | 0.0 | 0 | None | 0 | 73 | 连续死亡次数 >= 2 | https://t.me/s/ArV2ray |
+| tg-ViProxys | 0.0 | 0 | None | 0 | 41 | 连续死亡次数 >= 2 | https://t.me/s/ViProxys |
+| Barabama-we | 0.0 | 0 | None | 0 | 28 | 连续死亡次数 >= 2 | https://raw.githubusercontent.com/Barabama/FreeNodes/main/nodes/wenode.txt |
+| Barabama-yudou | 0.0 | 0 | None | 0 | 27 | 连续死亡次数 >= 2 | https://raw.githubusercontent.com/Barabama/FreeNodes/main/nodes/yudou66.txt |
+| barabama-nodefree | 0.0 | 0 | None | 0 | 27 | 连续死亡次数 >= 2 | https://raw.githubusercontent.com/Barabama/FreeNodes/main/nodes/nodefree.yaml |
+| barabama-yudou66 | 0.0 | 0 | None | 0 | 27 | 连续死亡次数 >= 2 | https://raw.githubusercontent.com/Barabama/FreeNodes/main/nodes/yudou66.yaml |
 
 ## 建议降权
 
@@ -44,8 +44,7 @@
 
 | 订阅源 | 评分 | 已测 | 通过率 | 解析数 | 连续死亡 | 原因 | URL |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| ermaozi | 0.989 | 54 | 0.981 | 622 | 0 | 源评分较高 | https://raw.githubusercontent.com/ermaozi/get_subscribe/main/subscribe/v2ray.txt |
-| dragon | 0.87 | 98 | 0.796 | 44960 | 0 | 源评分较高 | https://raw.githubusercontent.com/morpheusadam/v2ray-config/main/subs/bundles/all.txt |
+| dragon | 0.836 | 88 | 0.761 | 44960 | 0 | 源评分较高 | https://raw.githubusercontent.com/morpheusadam/v2ray-config/main/subs/bundles/all.txt |
 
 ## 继续观察
 
@@ -60,23 +59,24 @@
 | MatinGhanbari-all-sub | 0.255 | 0 | None | 3998 | 0 | 证据不足或评分中性 | https://raw.githubusercontent.com/MatinGhanbari/v2ray-configs/refs/heads/main/subscriptions/v2ray/all_sub.txt |
 | MatinGhanbari-super-sub | 0.183 | 0 | None | 200 | 0 | 证据不足或评分中性 | https://raw.githubusercontent.com/MatinGhanbari/v2ray-configs/refs/heads/main/subscriptions/v2ray/super-sub.txt |
 | Mr8AHAL | 0.175 | 0 | None | 1 | 0 | 证据不足或评分中性 | https://raw.githubusercontent.com/Mr8AHAL/v2ray/main/SERVER.txt |
-| Pawdroid | 0.175 | 0 | None | 11 | 0 | 证据不足或评分中性 | https://raw.githubusercontent.com/Pawdroid/Free-servers/main/sub |
-| SoliSpirit-all | 0.255 | 0 | None | 10588 | 0 | 证据不足或评分中性 | https://raw.githubusercontent.com/SoliSpirit/v2ray-configs/refs/heads/main/all_configs.txt |
-| Surfboard-tg-mixed | 0.255 | 0 | None | 7861 | 0 | 证据不足或评分中性 | https://raw.githubusercontent.com/Surfboardv2ray/TGParse/main/splitted/mixed |
-| Surfboard-tg-vless | 0.255 | 0 | None | 5698 | 0 | 证据不足或评分中性 | https://raw.githubusercontent.com/Surfboardv2ray/TGParse/main/splitted/vless |
+| Pawdroid | 0.175 | 0 | None | 12 | 0 | 证据不足或评分中性 | https://raw.githubusercontent.com/Pawdroid/Free-servers/main/sub |
+| SoliSpirit-all | 0.255 | 0 | None | 10683 | 0 | 证据不足或评分中性 | https://raw.githubusercontent.com/SoliSpirit/v2ray-configs/refs/heads/main/all_configs.txt |
+| Surfboard-tg-mixed | 0.255 | 0 | None | 7984 | 0 | 证据不足或评分中性 | https://raw.githubusercontent.com/Surfboardv2ray/TGParse/main/splitted/mixed |
+| Surfboard-tg-vless | 0.255 | 0 | None | 5777 | 0 | 证据不足或评分中性 | https://raw.githubusercontent.com/Surfboardv2ray/TGParse/main/splitted/vless |
 | barry-far-Sub1 | 0.195 | 0 | None | 490 | 0 | 证据不足或评分中性 | https://raw.githubusercontent.com/barry-far/V2ray-config/main/Sub1.txt |
-| barry-far-Sub2 | 0.195 | 0 | None | 500 | 0 | 证据不足或评分中性 | https://raw.githubusercontent.com/barry-far/V2ray-config/main/Sub2.txt |
-| barry-far-vless | 0.255 | 0 | None | 5912 | 0 | 证据不足或评分中性 | https://raw.githubusercontent.com/barry-far/V2ray-config/main/Splitted-By-Protocol/vless.txt |
-| chromego_merge | 0.188 | 0 | None | 314 | 0 | 证据不足或评分中性 | https://raw.githubusercontent.com/Misaka-blog/chromego_merge/main/sub/merged_proxies_new.yaml |
-| ermaozi-get_subscribe | 0.194 | 0 | None | 482 | 0 | 证据不足或评分中性 | https://raw.githubusercontent.com/ermaozi/get_subscribe/main/subscribe/clash.yml |
+| barry-far-Sub2 | 0.195 | 0 | None | 499 | 0 | 证据不足或评分中性 | https://raw.githubusercontent.com/barry-far/V2ray-config/main/Sub2.txt |
+| barry-far-vless | 0.255 | 0 | None | 5990 | 0 | 证据不足或评分中性 | https://raw.githubusercontent.com/barry-far/V2ray-config/main/Splitted-By-Protocol/vless.txt |
+| chromego_merge | 0.191 | 0 | None | 402 | 0 | 证据不足或评分中性 | https://raw.githubusercontent.com/Misaka-blog/chromego_merge/main/sub/merged_proxies_new.yaml |
+| ermaozi | 0.178 | 0 | None | 79 | 0 | 证据不足或评分中性 | https://raw.githubusercontent.com/ermaozi/get_subscribe/main/subscribe/v2ray.txt |
+| ermaozi-get_subscribe | 0.144 | 1 | 0.0 | 412 | 0 | 证据不足或评分中性 | https://raw.githubusercontent.com/ermaozi/get_subscribe/main/subscribe/clash.yml |
 | freefq | 0.176 | 0 | None | 14 | 0 | 证据不足或评分中性 | https://raw.githubusercontent.com/freefq/free/master/v2 |
-| mahdibland-V2RayAggregator | 0.255 | 0 | None | 4635 | 0 | 证据不足或评分中性 | https://raw.githubusercontent.com/mahdibland/V2RayAggregator/master/sub/sub_merge.txt |
-| mheidari-all | 0.207 | 1 | 0.0 | 14723 | 0 | 证据不足或评分中性 | https://raw.githubusercontent.com/mheidari98/.proxy/main/all |
+| mahdibland-V2RayAggregator | 0.207 | 1 | 0.0 | 4635 | 0 | 证据不足或评分中性 | https://raw.githubusercontent.com/mahdibland/V2RayAggregator/master/sub/sub_merge.txt |
+| mheidari-all | 0.255 | 0 | None | 14848 | 0 | 证据不足或评分中性 | https://raw.githubusercontent.com/mheidari98/.proxy/main/all |
 | moneyfly1-collectSub | 0.222 | 0 | None | 1164 | 0 | 证据不足或评分中性 | https://raw.githubusercontent.com/moneyfly1/collectSub/refs/heads/main/config_all_merged_nodes.txt |
 | ninja-hy2 | 0.175 | 0 | None | 3 | 0 | 证据不足或评分中性 | https://raw.githubusercontent.com/ninjastrikers/v2ray-configs/main/splitted/hysteria.txt |
 | ninja-tuic | 0.175 | 0 | None | 1 | 0 | 证据不足或评分中性 | https://raw.githubusercontent.com/ninjastrikers/v2ray-configs/main/splitted/tuic.txt |
 | ninja-vless | 0.247 | 0 | None | 1791 | 0 | 证据不足或评分中性 | https://raw.githubusercontent.com/ninjastrikers/v2ray-configs/main/splitted/vless.txt |
-| peasoft-NoMoreWalls | 0.183 | 0 | None | 201 | 0 | 证据不足或评分中性 | https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.yml |
+| peasoft-NoMoreWalls | 0.183 | 0 | None | 206 | 0 | 证据不足或评分中性 | https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.yml |
 | ripaojiedian-freenode | 0.176 | 0 | None | 14 | 0 | 证据不足或评分中性 | https://raw.githubusercontent.com/ripaojiedian/freenode/main/clash |
 | roosterkid-openproxylist-v2ray | 0.181 | 0 | None | 150 | 0 | 证据不足或评分中性 | https://raw.githubusercontent.com/roosterkid/openproxylist/main/V2RAY_RAW.txt |
 | tg-Ahmedhamoomi_Servers | 0.175 | 0 | None | 2 | 0 | 证据不足或评分中性 | https://t.me/s/Ahmedhamoomi_Servers |
@@ -86,25 +86,25 @@
 | tg-ConfigWireguard | 0.175 | 0 | None | 2 | 0 | 证据不足或评分中性 | https://t.me/s/ConfigWireguard |
 | tg-CryptoGuardVPN | 0.176 | 0 | None | 16 | 0 | 证据不足或评分中性 | https://t.me/s/CryptoGuardVPN |
 | tg-DarkVPNpro | 0.175 | 0 | None | 11 | 0 | 证据不足或评分中性 | https://t.me/s/DarkVPNpro |
-| tg-DirectVPN | 0.175 | 0 | None | 12 | 0 | 证据不足或评分中性 | https://t.me/s/DirectVPN |
+| tg-DirectVPN | 0.176 | 0 | None | 16 | 0 | 证据不足或评分中性 | https://t.me/s/DirectVPN |
 | tg-Farah_VPN | 0.183 | 0 | None | 200 | 0 | 证据不足或评分中性 | https://t.me/s/Farah_VPN |
 | tg-FreeV2rays | 0.176 | 0 | None | 20 | 0 | 证据不足或评分中性 | https://t.me/s/FreeV2rays |
 | tg-Free_Vpn_for_All_of_Us | 0.176 | 0 | None | 18 | 0 | 证据不足或评分中性 | https://t.me/s/Free_Vpn_for_All_of_Us |
 | tg-GrizzlyVPN | 0.175 | 0 | None | 1 | 0 | 证据不足或评分中性 | https://t.me/s/GrizzlyVPN |
 | tg-Hope_Net | 0.178 | 0 | None | 73 | 0 | 证据不足或评分中性 | https://t.me/s/Hope_Net |
 | tg-ISVvpn | 0.176 | 0 | None | 34 | 0 | 证据不足或评分中性 | https://t.me/s/ISVvpn |
-| tg-LonUp_M | 0.182 | 0 | None | 176 | 0 | 证据不足或评分中性 | https://t.me/s/LonUp_M |
+| tg-LonUp_M | 0.182 | 0 | None | 178 | 0 | 证据不足或评分中性 | https://t.me/s/LonUp_M |
 | tg-OutlineReleasedKey | 0.177 | 0 | None | 52 | 0 | 证据不足或评分中性 | https://t.me/s/OutlineReleasedKey |
 | tg-Outline_Vpn | 0.182 | 0 | None | 175 | 0 | 证据不足或评分中性 | https://t.me/s/Outline_Vpn |
-| tg-PrivateVPNs | 0.175 | 0 | None | 12 | 0 | 证据不足或评分中性 | https://t.me/s/PrivateVPNs |
+| tg-PrivateVPNs | 0.176 | 0 | None | 16 | 0 | 证据不足或评分中性 | https://t.me/s/PrivateVPNs |
 | tg-SafeNet_Server | 0.176 | 0 | None | 18 | 0 | 证据不足或评分中性 | https://t.me/s/SafeNet_Server |
 | tg-ShadowsocksM | 0.175 | 0 | None | 2 | 0 | 证据不足或评分中性 | https://t.me/s/ShadowsocksM |
 | tg-V2RAYProxy | 0.184 | 0 | None | 217 | 0 | 证据不足或评分中性 | https://t.me/s/V2RAYProxy |
 | tg-V2RayRootFree | 0.176 | 0 | None | 13 | 0 | 证据不足或评分中性 | https://t.me/s/V2RayRootFree |
 | tg-V2SayFree | 0.176 | 0 | None | 17 | 0 | 证据不足或评分中性 | https://t.me/s/V2SayFree |
 | tg-V2rayNG_Outlinee | 0.176 | 0 | None | 20 | 0 | 证据不足或评分中性 | https://t.me/s/V2rayNG_Outlinee |
-| tg-V2ray_Alpha | 0.18 | 0 | None | 114 | 0 | 证据不足或评分中性 | https://t.me/s/V2ray_Alpha |
-| tg-VlessConfig | 0.175 | 0 | None | 12 | 0 | 证据不足或评分中性 | https://t.me/s/VlessConfig |
+| tg-V2ray_Alpha | 0.179 | 0 | None | 107 | 0 | 证据不足或评分中性 | https://t.me/s/V2ray_Alpha |
+| tg-VlessConfig | 0.176 | 0 | None | 16 | 0 | 证据不足或评分中性 | https://t.me/s/VlessConfig |
 | tg-VmessProtocol | 0.175 | 0 | None | 4 | 0 | 证据不足或评分中性 | https://t.me/s/VmessProtocol |
 | tg-configfa | 0.176 | 0 | None | 36 | 0 | 证据不足或评分中性 | https://t.me/s/configfa |
 | tg-fastkanfig | 0.178 | 0 | None | 81 | 0 | 证据不足或评分中性 | https://t.me/s/fastkanfig |
@@ -113,19 +113,19 @@
 | tg-freevpnconfigso | 0.175 | 0 | None | 2 | 0 | 证据不足或评分中性 | https://t.me/s/freevpnconfigso |
 | tg-golestan_vpn | 0.175 | 0 | None | 5 | 0 | 证据不足或评分中性 | https://t.me/s/golestan_vpn |
 | tg-mehduox_vpn | 0.175 | 0 | None | 5 | 0 | 证据不足或评分中性 | https://t.me/s/mehduox_vpn |
-| tg-oneclickvpnkeys | 0.131 | 1 | 0.0 | 98 | 0 | 证据不足或评分中性 | https://t.me/s/oneclickvpnkeys |
+| tg-oneclickvpnkeys | 0.179 | 0 | None | 98 | 0 | 证据不足或评分中性 | https://t.me/s/oneclickvpnkeys |
 | tg-proSSH | 0.175 | 0 | None | 4 | 0 | 证据不足或评分中性 | https://t.me/s/proSSH |
-| tg-proxy_kafee | 0.176 | 0 | None | 28 | 0 | 证据不足或评分中性 | https://t.me/s/proxy_kafee |
+| tg-proxy_kafee | 0.177 | 0 | None | 52 | 0 | 证据不足或评分中性 | https://t.me/s/proxy_kafee |
 | tg-proxy_mtm | 0.18 | 0 | None | 135 | 0 | 证据不足或评分中性 | https://t.me/s/proxy_mtm |
 | tg-prrofile_purple | 0.181 | 0 | None | 146 | 0 | 证据不足或评分中性 | https://t.me/s/prrofile_purple |
 | tg-redfree8 | 0.175 | 0 | None | 5 | 0 | 证据不足或评分中性 | https://t.me/s/redfree8 |
 | tg-tv2rayrr | 0.18 | 0 | None | 113 | 0 | 证据不足或评分中性 | https://t.me/s/tv2rayrr |
 | tg-v2Source | 0.177 | 0 | None | 61 | 0 | 证据不足或评分中性 | https://t.me/s/v2Source |
 | tg-v2nodes | 0.176 | 0 | None | 20 | 0 | 证据不足或评分中性 | https://t.me/s/v2nodes |
-| tg-v2ray_free_conf | 0.176 | 0 | None | 20 | 0 | 证据不足或评分中性 | https://t.me/s/v2ray_free_conf |
+| tg-v2ray_free_conf | 0.176 | 0 | None | 19 | 0 | 证据不足或评分中性 | https://t.me/s/v2ray_free_conf |
 | tg-v2raybaz | 0.176 | 0 | None | 37 | 0 | 证据不足或评分中性 | https://t.me/s/v2raybaz |
 | tg-v2rayfree | 0.175 | 0 | None | 3 | 0 | 证据不足或评分中性 | https://t.me/s/v2rayfree |
-| tg-v2raying | 0.178 | 0 | None | 69 | 0 | 证据不足或评分中性 | https://t.me/s/v2raying |
+| tg-v2raying | 0.178 | 0 | None | 77 | 0 | 证据不足或评分中性 | https://t.me/s/v2raying |
 | tg-v2rayng_channel | 0.176 | 0 | None | 17 | 0 | 证据不足或评分中性 | https://t.me/s/v2rayng_channel |
 | tg-vaddress | 0.176 | 0 | None | 18 | 0 | 证据不足或评分中性 | https://t.me/s/vaddress |
 | tg-vpnaloo | 0.177 | 0 | None | 45 | 0 | 证据不足或评分中性 | https://t.me/s/vpnaloo |
@@ -137,5 +137,5 @@
 | ts-sf | 0.183 | 0 | None | 200 | 0 | 证据不足或评分中性 | https://raw.githubusercontent.com/ts-sf/fly/main/clash |
 | ts-sf-Fly | 0.183 | 0 | None | 201 | 0 | 证据不足或评分中性 | https://raw.githubusercontent.com/ts-sf/Fly/main/v2 |
 | vxiaov | 0.176 | 0 | None | 28 | 0 | 证据不足或评分中性 | https://cdn.jsdelivr.net/gh/vxiaov/free_proxies@main/clash/clash.provider.yaml |
-| xiaoji235-airport-v2ray-all | 0.255 | 0 | None | 6752 | 0 | 证据不足或评分中性 | https://raw.githubusercontent.com/xiaoji235/airport-free/main/v2ray.txt |
-| zhangkai | 0.177 | 0 | None | 43 | 0 | 证据不足或评分中性 | https://raw.githubusercontent.com/zhangkaiitugithub/passcro/main/speednodes.yaml |
+| xiaoji235-airport-v2ray-all | 0.335 | 1 | 1.0 | 6752 | 0 | 证据不足或评分中性 | https://raw.githubusercontent.com/xiaoji235/airport-free/main/v2ray.txt |
+| zhangkai | 0.402 | 4 | 1.0 | 43 | 0 | 证据不足或评分中性 | https://raw.githubusercontent.com/zhangkaiitugithub/passcro/main/speednodes.yaml |
