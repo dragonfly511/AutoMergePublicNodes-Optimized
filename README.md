@@ -324,17 +324,17 @@ MIT
 
 | 指标 | 数值 |
 | --- | --- |
-| 更新时间 | 2026-11-01 05:05:44 |
+| 更新时间 | 2026-11-01 12:58:46 |
 | 版本 | 2.4.0 |
-| 订阅源 | 89/108 |
-| 原始节点 | 124658 |
-| 去重后 | 57761 |
+| 订阅源 | 90/108 |
+| 原始节点 | 126129 |
+| 去重后 | 58390 |
 | TCP 可达 | 3000 |
-| 真实可用 | 66 |
-| 真测通过率 | 2.2% |
-| Verified 输出 | 66 |
-| Global 输出 | 66 |
-| All 输出 | 57761 |
+| 真实可用 | 72 |
+| 真测通过率 | 2.4% |
+| Verified 输出 | 72 |
+| Global 输出 | 73 |
+| All 输出 | 58390 |
 
 > 输出保护：无。完整报告见 `output/health_report.md`、`output/stats.json`。
 
@@ -342,19 +342,19 @@ MIT
 
 | 评分 | 协议 | 延迟(ms) | 来源 |
 | --- | --- | --- | --- |
-| 77.59 | trojan | 260.0 | dragon |
-| 77.54 | trojan | 257.3 | dragon |
-| 76.78 | trojan | 292.6 | dragon |
-| 76.64 | trojan | 317.2 | dragon |
-| 75.04 | trojan | 297.5 | dragon |
+| 83.24 | trojan | 264.5 | dragon |
+| 82.47 | trojan | 254.5 | dragon |
+| 82.32 | trojan | 260.8 | dragon |
+| 79.84 | trojan | 249.4 | dragon |
+| 78.97 | trojan | 363.6 | dragon |
 
 ### Top 来源质量
 
 | 来源 | 评分 | 测试数 | 建议 |
 | --- | --- | --- | --- |
-| dragon | 1.0 | 239 | prefer |
-| ermaozi-get_subscribe | 0.727 | 14 | prefer |
-| zhangkai | 0.313 | 2 | observe |
+| ermaozi-get_subscribe | 0.995 | 38 | prefer |
+| dragon | 0.849 | 128 | prefer |
+| zhangkai | 0.441 | 5 | observe |
 | 10ium-ScrapeCategorize-Vless | 0.255 | 0 | observe |
 | DeltaKronecker-all | 0.255 | 0 | observe |
 
