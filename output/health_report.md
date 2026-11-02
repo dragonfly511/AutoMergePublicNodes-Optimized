@@ -5,46 +5,46 @@
 | 指标 | 数值 |
 | --- | --- |
 | 版本 | 2.4.0 |
-| 更新时间 | 2026-11-02 05:06:32 |
-| 运行耗时 | 379.4s |
+| 更新时间 | 2026-11-02 15:09:35 |
+| 运行耗时 | 381.2s |
 | 订阅源总数 | 108 |
 | 健康订阅源 | 89 |
-| 原始节点 | 127609 |
-| 去重后节点 | 58153 |
+| 原始节点 | 126088 |
+| 去重后节点 | 58171 |
 | TCP 可达 | 3000 |
-| 真实可用 | 64 |
-| Verified 输出 | 64 |
-| Global 输出 | 65 |
-| All 输出 | 58153 |
+| 真实可用 | 30 |
+| Verified 输出 | 30 |
+| Global 输出 | 30 |
+| All 输出 | 58171 |
 
 ## 阶段耗时
 
 | 阶段 | 秒 |
 | --- | --- |
-| fetch | 9.1 |
+| fetch | 8.4 |
 | geo | 1.7 |
-| tcp | 199.2 |
-| probe | 89.8 |
-| real_test | 26.7 |
-| china_check | 22.2 |
+| tcp | 195.9 |
+| probe | 98.2 |
+| real_test | 24.4 |
+| china_check | 23.2 |
 | write_verified | 0.0 |
-| generate | 30.6 |
+| generate | 29.4 |
 
 ## 协议分布
 
 | 协议 | 数量 |
 | --- | --- |
-| vless | 77157 |
-| vmess | 18172 |
-| trojan | 16591 |
-| shadowsocks | 12643 |
-| hysteria2 | 2323 |
-| shadowsocksr | 245 |
-| http | 209 |
-| socks | 130 |
-| tuic | 66 |
-| hysteria | 39 |
-| anytls | 34 |
+| vless | 76263 |
+| vmess | 18214 |
+| trojan | 15892 |
+| shadowsocks | 12704 |
+| hysteria2 | 2324 |
+| shadowsocksr | 249 |
+| http | 166 |
+| socks | 119 |
+| tuic | 64 |
+| hysteria | 49 |
+| anytls | 44 |
 
 ## 评分权重
 
@@ -62,44 +62,44 @@
 
 | 评分 | 协议 | 延迟(ms) | 抖动(ms) | 延迟分 | 抖动分 | TCP分 | 协议历史分 | 来源历史分 | 来源 | 服务器 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 85.32 | trojan | 183.5 | 482.2 | 23.53 | 0.0 | 10.0 | 14.45 | 19.84 | dragon | 167.88.61.20 |
-| 83.82 | trojan | 246.6 | 570.6 | 22.07 | 0.0 | 10.0 | 14.45 | 19.84 | dragon | 66.163.112.31 |
-| 83.51 | trojan | 175.5 | 473.8 | 23.72 | 0.0 | 10.0 | 14.45 | 19.84 | dragon | 167.88.61.175 |
-| 83.23 | trojan | 241.0 | 549.6 | 22.2 | 0.0 | 9.72 | 14.45 | 19.84 | dragon | 66.163.112.142 |
-| 83.16 | trojan | 177.8 | 473.2 | 23.66 | 0.0 | 9.71 | 14.45 | 19.84 | dragon | 167.88.61.193 |
-| 82.36 | trojan | 267.6 | 664.9 | 21.58 | 0.0 | 8.99 | 14.45 | 19.84 | dragon | 216.106.186.33 |
-| 82.18 | trojan | 238.1 | 575.6 | 22.27 | 0.0 | 8.12 | 14.45 | 19.84 | dragon | 216.106.186.32 |
-| 82.11 | trojan | 245.7 | 583.0 | 22.09 | 0.0 | 8.23 | 14.45 | 19.84 | dragon | blog.findlocaljobnetworkandbuildcommunityconnections.com |
-| 81.82 | trojan | 271.6 | 624.4 | 21.49 | 0.0 | 10.0 | 14.45 | 19.84 | dragon | 66.163.114.114 |
-| 80.19 | trojan | 270.4 | 627.8 | 21.52 | 0.0 | 8.17 | 14.45 | 19.84 | dragon | 66.163.114.166 |
-| 80.08 | trojan | 244.6 | 550.1 | 22.12 | 0.0 | 8.26 | 14.45 | 19.84 | dragon | 66.163.112.13 |
-| 79.9 | trojan | 262.9 | 584.6 | 21.69 | 0.0 | 8.42 | 14.45 | 19.84 | dragon | resources.findlocaljobnetworkandbuildcommunityconnections.com |
-| 79.23 | trojan | 248.7 | 553.2 | 22.02 | 0.0 | 8.26 | 14.45 | 19.84 | dragon | 66.163.112.76 |
-| 78.78 | trojan | 245.7 | 600.7 | 22.09 | 0.0 | 9.9 | 14.45 | 19.84 | dragon | 216.106.186.82 |
-| 78.27 | trojan | 179.4 | 485.4 | 23.62 | 0.0 | 5.86 | 14.45 | 19.84 | dragon | 167.88.61.198 |
-| 78.25 | trojan | 200.0 | 498.1 | 23.15 | 0.0 | 8.31 | 14.45 | 19.84 | dragon | vpn.liumr.top |
-| 78.08 | trojan | 225.1 | 598.0 | 22.57 | 0.0 | 8.72 | 14.45 | 19.84 | dragon | 186.241.105.213 |
-| 77.71 | trojan | 284.7 | 671.9 | 21.19 | 0.0 | 8.26 | 14.45 | 19.84 | dragon | 66.163.112.121 |
-| 77.48 | trojan | 264.4 | 611.1 | 21.66 | 0.0 | 8.18 | 14.45 | 19.84 | dragon | 66.163.114.132 |
-| 77.28 | trojan | 245.1 | 594.0 | 22.1 | 0.0 | 8.39 | 14.45 | 19.84 | dragon | www.findlocaljobnetworkandbuildcommunityconnections.com |
+| 82.0 | trojan | 279.9 | 663.2 | 21.3 | 0.0 | 10.0 | 13.88 | 19.38 | dragon | 170.101.101.67 |
+| 81.57 | trojan | 270.0 | 629.8 | 21.53 | 0.0 | 9.28 | 13.88 | 19.38 | dragon | 216.152.155.23 |
+| 80.98 | trojan | 319.6 | 780.4 | 20.38 | 0.0 | 10.0 | 13.88 | 19.38 | dragon | 216.152.155.59 |
+| 80.29 | trojan | 355.1 | 799.3 | 19.56 | 0.0 | 9.97 | 13.88 | 19.38 | dragon | 170.101.101.211 |
+| 79.62 | trojan | 321.5 | 734.4 | 20.34 | 0.0 | 9.83 | 13.88 | 19.38 | dragon | 169.197.140.171 |
+| 79.42 | trojan | 306.1 | 628.4 | 20.69 | 0.0 | 9.97 | 13.88 | 19.38 | dragon | 170.101.101.53 |
+| 78.81 | trojan | 346.7 | 705.4 | 19.75 | 0.0 | 9.98 | 13.88 | 19.38 | dragon | 169.197.140.214 |
+| 78.53 | trojan | 281.3 | 682.5 | 21.27 | 0.0 | 10.0 | 13.88 | 19.38 | dragon | 170.101.101.19 |
+| 78.03 | trojan | 431.6 | 1078.8 | 17.79 | 0.0 | 9.98 | 13.88 | 19.38 | dragon | 69.164.240.85 |
+| 77.59 | trojan | 310.5 | 641.2 | 20.59 | 0.0 | 9.77 | 13.88 | 19.38 | dragon | 66.163.114.114 |
+| 77.43 | trojan | 292.5 | 701.4 | 21.01 | 0.0 | 9.85 | 13.88 | 19.38 | dragon | 216.152.147.48 |
+| 77.4 | trojan | 338.0 | 715.8 | 19.95 | 0.0 | 9.85 | 13.88 | 19.38 | dragon | 169.197.140.169 |
+| 77.15 | trojan | 297.1 | 600.7 | 20.9 | 0.0 | 9.04 | 13.88 | 19.38 | dragon | 66.163.114.166 |
+| 76.97 | trojan | 311.4 | 653.3 | 20.57 | 0.0 | 9.04 | 13.88 | 19.38 | dragon | 66.163.114.132 |
+| 76.0 | trojan | 359.6 | 618.0 | 19.45 | 0.0 | 9.85 | 13.88 | 19.38 | dragon | 216.152.147.89 |
+| 75.63 | shadowsocks | 236.9 | 656.5 | 22.29 | 0.0 | 4.61 | 13.85 | 19.38 | dragon | 45.86.51.18 |
+| 75.39 | trojan | 338.9 | 647.6 | 19.93 | 0.0 | 10.0 | 13.88 | 19.38 | dragon | 66.163.112.142 |
+| 75.34 | trojan | 526.8 | 614.2 | 15.58 | 0.0 | 10.0 | 13.88 | 19.38 | dragon | 216.152.155.131 |
+| 74.46 | trojan | 346.5 | 605.4 | 19.76 | 0.0 | 9.91 | 13.88 | 19.38 | dragon | 167.88.61.20 |
+| 74.19 | shadowsocks | 282.0 | 761.7 | 21.25 | 0.0 | 3.71 | 13.85 | 19.38 | dragon | 216.9.225.189 |
 
 ## 来源质量排行
 
 | 来源 | 评分 | 通过率 | 测试数 | 解析节点 | 建议 |
 | --- | --- | --- | --- | --- | --- |
-| dragon | 0.969 | 0.896 | 115 | 44543 | prefer |
-| zhangkai | 0.79 | 1.0 | 15 | 43 | prefer |
-| ermaozi-get_subscribe | 0.621 | 0.909 | 11 | 547 | observe |
-| 10ium-ScrapeCategorize-Vless | 0.255 | None | 0 | 4976 | observe |
-| DeltaKronecker-all | 0.255 | None | 0 | 3716 | observe |
+| dragon | 0.871 | 0.798 | 89 | 44543 | prefer |
+| zhangkai | 0.689 | 1.0 | 12 | 43 | observe |
+| ermaozi-get_subscribe | 0.428 | 0.538 | 13 | 403 | observe |
+| mheidari-all | 0.335 | 1.0 | 1 | 14979 | observe |
+| xiaoji235-airport-v2ray-all | 0.335 | 1.0 | 1 | 6752 | observe |
+| 10ium-ScrapeCategorize-Vless | 0.255 | None | 0 | 4941 | observe |
+| DeltaKronecker-all | 0.255 | None | 0 | 2726 | observe |
 | MatinGhanbari-all-sub | 0.255 | None | 0 | 3998 | observe |
-| SoliSpirit-all | 0.255 | None | 0 | 10662 | observe |
-| Surfboard-tg-mixed | 0.255 | None | 0 | 8273 | observe |
-| Surfboard-tg-vless | 0.255 | None | 0 | 5823 | observe |
-| barry-far-vless | 0.255 | None | 0 | 6036 | observe |
-| mahdibland-V2RayAggregator | 0.255 | None | 0 | 4800 | observe |
-| mheidari-all | 0.255 | None | 0 | 15216 | observe |
-| xiaoji235-airport-v2ray-all | 0.255 | None | 0 | 6752 | observe |
+| SoliSpirit-all | 0.255 | None | 0 | 10679 | observe |
+| Surfboard-tg-mixed | 0.255 | None | 0 | 8264 | observe |
+| Surfboard-tg-vless | 0.255 | None | 0 | 5844 | observe |
+| barry-far-vless | 0.255 | None | 0 | 6057 | observe |
+| mahdibland-V2RayAggregator | 0.255 | None | 0 | 4726 | observe |
 | ninja-vless | 0.247 | None | 0 | 1791 | observe |
 | Au1rxx-base64 | 0.245 | None | 0 | 1751 | observe |
 
@@ -107,18 +107,18 @@
 
 | 目标 | 原因 | 状态/值 | 数量 |
 | --- | --- | --- | --- |
-| test_one_timeout | 15.0s | - | 6 |
-| geo | ClientOSError | - | 3 |
-| 204 | ClientOSError | - | 2 |
-| speed | ProxyError | - | 1 |
-| cn-block | ClientOSError | - | 1 |
+| test_one_timeout | 15.0s | - | 11 |
+| 204 | ProxyError | - | 5 |
+| speed | ClientOSError | - | 5 |
+| geo | ClientOSError | - | 2 |
+| 204 | ClientOSError | - | 1 |
 
 ## 输出保护
 
 | 前缀 | 是否保留旧输出 | 上一轮数量 | 本轮建议数量 | 保护比例 |
 | --- | --- | --- | --- | --- |
-| verified | False | 48 | 64 | - |
-| global | False | 51 | 65 | - |
+| verified | False | 64 | 30 | - |
+| global | False | 65 | 30 | - |
 
 ---
 
