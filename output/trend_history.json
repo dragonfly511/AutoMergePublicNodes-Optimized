@@ -1,37 +1,7 @@
 {
-  "updated_at": "2026-11-05 05:49:36",
+  "updated_at": "2026-11-05 14:21:52",
   "keep": 30,
   "runs": [
-    {
-      "timestamp": "2026-10-26 22:31:38",
-      "duration_sec": 369.0,
-      "nodes_raw": 142481,
-      "nodes_dedup": 58971,
-      "nodes_tcp_ok": 3000,
-      "nodes_real_ok": 62,
-      "nodes_verified_output": 62,
-      "nodes_global_output": 63,
-      "nodes_global_extra_from_cn_block": 1,
-      "real_test_errors": {
-        "204": 3,
-        "sing-box exited 1": 1,
-        "cn-block": 3,
-        "speed": 1,
-        "test_one_timeout": 2
-      },
-      "output_guard": {
-        "verified": {
-          "preserved": false,
-          "previous_count": 113,
-          "proposed_count": 62
-        },
-        "global": {
-          "preserved": false,
-          "previous_count": 113,
-          "proposed_count": 63
-        }
-      }
-    },
     {
       "timestamp": "2026-10-27 04:19:10",
       "duration_sec": 398.1,
@@ -879,18 +849,37 @@
           "proposed_count": 40
         }
       }
+    },
+    {
+      "timestamp": "2026-11-05 14:21:52",
+      "duration_sec": 348.7,
+      "nodes_raw": 127670,
+      "nodes_dedup": 58320,
+      "nodes_tcp_ok": 3000,
+      "nodes_real_ok": 51,
+      "nodes_verified_output": 51,
+      "nodes_global_output": 51,
+      "nodes_global_extra_from_cn_block": 0,
+      "real_test_errors": {
+        "204": 11,
+        "cn-block": 2,
+        "geo": 2,
+        "speed": 1,
+        "test_one_timeout": 5
+      },
+      "output_guard": {
+        "verified": {
+          "preserved": false,
+          "previous_count": 40,
+          "proposed_count": 51
+        },
+        "global": {
+          "preserved": false,
+          "previous_count": 40,
+          "proposed_count": 51
+        }
+      }
     }
   ],
-  "alerts": [
-    {
-      "type": "verified_downtrend_4_runs",
-      "message": "verified output decreased for 4 consecutive runs",
-      "values": [
-        77,
-        72,
-        50,
-        40
-      ]
-    }
-  ]
+  "alerts": []
 }
