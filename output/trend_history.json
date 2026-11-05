@@ -1,36 +1,7 @@
 {
-  "updated_at": "2026-11-04 23:29:47",
+  "updated_at": "2026-11-05 05:49:36",
   "keep": 30,
   "runs": [
-    {
-      "timestamp": "2026-10-26 12:35:25",
-      "duration_sec": 391.8,
-      "nodes_raw": 142330,
-      "nodes_dedup": 59631,
-      "nodes_tcp_ok": 3000,
-      "nodes_real_ok": 113,
-      "nodes_verified_output": 113,
-      "nodes_global_output": 113,
-      "nodes_global_extra_from_cn_block": 0,
-      "real_test_errors": {
-        "204": 5,
-        "sing-box exited 1": 1,
-        "test_one_timeout": 12,
-        "geo": 1
-      },
-      "output_guard": {
-        "verified": {
-          "preserved": false,
-          "previous_count": 109,
-          "proposed_count": 113
-        },
-        "global": {
-          "preserved": false,
-          "previous_count": 109,
-          "proposed_count": 113
-        }
-      }
-    },
     {
       "timestamp": "2026-10-26 22:31:38",
       "duration_sec": 369.0,
@@ -878,7 +849,48 @@
           "proposed_count": 52
         }
       }
+    },
+    {
+      "timestamp": "2026-11-05 05:49:36",
+      "duration_sec": 388.7,
+      "nodes_raw": 127236,
+      "nodes_dedup": 58014,
+      "nodes_tcp_ok": 3000,
+      "nodes_real_ok": 40,
+      "nodes_verified_output": 40,
+      "nodes_global_output": 40,
+      "nodes_global_extra_from_cn_block": 0,
+      "real_test_errors": {
+        "sing-box exited 1": 1,
+        "204": 8,
+        "cn-block": 2,
+        "geo": 2,
+        "test_one_timeout": 6
+      },
+      "output_guard": {
+        "verified": {
+          "preserved": false,
+          "previous_count": 50,
+          "proposed_count": 40
+        },
+        "global": {
+          "preserved": false,
+          "previous_count": 52,
+          "proposed_count": 40
+        }
+      }
     }
   ],
-  "alerts": []
+  "alerts": [
+    {
+      "type": "verified_downtrend_4_runs",
+      "message": "verified output decreased for 4 consecutive runs",
+      "values": [
+        77,
+        72,
+        50,
+        40
+      ]
+    }
+  ]
 }
