@@ -1,36 +1,7 @@
 {
-  "updated_at": "2026-11-06 05:46:11",
+  "updated_at": "2026-11-06 14:01:05",
   "keep": 30,
   "runs": [
-    {
-      "timestamp": "2026-10-27 17:48:56",
-      "duration_sec": 441.2,
-      "nodes_raw": 142021,
-      "nodes_dedup": 59416,
-      "nodes_tcp_ok": 3000,
-      "nodes_real_ok": 62,
-      "nodes_verified_output": 62,
-      "nodes_global_output": 63,
-      "nodes_global_extra_from_cn_block": 1,
-      "real_test_errors": {
-        "cn-block": 4,
-        "204": 8,
-        "geo": 3,
-        "test_one_timeout": 28
-      },
-      "output_guard": {
-        "verified": {
-          "preserved": false,
-          "previous_count": 99,
-          "proposed_count": 62
-        },
-        "global": {
-          "preserved": false,
-          "previous_count": 99,
-          "proposed_count": 63
-        }
-      }
-    },
     {
       "timestamp": "2026-10-27 22:03:23",
       "duration_sec": 412.4,
@@ -880,7 +851,50 @@
           "proposed_count": 119
         }
       }
+    },
+    {
+      "timestamp": "2026-11-06 14:01:05",
+      "duration_sec": 345.7,
+      "nodes_raw": 128555,
+      "nodes_dedup": 59352,
+      "nodes_tcp_ok": 3000,
+      "nodes_real_ok": 50,
+      "nodes_verified_output": 50,
+      "nodes_global_output": 51,
+      "nodes_global_extra_from_cn_block": 1,
+      "real_test_errors": {
+        "204": 15,
+        "cn-block": 1,
+        "speed": 1,
+        "geo": 2,
+        "test_one_timeout": 8
+      },
+      "output_guard": {
+        "verified": {
+          "preserved": false,
+          "previous_count": 119,
+          "proposed_count": 50
+        },
+        "global": {
+          "preserved": false,
+          "previous_count": 119,
+          "proposed_count": 51
+        }
+      }
     }
   ],
-  "alerts": []
+  "alerts": [
+    {
+      "type": "verified_drop_50pct",
+      "message": "verified output dropped from 119 to 50",
+      "previous": 119,
+      "current": 50
+    },
+    {
+      "type": "real_ok_drop_50pct",
+      "message": "real-test ok dropped from 119 to 50",
+      "previous": 119,
+      "current": 50
+    }
+  ]
 }
