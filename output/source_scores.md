@@ -1,6 +1,6 @@
 # 订阅源质量评分
 
-生成时间：2026-11-06 22:56:27
+生成时间：2026-11-07 05:17:27
 
 ## 摘要
 
@@ -16,8 +16,8 @@
 
 | 订阅源 | 评分 | 建议 | 已测 | 通过 | 失败 | 通过率 | 解析数 | 连续死亡 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| dragon | 1.0 | prefer | 305 | 290 | 15 | 0.951 | 45178 | 0 |
-| ermaozi | 0.963 | prefer | 33 | 32 | 1 | 0.97 | 513 | 0 |
+| ermaozi | 1.0 | prefer | 50 | 50 | 0 | 1.0 | 562 | 0 |
+| dragon | 0.999 | prefer | 308 | 284 | 24 | 0.922 | 45178 | 0 |
 
 ## 建议降权
 
@@ -31,27 +31,27 @@
 
 | 订阅源 | 评分 | 建议 | 已测 | 通过 | 失败 | 通过率 | 解析数 | 连续死亡 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| dragon | 1.0 | prefer | 305 | 290 | 15 | 0.951 | 45178 | 0 |
-| ermaozi | 0.963 | prefer | 33 | 32 | 1 | 0.97 | 513 | 0 |
-| mheidari-all | 0.335 | observe | 1 | 1 | 0 | 1.0 | 13728 | 0 |
-| SoliSpirit-all | 0.255 | observe | 0 | 0 | 0 | None | 10967 | 0 |
-| barry-far-vless | 0.255 | observe | 0 | 0 | 0 | None | 6345 | 0 |
-| Surfboard-tg-vless | 0.255 | observe | 0 | 0 | 0 | None | 6135 | 0 |
+| ermaozi | 1.0 | prefer | 50 | 50 | 0 | 1.0 | 562 | 0 |
+| dragon | 0.999 | prefer | 308 | 284 | 24 | 0.922 | 45178 | 0 |
+| mheidari-all | 0.335 | observe | 1 | 1 | 0 | 1.0 | 13634 | 0 |
+| Surfboard-tg-mixed | 0.287 | observe | 2 | 1 | 1 | 0.5 | 8637 | 0 |
+| SoliSpirit-all | 0.255 | observe | 0 | 0 | 0 | None | 11015 | 0 |
+| xiaoji235-airport-v2ray-all | 0.255 | observe | 0 | 0 | 0 | None | 6752 | 0 |
+| barry-far-vless | 0.255 | observe | 0 | 0 | 0 | None | 6359 | 0 |
+| Surfboard-tg-vless | 0.255 | observe | 0 | 0 | 0 | None | 6148 | 0 |
 | 10ium-ScrapeCategorize-Vless | 0.255 | observe | 0 | 0 | 0 | None | 4934 | 0 |
 | mahdibland-V2RayAggregator | 0.255 | observe | 0 | 0 | 0 | None | 4540 | 0 |
-| MatinGhanbari-all-sub | 0.255 | observe | 0 | 0 | 0 | None | 3995 | 0 |
+| MatinGhanbari-all-sub | 0.255 | observe | 0 | 0 | 0 | None | 3997 | 0 |
 | DeltaKronecker-all | 0.255 | observe | 0 | 0 | 0 | None | 2768 | 0 |
 | ninja-vless | 0.247 | observe | 0 | 0 | 0 | None | 1791 | 0 |
 | Au1rxx-base64 | 0.245 | observe | 0 | 0 | 0 | None | 1751 | 0 |
 | Au1rxx-clash | 0.245 | observe | 0 | 0 | 0 | None | 1751 | 0 |
 | moneyfly1-collectSub | 0.222 | observe | 0 | 0 | 0 | None | 1164 | 0 |
 | 10ium-HighSpeed | 0.209 | observe | 0 | 0 | 0 | None | 839 | 0 |
-| xiaoji235-airport-v2ray-all | 0.207 | observe | 1 | 0 | 1 | 0.0 | 6752 | 0 |
-| barry-far-Sub2 | 0.195 | observe | 0 | 0 | 0 | None | 500 | 0 |
-| barry-far-Sub1 | 0.195 | observe | 0 | 0 | 0 | None | 491 | 0 |
-| ermaozi-get_subscribe | 0.189 | observe | 0 | 0 | 0 | None | 356 | 0 |
-| chromego_merge | 0.186 | observe | 0 | 0 | 0 | None | 268 | 0 |
-| Surfboard-tg-mixed | 0.184 | observe | 2 | 0 | 2 | 0.0 | 8758 | 0 |
+| barry-far-Sub2 | 0.195 | observe | 0 | 0 | 0 | None | 498 | 0 |
+| barry-far-Sub1 | 0.195 | observe | 0 | 0 | 0 | None | 492 | 0 |
+| ermaozi-get_subscribe | 0.192 | observe | 0 | 0 | 0 | None | 415 | 0 |
+| chromego_merge | 0.187 | observe | 0 | 0 | 0 | None | 288 | 0 |
 | tg-V2RAYProxy | 0.184 | observe | 0 | 0 | 0 | None | 217 | 0 |
 | ts-sf-Fly | 0.183 | observe | 0 | 0 | 0 | None | 201 | 0 |
 | MatinGhanbari-super-sub | 0.183 | observe | 0 | 0 | 0 | None | 200 | 0 |
@@ -59,7 +59,7 @@
 | tg-Farah_VPN | 0.183 | observe | 0 | 0 | 0 | None | 200 | 0 |
 | ts-sf | 0.183 | observe | 0 | 0 | 0 | None | 200 | 0 |
 | tg-Outline_Vpn | 0.182 | observe | 0 | 0 | 0 | None | 185 | 0 |
-| tg-LonUp_M | 0.182 | observe | 0 | 0 | 0 | None | 179 | 0 |
+| tg-LonUp_M | 0.182 | observe | 0 | 0 | 0 | None | 178 | 0 |
 | tg-prrofile_purple | 0.181 | observe | 0 | 0 | 0 | None | 154 | 0 |
 
 ## 综合后 30
