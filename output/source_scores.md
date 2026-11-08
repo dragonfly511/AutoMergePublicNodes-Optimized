@@ -1,6 +1,6 @@
 # 订阅源质量评分
 
-生成时间：2026-11-07 21:43:03
+生成时间：2026-11-08 05:11:30
 
 ## 摘要
 
@@ -16,8 +16,8 @@
 
 | 订阅源 | 评分 | 建议 | 已测 | 通过 | 失败 | 通过率 | 解析数 | 连续死亡 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| dragon | 0.977 | prefer | 299 | 269 | 30 | 0.9 | 45338 | 0 |
-| ermaozi | 0.934 | prefer | 21 | 20 | 1 | 0.952 | 515 | 0 |
+| dragon | 1.0 | prefer | 299 | 278 | 21 | 0.93 | 45338 | 0 |
+| ermaozi | 0.971 | prefer | 91 | 87 | 4 | 0.956 | 613 | 0 |
 
 ## 建议降权
 
@@ -31,17 +31,17 @@
 
 | 订阅源 | 评分 | 建议 | 已测 | 通过 | 失败 | 通过率 | 解析数 | 连续死亡 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| dragon | 0.977 | prefer | 299 | 269 | 30 | 0.9 | 45338 | 0 |
-| ermaozi | 0.934 | prefer | 21 | 20 | 1 | 0.952 | 515 | 0 |
-| mheidari-all | 0.335 | observe | 1 | 1 | 0 | 1.0 | 14235 | 0 |
-| SoliSpirit-all | 0.255 | observe | 0 | 0 | 0 | None | 11058 | 0 |
-| Surfboard-tg-mixed | 0.255 | observe | 0 | 0 | 0 | None | 8421 | 0 |
+| dragon | 1.0 | prefer | 299 | 278 | 21 | 0.93 | 45338 | 0 |
+| ermaozi | 0.971 | prefer | 91 | 87 | 4 | 0.956 | 613 | 0 |
+| mheidari-all | 0.335 | observe | 1 | 1 | 0 | 1.0 | 14102 | 0 |
+| SoliSpirit-all | 0.255 | observe | 0 | 0 | 0 | None | 11000 | 0 |
+| Surfboard-tg-mixed | 0.255 | observe | 0 | 0 | 0 | None | 8112 | 0 |
 | xiaoji235-airport-v2ray-all | 0.255 | observe | 0 | 0 | 0 | None | 6752 | 0 |
-| barry-far-vless | 0.255 | observe | 0 | 0 | 0 | None | 6134 | 0 |
-| Surfboard-tg-vless | 0.255 | observe | 0 | 0 | 0 | None | 5923 | 0 |
+| barry-far-vless | 0.255 | observe | 0 | 0 | 0 | None | 6090 | 0 |
+| Surfboard-tg-vless | 0.255 | observe | 0 | 0 | 0 | None | 5849 | 0 |
 | 10ium-ScrapeCategorize-Vless | 0.255 | observe | 0 | 0 | 0 | None | 4866 | 0 |
 | mahdibland-V2RayAggregator | 0.255 | observe | 0 | 0 | 0 | None | 4529 | 0 |
-| MatinGhanbari-all-sub | 0.255 | observe | 0 | 0 | 0 | None | 3997 | 0 |
+| MatinGhanbari-all-sub | 0.255 | observe | 0 | 0 | 0 | None | 3996 | 0 |
 | DeltaKronecker-all | 0.255 | observe | 0 | 0 | 0 | None | 2734 | 0 |
 | ninja-vless | 0.247 | observe | 0 | 0 | 0 | None | 1791 | 0 |
 | Au1rxx-base64 | 0.245 | observe | 0 | 0 | 0 | None | 1751 | 0 |
@@ -49,17 +49,17 @@
 | moneyfly1-collectSub | 0.222 | observe | 0 | 0 | 0 | None | 1164 | 0 |
 | 10ium-HighSpeed | 0.209 | observe | 0 | 0 | 0 | None | 839 | 0 |
 | barry-far-Sub2 | 0.195 | observe | 0 | 0 | 0 | None | 498 | 0 |
-| barry-far-Sub1 | 0.195 | observe | 0 | 0 | 0 | None | 491 | 0 |
-| ermaozi-get_subscribe | 0.19 | observe | 0 | 0 | 0 | None | 366 | 0 |
-| chromego_merge | 0.187 | observe | 0 | 0 | 0 | None | 302 | 0 |
+| barry-far-Sub1 | 0.195 | observe | 0 | 0 | 0 | None | 489 | 0 |
+| ermaozi-get_subscribe | 0.194 | observe | 0 | 0 | 0 | None | 467 | 0 |
+| chromego_merge | 0.187 | observe | 0 | 0 | 0 | None | 298 | 0 |
 | tg-V2RAYProxy | 0.184 | observe | 0 | 0 | 0 | None | 217 | 0 |
 | ts-sf-Fly | 0.183 | observe | 0 | 0 | 0 | None | 201 | 0 |
 | MatinGhanbari-super-sub | 0.183 | observe | 0 | 0 | 0 | None | 200 | 0 |
 | tg-ConfigV2rayNG | 0.183 | observe | 0 | 0 | 0 | None | 200 | 0 |
-| tg-Farah_VPN | 0.183 | observe | 0 | 0 | 0 | None | 200 | 0 |
 | ts-sf | 0.183 | observe | 0 | 0 | 0 | None | 200 | 0 |
 | tg-Outline_Vpn | 0.183 | observe | 0 | 0 | 0 | None | 194 | 0 |
-| tg-LonUp_M | 0.182 | observe | 0 | 0 | 0 | None | 171 | 0 |
+| tg-Farah_VPN | 0.183 | observe | 0 | 0 | 0 | None | 190 | 0 |
+| tg-LonUp_M | 0.182 | observe | 0 | 0 | 0 | None | 178 | 0 |
 | tg-prrofile_purple | 0.181 | observe | 0 | 0 | 0 | None | 154 | 0 |
 
 ## 综合后 30
