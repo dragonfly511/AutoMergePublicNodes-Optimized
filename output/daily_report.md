@@ -1,6 +1,6 @@
 # AutoNodes 每日报告
 
-生成时间：2026-11-08 13:04:59
+生成时间：2026-11-08 21:57:43
 
 ## 摘要
 
@@ -11,77 +11,76 @@
 | 健康源数量 | 88/108 |
 | 清理建议：禁用/降权 | 18/0 |
 | 清理建议：优先/观察 | 2/88 |
-| 原始节点数 | 127282 |
-| 去重后节点数 | 59317 |
+| 原始节点数 | 126502 |
+| 去重后节点数 | 58460 |
 | TCP 可达数 | 3000 |
-| 真测通过数 | 79 |
-| verified 输出数 | 79 |
-| global 输出数 | 81 |
-| all 输出数 | 59317 |
+| 真测通过数 | 92 |
+| verified 输出数 | 92 |
+| global 输出数 | 93 |
+| all 输出数 | 58460 |
 | all 输出模式 | full |
 
 ## 阶段耗时
 
 | 阶段 | 秒 |
 | --- | --- |
-| china_check | 31.7 |
-| fetch | 8.6 |
-| generate | 30.5 |
-| geo | 1.7 |
-| probe | 115.2 |
-| real_test | 44.2 |
-| tcp | 198.1 |
+| china_check | 37.3 |
+| fetch | 7.5 |
+| generate | 25.9 |
+| geo | 1.6 |
+| probe | 114.2 |
+| real_test | 46.5 |
+| tcp | 193.8 |
 | write_verified | 0.0 |
 
 ## 协议通过率
 
 | 协议 | 已测 | 通过 | 失败 | 通过率 |
 | --- | --- | --- | --- | --- |
-| anytls | 1 | 1 | 0 | 100.0% |
-| http | 28 | 26 | 2 | 92.9% |
-| hysteria2 | 11 | 10 | 1 | 90.9% |
-| shadowsocks | 201 | 186 | 15 | 92.5% |
-| socks | 6 | 2 | 4 | 33.3% |
-| trojan | 61 | 48 | 13 | 78.7% |
-| vless | 2 | 1 | 1 | 50.0% |
-| vmess | 2 | 2 | 0 | 100.0% |
+| anytls | 2 | 1 | 1 | 50.0% |
+| http | 56 | 53 | 3 | 94.6% |
+| hysteria2 | 14 | 12 | 2 | 85.7% |
+| shadowsocks | 218 | 200 | 18 | 91.7% |
+| socks | 4 | 3 | 1 | 75.0% |
+| trojan | 24 | 20 | 4 | 83.3% |
+| vmess | 3 | 3 | 0 | 100.0% |
 
 ## 主要真测错误
 
 | 错误 | 数量 |
 | --- | --- |
-| test_one_timeout:15.0s | 22 |
-| 204:ProxyError | 8 |
-| cn-block:ClientOSError | 2 |
-| geo:ProxyError | 2 |
-| cn-block:TimeoutError | 1 |
-| cn-block:ProxyError | 1 |
+| test_one_timeout:15.0s | 17 |
+| 204:ClientOSError | 4 |
+| cn-block:ClientOSError | 3 |
+| 204:TimeoutError | 2 |
+| sing-box exited 1: [31mFATAL[0m[0000] start service: start inbound: start inbound/socks[socks-in]: listen tcp 127.0.0.1:48016: bind: address already in use | 1 |
+| speed:TimeoutError | 1 |
+| 204:ProxyError | 1 |
 
 ## TCP 预筛选错误
 
 | 错误 | 数量 |
 | --- | --- |
-| TimeoutError | 15244 |
-| ConnectionRefusedError | 2380 |
-| gaierror | 469 |
-| OSError | 293 |
-| SSRFBlocked | 4 |
-| ConnectionResetError | 2 |
+| TimeoutError | 14485 |
+| ConnectionRefusedError | 2318 |
+| gaierror | 473 |
+| OSError | 317 |
+| SSRFBlocked | 1 |
 
 ## 高评分订阅源
 
 | 订阅源 | 评分 | 建议 | 已测 | 通过率 | 解析数 |
 | --- | --- | --- | --- | --- | --- |
-| dragon | 0.956 | prefer | 281 | 0.879 | 45338 |
-| ermaozi | 0.923 | prefer | 28 | 0.929 | 586 |
-| mheidari-all | 0.391 | observe | 2 | 1.0 | 14505 |
-| xiaoji235-airport-v2ray-all | 0.335 | observe | 1 | 1.0 | 6752 |
+| dragon | 0.986 | prefer | 263 | 0.909 | 45021 |
+| ermaozi | 0.954 | prefer | 56 | 0.946 | 586 |
 | 10ium-ScrapeCategorize-Vless | 0.255 | observe | 0 | None | 5035 |
 | DeltaKronecker-all | 0.255 | observe | 0 | None | 3024 |
 | MatinGhanbari-all-sub | 0.255 | observe | 0 | None | 3998 |
-| SoliSpirit-all | 0.255 | observe | 0 | None | 10990 |
-| Surfboard-tg-mixed | 0.255 | observe | 0 | None | 8136 |
-| Surfboard-tg-vless | 0.255 | observe | 0 | None | 5786 |
+| SoliSpirit-all | 0.255 | observe | 0 | None | 10978 |
+| Surfboard-tg-mixed | 0.255 | observe | 0 | None | 8189 |
+| Surfboard-tg-vless | 0.255 | observe | 0 | None | 5913 |
+| barry-far-vless | 0.255 | observe | 0 | None | 6025 |
+| mahdibland-V2RayAggregator | 0.255 | observe | 0 | None | 4597 |
 
 ## 需关注订阅源
 
@@ -95,47 +94,47 @@
 | tg-Ahmedhamoomi_Servers | 0.175 | observe | 0 | None | 0 | 2 |
 | tg-BESTFORBEST66 | 0.175 | observe | 0 | None | 0 | 8 |
 | tg-DarkVPNpro | 0.175 | observe | 0 | None | 0 | 11 |
-| tg-DirectVPN | 0.175 | observe | 0 | None | 0 | 12 |
 | tg-GrizzlyVPN | 0.175 | observe | 0 | None | 0 | 1 |
+| tg-VmessProtocol | 0.175 | observe | 0 | None | 0 | 2 |
 
 ## 订阅源清理建议
 
 | 分类 | 订阅源 | 评分 | 已测 | 通过率 | 连续死亡 | 原因 |
 | --- | --- | --- | --- | --- | --- | --- |
-| disable | tg-Letiranbreath | 0.0 | 0 | None | 429 | 连续死亡次数 >= 2 |
-| disable | snakem982 | 0.0 | 0 | None | 424 | 连续死亡次数 >= 2 |
-| disable | tg-ernoxin_shop | 0.0 | 0 | None | 307 | 连续死亡次数 >= 2 |
-| disable | abc-configs-readme-latest30 | 0.0 | 0 | None | 285 | 连续死亡次数 >= 2 |
-| disable | tg-abc_configs | 0.0 | 0 | None | 284 | 连续死亡次数 >= 2 |
-| disable | tg-Parsashonam | 0.0 | 0 | None | 276 | 连续死亡次数 >= 2 |
-| disable | nscl5-all | 0.0 | 0 | None | 254 | 连续死亡次数 >= 2 |
-| disable | mfuu-v2ray | 0.0 | 0 | None | 249 | 连续死亡次数 >= 2 |
-| disable | tg-CaV2ray | 0.0 | 0 | None | 173 | 连续死亡次数 >= 2 |
-| disable | tg-AzadNet | 0.0 | 0 | None | 160 | 连续死亡次数 >= 2 |
+| disable | tg-Letiranbreath | 0.0 | 0 | None | 430 | 连续死亡次数 >= 2 |
+| disable | snakem982 | 0.0 | 0 | None | 425 | 连续死亡次数 >= 2 |
+| disable | tg-ernoxin_shop | 0.0 | 0 | None | 308 | 连续死亡次数 >= 2 |
+| disable | abc-configs-readme-latest30 | 0.0 | 0 | None | 286 | 连续死亡次数 >= 2 |
+| disable | tg-abc_configs | 0.0 | 0 | None | 285 | 连续死亡次数 >= 2 |
+| disable | tg-Parsashonam | 0.0 | 0 | None | 277 | 连续死亡次数 >= 2 |
+| disable | nscl5-all | 0.0 | 0 | None | 255 | 连续死亡次数 >= 2 |
+| disable | mfuu-v2ray | 0.0 | 0 | None | 250 | 连续死亡次数 >= 2 |
+| disable | tg-CaV2ray | 0.0 | 0 | None | 174 | 连续死亡次数 >= 2 |
+| disable | tg-AzadNet | 0.0 | 0 | None | 161 | 连续死亡次数 >= 2 |
 
 ## 真测通过率较低的订阅源
 
 | 订阅源 | 通过率 | 通过 | 失败 | 已测 |
 | --- | --- | --- | --- | --- |
-| dragon | 0.879 | 247 | 34 | 281 |
-| ermaozi | 0.929 | 26 | 2 | 28 |
-| xiaoji235-airport-v2ray-all | 1.0 | 1 | 0 | 1 |
-| mheidari-all | 1.0 | 2 | 0 | 2 |
+| xiaoji235-airport-v2ray-all | 0.0 | 0 | 1 | 1 |
+| mheidari-all | 0.0 | 0 | 1 | 1 |
+| dragon | 0.909 | 239 | 24 | 263 |
+| ermaozi | 0.946 | 53 | 3 | 56 |
 
 ## 解析节点数较高的订阅源
 
 | 订阅源 | 节点数 | 是否正常 | 耗时 | 连续死亡 |
 | --- | --- | --- | --- | --- |
-| dragon | 45338 | yes | 7.9 | 0 |
-| mheidari-all | 14505 | yes | 4.9 | 0 |
-| SoliSpirit-all | 10990 | yes | 3.63 | 0 |
-| Surfboard-tg-mixed | 8136 | yes | 3.57 | 0 |
-| xiaoji235-airport-v2ray-all | 6752 | yes | 2.49 | 0 |
-| barry-far-vless | 5999 | yes | 1.41 | 0 |
-| Surfboard-tg-vless | 5786 | yes | 4.06 | 0 |
-| 10ium-ScrapeCategorize-Vless | 5035 | yes | 1.92 | 0 |
-| mahdibland-V2RayAggregator | 4635 | yes | 2.55 | 0 |
-| MatinGhanbari-all-sub | 3998 | yes | 2.0 | 0 |
+| dragon | 45021 | yes | 6.78 | 0 |
+| mheidari-all | 13955 | yes | 3.88 | 0 |
+| SoliSpirit-all | 10978 | yes | 4.27 | 0 |
+| Surfboard-tg-mixed | 8189 | yes | 4.2 | 0 |
+| xiaoji235-airport-v2ray-all | 6752 | yes | 2.23 | 0 |
+| barry-far-vless | 6025 | yes | 2.14 | 0 |
+| Surfboard-tg-vless | 5913 | yes | 3.49 | 0 |
+| 10ium-ScrapeCategorize-Vless | 5035 | yes | 2.38 | 0 |
+| mahdibland-V2RayAggregator | 4597 | yes | 2.74 | 0 |
+| MatinGhanbari-all-sub | 3998 | yes | 3.04 | 0 |
 
 ## 趋势报警
 
@@ -146,7 +145,8 @@
 ### 真测错误报警
 | 错误 | 数量 |
 | --- | --- |
-| test_one_timeout | 22 |
-| 204 | 8 |
-| cn-block | 4 |
-| geo | 2 |
+| test_one_timeout | 17 |
+| 204 | 7 |
+| cn-block | 3 |
+| sing-box exited 1 | 1 |
+| speed | 1 |
