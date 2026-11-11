@@ -5,46 +5,46 @@
 | 指标 | 数值 |
 | --- | --- |
 | 版本 | 2.4.0 |
-| 更新时间 | 2026-11-11 05:22:38 |
-| 运行耗时 | 401.2s |
+| 更新时间 | 2026-11-11 13:53:30 |
+| 运行耗时 | 413.6s |
 | 订阅源总数 | 108 |
 | 健康订阅源 | 88 |
-| 原始节点 | 127580 |
-| 去重后节点 | 59612 |
+| 原始节点 | 127876 |
+| 去重后节点 | 59802 |
 | TCP 可达 | 3000 |
-| 真实可用 | 108 |
-| Verified 输出 | 108 |
-| Global 输出 | 108 |
-| All 输出 | 59612 |
+| 真实可用 | 121 |
+| Verified 输出 | 121 |
+| Global 输出 | 123 |
+| All 输出 | 59802 |
 
 ## 阶段耗时
 
 | 阶段 | 秒 |
 | --- | --- |
-| fetch | 9.0 |
-| geo | 1.7 |
-| tcp | 195.0 |
-| probe | 99.0 |
-| real_test | 39.0 |
-| china_check | 25.5 |
-| write_verified | 0.1 |
-| generate | 31.9 |
+| fetch | 6.7 |
+| geo | 1.6 |
+| tcp | 199.4 |
+| probe | 94.6 |
+| real_test | 57.1 |
+| china_check | 30.3 |
+| write_verified | 0.0 |
+| generate | 23.9 |
 
 ## 协议分布
 
 | 协议 | 数量 |
 | --- | --- |
-| vless | 78603 |
-| vmess | 18091 |
-| trojan | 14981 |
-| shadowsocks | 12996 |
-| hysteria2 | 2150 |
+| vless | 79016 |
+| vmess | 18045 |
+| trojan | 14855 |
+| shadowsocks | 13054 |
+| hysteria2 | 2144 |
 | http | 297 |
-| shadowsocksr | 256 |
-| socks | 102 |
-| hysteria | 41 |
-| anytls | 36 |
-| tuic | 27 |
+| shadowsocksr | 260 |
+| socks | 97 |
+| hysteria | 42 |
+| anytls | 35 |
+| tuic | 31 |
 
 ## 评分权重
 
@@ -62,66 +62,68 @@
 
 | 评分 | 协议 | 延迟(ms) | 抖动(ms) | 延迟分 | 抖动分 | TCP分 | 协议历史分 | 来源历史分 | 来源 | 服务器 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 82.55 | trojan | 263.5 | 642.2 | 21.68 | 0.0 | 9.78 | 14.07 | 19.52 | dragon | 216.152.155.59 |
-| 82.5 | trojan | 265.7 | 585.0 | 21.63 | 0.0 | 9.78 | 14.07 | 19.52 | dragon | 216.152.155.158 |
-| 82.48 | trojan | 276.0 | 654.4 | 21.39 | 0.0 | 10.0 | 14.07 | 19.52 | dragon | 216.152.156.49 |
-| 82.41 | trojan | 278.9 | 667.7 | 21.32 | 0.0 | 10.0 | 14.07 | 19.52 | dragon | 170.101.101.19 |
-| 80.55 | trojan | 307.6 | 737.3 | 20.66 | 0.0 | 9.76 | 14.07 | 19.52 | dragon | 169.197.140.245 |
-| 80.23 | trojan | 319.5 | 788.4 | 20.38 | 0.0 | 8.76 | 14.07 | 19.52 | dragon | 170.101.101.67 |
-| 80.16 | trojan | 316.3 | 760.3 | 20.46 | 0.0 | 8.61 | 14.07 | 19.52 | dragon | 170.101.101.131 |
-| 80.07 | shadowsocks | 260.4 | 671.3 | 21.75 | 0.0 | 9.91 | 13.39 | 19.52 | dragon | 15.204.233.41 |
-| 80.02 | shadowsocks | 259.1 | 636.8 | 21.78 | 0.0 | 9.83 | 13.39 | 19.52 | dragon | 185.215.132.9 |
-| 79.98 | trojan | 330.7 | 836.0 | 20.12 | 0.0 | 8.77 | 14.07 | 19.52 | dragon | 216.152.155.54 |
-| 79.96 | shadowsocks | 261.9 | 640.2 | 21.72 | 0.0 | 9.83 | 13.39 | 19.52 | dragon | 185.215.132.18 |
-| 79.73 | trojan | 291.7 | 690.1 | 21.03 | 0.0 | 8.61 | 14.07 | 19.52 | dragon | 170.101.101.53 |
-| 79.32 | trojan | 313.3 | 795.0 | 20.52 | 0.0 | 8.54 | 14.07 | 19.52 | dragon | 216.152.155.23 |
-| 79.05 | trojan | 330.1 | 818.7 | 20.14 | 0.0 | 8.43 | 14.07 | 19.52 | dragon | 170.101.101.112 |
-| 78.98 | shadowsocks | 300.6 | 743.0 | 20.82 | 0.0 | 9.75 | 13.39 | 19.52 | dragon | 38.91.107.57 |
-| 78.86 | trojan | 357.7 | 878.8 | 19.5 | 0.0 | 8.59 | 14.07 | 19.52 | dragon | 169.197.140.171 |
-| 78.58 | trojan | 292.5 | 593.1 | 21.01 | 0.0 | 10.0 | 14.07 | 19.52 | dragon | 66.163.114.106 |
-| 78.47 | trojan | 312.1 | 729.6 | 20.55 | 0.0 | 8.4 | 14.07 | 19.52 | dragon | 169.197.140.218 |
-| 78.01 | shadowsocks | 262.6 | 699.1 | 21.7 | 0.0 | 9.9 | 13.39 | 19.52 | dragon | 15.204.246.132 |
-| 77.99 | trojan | 254.1 | 697.6 | 21.9 | 0.0 | 10.0 | 14.07 | 19.52 | dragon | 66.163.122.81 |
+| 81.92 | trojan | 205.6 | 562.6 | 23.02 | 0.0 | 10.0 | 12.94 | 18.46 | dragon | 216.106.186.66 |
+| 81.19 | trojan | 237.1 | 422.3 | 22.29 | 0.0 | 10.0 | 12.94 | 18.46 | dragon | 216.106.186.155 |
+| 81.02 | trojan | 236.0 | 627.9 | 22.32 | 0.0 | 9.8 | 12.94 | 18.46 | dragon | 216.106.186.46 |
+| 79.47 | shadowsocks | 232.4 | 520.6 | 22.4 | 0.0 | 10.0 | 13.64 | 18.46 | dragon | 38.145.220.193 |
+| 79.28 | trojan | 302.5 | 622.0 | 20.78 | 0.0 | 10.0 | 12.94 | 18.46 | dragon | 167.88.61.175 |
+| 79.1 | hysteria2 | 328.9 | 597.3 | 20.17 | 0.0 | 10.0 | 11.47 | 18.46 | dragon | 66.94.121.46 |
+| 79.05 | trojan | 288.6 | 685.0 | 21.1 | 0.0 | 10.0 | 12.94 | 18.46 | dragon | 167.88.61.85 |
+| 75.54 | trojan | 345.8 | 764.9 | 19.77 | 0.0 | 10.0 | 12.94 | 18.46 | dragon | 66.163.112.147 |
+| 75.49 | http | 191.3 | 446.6 | 23.35 | 0.0 | 0.0 | 14.64 | 20.0 | ermaozi | 172.64.69.89 |
+| 74.46 | trojan | 336.3 | 732.5 | 19.99 | 0.0 | 9.1 | 12.94 | 18.46 | dragon | 66.163.112.31 |
+| 74.36 | trojan | 372.4 | 536.5 | 19.16 | 0.0 | 9.45 | 12.94 | 18.46 | dragon | 66.163.112.242 |
+| 74.23 | trojan | 236.5 | 520.8 | 22.3 | 0.0 | 9.39 | 12.94 | 18.46 | dragon | 167.88.61.20 |
+| 74.12 | trojan | 240.4 | 542.3 | 22.21 | 0.0 | 9.39 | 12.94 | 18.46 | dragon | 167.88.61.198 |
+| 74.09 | trojan | 236.7 | 529.5 | 22.3 | 0.0 | 9.39 | 12.94 | 18.46 | dragon | 167.88.61.193 |
+| 73.94 | trojan | 281.8 | 636.0 | 21.25 | 0.0 | 10.0 | 12.94 | 18.46 | dragon | 66.163.114.114 |
+| 73.89 | trojan | 333.5 | 683.2 | 20.06 | 0.0 | 9.94 | 12.94 | 18.46 | dragon | 216.152.155.59 |
+| 73.55 | trojan | 395.5 | 900.9 | 18.62 | 0.0 | 9.31 | 12.94 | 18.46 | dragon | 66.163.112.121 |
+| 73.19 | shadowsocks | 492.2 | 644.9 | 16.38 | 0.0 | 9.73 | 13.64 | 18.46 | dragon | 169.197.142.68 |
+| 73.05 | trojan | 431.5 | 1017.6 | 17.79 | 0.0 | 9.38 | 12.94 | 18.46 | dragon | 66.163.112.13 |
+| 72.49 | trojan | 289.3 | 595.4 | 21.08 | 0.0 | 9.51 | 12.94 | 18.46 | dragon | 66.163.112.142 |
 
 ## 来源质量排行
 
 | 来源 | 评分 | 通过率 | 测试数 | 解析节点 | 建议 |
 | --- | --- | --- | --- | --- | --- |
-| ermaozi | 1.0 | 0.988 | 82 | 601 | prefer |
-| dragon | 0.923 | 0.848 | 132 | 45201 | prefer |
-| mheidari-all | 0.335 | 1.0 | 1 | 13964 | observe |
-| 10ium-ScrapeCategorize-Vless | 0.255 | None | 0 | 4955 | observe |
-| DeltaKronecker-all | 0.255 | None | 0 | 2620 | observe |
-| MatinGhanbari-all-sub | 0.255 | None | 0 | 3999 | observe |
-| SoliSpirit-all | 0.255 | None | 0 | 11127 | observe |
-| Surfboard-tg-mixed | 0.255 | None | 0 | 8415 | observe |
-| Surfboard-tg-vless | 0.255 | None | 0 | 6298 | observe |
-| barry-far-vless | 0.255 | None | 0 | 6562 | observe |
-| mahdibland-V2RayAggregator | 0.255 | None | 0 | 4595 | observe |
+| ermaozi | 0.951 | 0.938 | 80 | 608 | prefer |
+| dragon | 0.907 | 0.829 | 292 | 45201 | prefer |
+| xiaoji235-airport-v2ray-all | 0.335 | 1.0 | 1 | 6752 | observe |
+| 10ium-ScrapeCategorize-Vless | 0.255 | None | 0 | 4981 | observe |
+| DeltaKronecker-all | 0.255 | None | 0 | 2629 | observe |
+| MatinGhanbari-all-sub | 0.255 | None | 0 | 3997 | observe |
+| SoliSpirit-all | 0.255 | None | 0 | 11142 | observe |
+| Surfboard-tg-mixed | 0.255 | None | 0 | 8393 | observe |
+| Surfboard-tg-vless | 0.255 | None | 0 | 6306 | observe |
+| barry-far-vless | 0.255 | None | 0 | 6508 | observe |
 | ninja-vless | 0.247 | None | 0 | 1791 | observe |
 | Au1rxx-base64 | 0.245 | None | 0 | 1751 | observe |
 | Au1rxx-clash | 0.245 | None | 0 | 1751 | observe |
 | moneyfly1-collectSub | 0.222 | None | 0 | 1164 | observe |
+| 10ium-HighSpeed | 0.209 | None | 0 | 839 | observe |
 
 ## 真实测试失败原因
 
 | 目标 | 原因 | 状态/值 | 数量 |
 | --- | --- | --- | --- |
-| test_one_timeout | 15.0s | - | 8 |
-| 204 | ProxyError | - | 6 |
-| 204 | ClientOSError | - | 3 |
+| test_one_timeout | 15.0s | - | 29 |
+| 204 | ProxyError | - | 15 |
+| cn-block | ProxyError | - | 3 |
+| 204 | ClientOSError | - | 2 |
+| speed | TimeoutError | - | 2 |
+| cn-block | ClientOSError | - | 2 |
+| sing-box exited 1 |  [31mFATAL[0m[0000] start service: start inbound: start inbound/socks[socks-in]: listen tcp 127.0.0.1:42600: bind: address already in use | - | 1 |
 | speed | ClientOSError | - | 1 |
-| cn-block | ProxyError | - | 1 |
-| sing-box exited 1 |  [31mFATAL[0m[0000] start service: start inbound: start inbound/socks[socks-in]: listen tcp 127.0.0.1:37994: bind: address already in use | - | 1 |
-| cn-block | TimeoutError | - | 1 |
-| speed | TimeoutError | - | 1 |
+| 204 | TimeoutError | - | 1 |
+| geo | TimeoutError | - | 1 |
 
 ## 输出保护
 
 | 前缀 | 是否保留旧输出 | 上一轮数量 | 本轮建议数量 | 保护比例 |
 | --- | --- | --- | --- | --- |
-| verified | False | 64 | 108 | - |
-| global | False | 66 | 108 | - |
+| verified | False | 108 | 121 | - |
+| global | False | 108 | 123 | - |
 
 ---
 
