@@ -1,6 +1,6 @@
 # 订阅源质量评分
 
-生成时间：2026-11-10 23:04:18
+生成时间：2026-11-11 05:22:38
 
 ## 摘要
 
@@ -16,8 +16,8 @@
 
 | 订阅源 | 评分 | 建议 | 已测 | 通过 | 失败 | 通过率 | 解析数 | 连续死亡 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| ermaozi | 1.0 | prefer | 70 | 70 | 0 | 1.0 | 619 | 0 |
-| dragon | 0.976 | prefer | 345 | 310 | 35 | 0.899 | 45201 | 0 |
+| ermaozi | 1.0 | prefer | 82 | 81 | 1 | 0.988 | 601 | 0 |
+| dragon | 0.923 | prefer | 132 | 112 | 20 | 0.848 | 45201 | 0 |
 
 ## 建议降权
 
@@ -31,14 +31,13 @@
 
 | 订阅源 | 评分 | 建议 | 已测 | 通过 | 失败 | 通过率 | 解析数 | 连续死亡 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| ermaozi | 1.0 | prefer | 70 | 70 | 0 | 1.0 | 619 | 0 |
-| dragon | 0.976 | prefer | 345 | 310 | 35 | 0.899 | 45201 | 0 |
-| mheidari-all | 0.335 | observe | 1 | 1 | 0 | 1.0 | 13868 | 0 |
-| Surfboard-tg-mixed | 0.335 | observe | 1 | 1 | 0 | 1.0 | 8562 | 0 |
-| SoliSpirit-all | 0.255 | observe | 0 | 0 | 0 | None | 11122 | 0 |
-| xiaoji235-airport-v2ray-all | 0.255 | observe | 0 | 0 | 0 | None | 6752 | 0 |
-| barry-far-vless | 0.255 | observe | 0 | 0 | 0 | None | 6669 | 0 |
-| Surfboard-tg-vless | 0.255 | observe | 0 | 0 | 0 | None | 6459 | 0 |
+| ermaozi | 1.0 | prefer | 82 | 81 | 1 | 0.988 | 601 | 0 |
+| dragon | 0.923 | prefer | 132 | 112 | 20 | 0.848 | 45201 | 0 |
+| mheidari-all | 0.335 | observe | 1 | 1 | 0 | 1.0 | 13964 | 0 |
+| SoliSpirit-all | 0.255 | observe | 0 | 0 | 0 | None | 11127 | 0 |
+| Surfboard-tg-mixed | 0.255 | observe | 0 | 0 | 0 | None | 8415 | 0 |
+| barry-far-vless | 0.255 | observe | 0 | 0 | 0 | None | 6562 | 0 |
+| Surfboard-tg-vless | 0.255 | observe | 0 | 0 | 0 | None | 6298 | 0 |
 | 10ium-ScrapeCategorize-Vless | 0.255 | observe | 0 | 0 | 0 | None | 4955 | 0 |
 | mahdibland-V2RayAggregator | 0.255 | observe | 0 | 0 | 0 | None | 4595 | 0 |
 | MatinGhanbari-all-sub | 0.255 | observe | 0 | 0 | 0 | None | 3999 | 0 |
@@ -48,9 +47,11 @@
 | Au1rxx-clash | 0.245 | observe | 0 | 0 | 0 | None | 1751 | 0 |
 | moneyfly1-collectSub | 0.222 | observe | 0 | 0 | 0 | None | 1164 | 0 |
 | 10ium-HighSpeed | 0.209 | observe | 0 | 0 | 0 | None | 839 | 0 |
+| xiaoji235-airport-v2ray-all | 0.207 | observe | 1 | 0 | 1 | 0.0 | 6752 | 0 |
 | barry-far-Sub2 | 0.195 | observe | 0 | 0 | 0 | None | 498 | 0 |
-| barry-far-Sub1 | 0.195 | observe | 0 | 0 | 0 | None | 492 | 0 |
-| ermaozi-get_subscribe | 0.195 | observe | 0 | 0 | 0 | None | 491 | 0 |
+| barry-far-Sub1 | 0.195 | observe | 0 | 0 | 0 | None | 491 | 0 |
+| ermaozi-get_subscribe | 0.194 | observe | 0 | 0 | 0 | None | 485 | 0 |
+| chromego_merge | 0.186 | observe | 0 | 0 | 0 | None | 270 | 0 |
 | tg-V2RAYProxy | 0.184 | observe | 0 | 0 | 0 | None | 217 | 0 |
 | ts-sf-Fly | 0.183 | observe | 0 | 0 | 0 | None | 201 | 0 |
 | MatinGhanbari-super-sub | 0.183 | observe | 0 | 0 | 0 | None | 200 | 0 |
@@ -58,15 +59,13 @@
 | tg-Farah_VPN | 0.183 | observe | 0 | 0 | 0 | None | 200 | 0 |
 | ts-sf | 0.183 | observe | 0 | 0 | 0 | None | 200 | 0 |
 | tg-Outline_Vpn | 0.182 | observe | 0 | 0 | 0 | None | 185 | 0 |
-| tg-LonUp_M | 0.182 | observe | 0 | 0 | 0 | None | 177 | 0 |
+| tg-LonUp_M | 0.182 | observe | 0 | 0 | 0 | None | 179 | 0 |
 | tg-prrofile_purple | 0.181 | observe | 0 | 0 | 0 | None | 154 | 0 |
-| roosterkid-openproxylist-v2ray | 0.181 | observe | 0 | 0 | 0 | None | 150 | 0 |
 
 ## 综合后 30
 
 | 订阅源 | 评分 | 建议 | 已测 | 通过 | 失败 | 通过率 | 解析数 | 连续死亡 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| chromego_merge | 0.025 | observe | 0 | 0 | 0 | None | 0 | 1 |
 | tg-ConfigWireguard | 0.025 | observe | 0 | 0 | 0 | None | 0 | 1 |
 | tg-ShadowsocksM | 0.025 | observe | 0 | 0 | 0 | None | 0 | 1 |
 | Mr8AHAL | 0.175 | observe | 0 | 0 | 0 | None | 1 | 0 |
@@ -87,6 +86,7 @@
 | tg-BESTFORBEST66 | 0.175 | observe | 0 | 0 | 0 | None | 8 | 0 |
 | tg-DarkVPNpro | 0.175 | observe | 0 | 0 | 0 | None | 11 | 0 |
 | tg-freeiranianv2rey | 0.175 | observe | 0 | 0 | 0 | None | 11 | 0 |
+| tg-proxy_kafee | 0.175 | observe | 0 | 0 | 0 | None | 11 | 0 |
 | tg-vpnfail_vless | 0.175 | observe | 0 | 0 | 0 | None | 12 | 0 |
 | tg-V2RayRootFree | 0.176 | observe | 0 | 0 | 0 | None | 13 | 0 |
 | freefq | 0.176 | observe | 0 | 0 | 0 | None | 14 | 0 |
