@@ -324,17 +324,17 @@ MIT
 
 | 指标 | 数值 |
 | --- | --- |
-| 更新时间 | 2026-11-13 14:16:26 |
+| 更新时间 | 2026-11-13 23:29:32 |
 | 版本 | 2.4.0 |
-| 订阅源 | 88/108 |
-| 原始节点 | 127093 |
-| 去重后 | 58788 |
+| 订阅源 | 87/108 |
+| 原始节点 | 128722 |
+| 去重后 | 58751 |
 | TCP 可达 | 3000 |
-| 真实可用 | 93 |
-| 真测通过率 | 3.1% |
-| Verified 输出 | 93 |
-| Global 输出 | 95 |
-| All 输出 | 58788 |
+| 真实可用 | 76 |
+| 真测通过率 | 2.5% |
+| Verified 输出 | 76 |
+| Global 输出 | 76 |
+| All 输出 | 58751 |
 
 > 输出保护：无。完整报告见 `output/health_report.md`、`output/stats.json`。
 
@@ -342,19 +342,19 @@ MIT
 
 | 评分 | 协议 | 延迟(ms) | 来源 |
 | --- | --- | --- | --- |
-| 83.42 | trojan | 219.4 | dragon |
-| 82.28 | trojan | 268.6 | dragon |
-| 81.41 | shadowsocks | 223.3 | dragon |
-| 79.86 | trojan | 255.2 | dragon |
-| 79.81 | trojan | 369.9 | dragon |
+| 78.1 | trojan | 248.1 | dragon |
+| 77.54 | trojan | 279.4 | dragon |
+| 77.38 | trojan | 198.2 | dragon |
+| 77.16 | trojan | 208.1 | dragon |
+| 76.77 | trojan | 274.4 | dragon |
 
 ### Top 来源质量
 
 | 来源 | 评分 | 测试数 | 建议 |
 | --- | --- | --- | --- |
-| dragon | 0.962 | 270 | prefer |
-| ermaozi | 0.955 | 27 | prefer |
-| Surfboard-tg-mixed | 0.438 | 3 | observe |
+| dragon | 1.0 | 270 | prefer |
+| ermaozi | 0.989 | 55 | prefer |
+| mheidari-all | 0.335 | 1 | observe |
 | 10ium-ScrapeCategorize-Vless | 0.255 | 0 | observe |
 | DeltaKronecker-all | 0.255 | 0 | observe |
 
