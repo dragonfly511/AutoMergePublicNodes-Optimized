@@ -1,6 +1,6 @@
 # 订阅源质量评分
 
-生成时间：2026-11-13 23:29:32
+生成时间：2026-11-14 05:37:20
 
 ## 摘要
 
@@ -16,8 +16,8 @@
 
 | 订阅源 | 评分 | 建议 | 已测 | 通过 | 失败 | 通过率 | 解析数 | 连续死亡 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| dragon | 1.0 | prefer | 270 | 252 | 18 | 0.933 | 44709 | 0 |
-| ermaozi | 0.989 | prefer | 55 | 54 | 1 | 0.982 | 590 | 0 |
+| dragon | 0.983 | prefer | 245 | 222 | 23 | 0.906 | 44709 | 0 |
+| ermaozi | 0.983 | prefer | 71 | 69 | 2 | 0.972 | 597 | 0 |
 
 ## 建议降权
 
@@ -31,17 +31,17 @@
 
 | 订阅源 | 评分 | 建议 | 已测 | 通过 | 失败 | 通过率 | 解析数 | 连续死亡 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| dragon | 1.0 | prefer | 270 | 252 | 18 | 0.933 | 44709 | 0 |
-| ermaozi | 0.989 | prefer | 55 | 54 | 1 | 0.982 | 590 | 0 |
-| mheidari-all | 0.335 | observe | 1 | 1 | 0 | 1.0 | 14267 | 0 |
-| SoliSpirit-all | 0.255 | observe | 0 | 0 | 0 | None | 11654 | 0 |
+| dragon | 0.983 | prefer | 245 | 222 | 23 | 0.906 | 44709 | 0 |
+| ermaozi | 0.983 | prefer | 71 | 69 | 2 | 0.972 | 597 | 0 |
+| mheidari-all | 0.255 | observe | 0 | 0 | 0 | None | 13877 | 0 |
+| SoliSpirit-all | 0.255 | observe | 0 | 0 | 0 | None | 11507 | 0 |
 | Surfboard-tg-mixed | 0.255 | observe | 0 | 0 | 0 | None | 8942 | 0 |
 | xiaoji235-airport-v2ray-all | 0.255 | observe | 0 | 0 | 0 | None | 6752 | 0 |
-| barry-far-vless | 0.255 | observe | 0 | 0 | 0 | None | 6639 | 0 |
+| barry-far-vless | 0.255 | observe | 0 | 0 | 0 | None | 6640 | 0 |
 | Surfboard-tg-vless | 0.255 | observe | 0 | 0 | 0 | None | 6457 | 0 |
 | 10ium-ScrapeCategorize-Vless | 0.255 | observe | 0 | 0 | 0 | None | 4900 | 0 |
 | mahdibland-V2RayAggregator | 0.255 | observe | 0 | 0 | 0 | None | 4624 | 0 |
-| MatinGhanbari-all-sub | 0.255 | observe | 0 | 0 | 0 | None | 3997 | 0 |
+| MatinGhanbari-all-sub | 0.255 | observe | 0 | 0 | 0 | None | 3998 | 0 |
 | DeltaKronecker-all | 0.255 | observe | 0 | 0 | 0 | None | 2734 | 0 |
 | ninja-vless | 0.247 | observe | 0 | 0 | 0 | None | 1791 | 0 |
 | Au1rxx-base64 | 0.245 | observe | 0 | 0 | 0 | None | 1751 | 0 |
@@ -49,9 +49,9 @@
 | moneyfly1-collectSub | 0.222 | observe | 0 | 0 | 0 | None | 1164 | 0 |
 | 10ium-HighSpeed | 0.209 | observe | 0 | 0 | 0 | None | 839 | 0 |
 | barry-far-Sub2 | 0.195 | observe | 0 | 0 | 0 | None | 496 | 0 |
-| barry-far-Sub1 | 0.195 | observe | 0 | 0 | 0 | None | 490 | 0 |
-| ermaozi-get_subscribe | 0.193 | observe | 0 | 0 | 0 | None | 442 | 0 |
-| chromego_merge | 0.186 | observe | 0 | 0 | 0 | None | 270 | 0 |
+| barry-far-Sub1 | 0.195 | observe | 0 | 0 | 0 | None | 488 | 0 |
+| ermaozi-get_subscribe | 0.194 | observe | 0 | 0 | 0 | None | 471 | 0 |
+| chromego_merge | 0.186 | observe | 0 | 0 | 0 | None | 274 | 0 |
 | tg-V2RAYProxy | 0.184 | observe | 0 | 0 | 0 | None | 217 | 0 |
 | ts-sf-Fly | 0.183 | observe | 0 | 0 | 0 | None | 201 | 0 |
 | MatinGhanbari-super-sub | 0.183 | observe | 0 | 0 | 0 | None | 200 | 0 |
