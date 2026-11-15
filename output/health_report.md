@@ -5,46 +5,46 @@
 | 指标 | 数值 |
 | --- | --- |
 | 版本 | 2.4.0 |
-| 更新时间 | 2026-11-15 13:44:36 |
-| 运行耗时 | 324.1s |
+| 更新时间 | 2026-11-15 22:44:42 |
+| 运行耗时 | 441.2s |
 | 订阅源总数 | 108 |
-| 健康订阅源 | 89 |
-| 原始节点 | 128342 |
-| 去重后节点 | 59201 |
+| 健康订阅源 | 88 |
+| 原始节点 | 127859 |
+| 去重后节点 | 58100 |
 | TCP 可达 | 3000 |
-| 真实可用 | 66 |
-| Verified 输出 | 66 |
-| Global 输出 | 67 |
-| All 输出 | 59201 |
+| 真实可用 | 85 |
+| Verified 输出 | 85 |
+| Global 输出 | 91 |
+| All 输出 | 58100 |
 
 ## 阶段耗时
 
 | 阶段 | 秒 |
 | --- | --- |
-| fetch | 5.5 |
+| fetch | 33.9 |
 | geo | 1.5 |
-| tcp | 150.8 |
-| probe | 76.3 |
-| real_test | 44.8 |
-| china_check | 25.9 |
-| write_verified | 0.0 |
-| generate | 19.2 |
+| tcp | 199.7 |
+| probe | 95.4 |
+| real_test | 60.8 |
+| china_check | 31.9 |
+| write_verified | 0.1 |
+| generate | 17.9 |
 
 ## 协议分布
 
 | 协议 | 数量 |
 | --- | --- |
-| vless | 77717 |
-| vmess | 18992 |
-| trojan | 14662 |
-| shadowsocks | 13770 |
-| hysteria2 | 2196 |
-| shadowsocksr | 381 |
-| tuic | 266 |
-| http | 140 |
-| socks | 114 |
-| hysteria | 74 |
-| anytls | 30 |
+| vless | 77834 |
+| vmess | 18836 |
+| shadowsocks | 14128 |
+| trojan | 14050 |
+| hysteria2 | 2230 |
+| shadowsocksr | 377 |
+| http | 116 |
+| socks | 110 |
+| hysteria | 81 |
+| tuic | 61 |
+| anytls | 36 |
 
 ## 评分权重
 
@@ -62,66 +62,65 @@
 
 | 评分 | 协议 | 延迟(ms) | 抖动(ms) | 延迟分 | 抖动分 | TCP分 | 协议历史分 | 来源历史分 | 来源 | 服务器 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 81.77 | trojan | 260.8 | 658.3 | 21.74 | 0.0 | 10.0 | 12.71 | 19.82 | dragon | 66.163.122.113 |
-| 80.12 | shadowsocks | 285.5 | 774.1 | 21.17 | 0.0 | 9.59 | 14.04 | 19.82 | dragon | 15.204.246.132 |
-| 79.78 | trojan | 296.1 | 685.7 | 20.92 | 0.0 | 9.31 | 12.71 | 19.82 | dragon | 170.101.101.112 |
-| 79.64 | shadowsocks | 271.6 | 637.3 | 21.49 | 0.0 | 9.31 | 14.04 | 19.82 | dragon | 156.146.38.170 |
-| 77.31 | trojan | 294.3 | 673.5 | 20.97 | 0.0 | 9.03 | 12.71 | 19.82 | dragon | 216.152.156.42 |
-| 76.3 | trojan | 321.3 | 693.4 | 20.34 | 0.0 | 10.0 | 12.71 | 19.82 | dragon | 216.152.156.81 |
-| 76.29 | trojan | 310.6 | 693.6 | 20.59 | 0.0 | 10.0 | 12.71 | 19.82 | dragon | 216.152.156.49 |
-| 75.83 | shadowsocks | 427.1 | 1030.3 | 17.89 | 0.0 | 8.58 | 14.04 | 19.82 | dragon | 15.204.246.107 |
-| 75.24 | shadowsocks | 291.4 | 576.3 | 21.03 | 0.0 | 9.31 | 14.04 | 19.82 | dragon | 38.145.220.193 |
-| 74.93 | shadowsocks | 299.1 | 595.2 | 20.85 | 0.0 | 9.33 | 14.04 | 19.82 | dragon | 23.150.152.38 |
-| 74.88 | trojan | 309.1 | 734.3 | 20.62 | 0.0 | 9.35 | 12.71 | 19.82 | dragon | 169.197.140.214 |
-| 74.8 | trojan | 327.9 | 661.3 | 20.19 | 0.0 | 8.96 | 12.71 | 19.82 | dragon | 66.163.114.114 |
-| 74.8 | trojan | 328.2 | 655.5 | 20.18 | 0.0 | 9.05 | 12.71 | 19.82 | dragon | 66.163.114.45 |
-| 74.34 | trojan | 281.8 | 665.4 | 21.25 | 0.0 | 10.0 | 12.71 | 19.82 | dragon | 170.101.101.53 |
-| 74.23 | trojan | 327.2 | 630.5 | 20.2 | 0.0 | 8.95 | 12.71 | 19.82 | dragon | 66.163.112.13 |
-| 74.18 | trojan | 334.6 | 634.9 | 20.03 | 0.0 | 9.22 | 12.71 | 19.82 | dragon | 216.106.186.155 |
-| 73.41 | hysteria2 | 245.6 | 666.7 | 22.09 | 0.0 | 0.0 | 12.5 | 19.82 | dragon | 206.189.229.48 |
-| 73.37 | trojan | 351.9 | 693.6 | 19.63 | 0.0 | 9.22 | 12.71 | 19.82 | dragon | 216.106.186.46 |
-| 73.18 | trojan | 384.5 | 567.3 | 18.88 | 0.0 | 10.0 | 12.71 | 19.82 | dragon | 216.106.186.33 |
-| 73.08 | trojan | 321.4 | 637.4 | 20.34 | 0.0 | 8.95 | 12.71 | 19.82 | dragon | 66.163.114.126 |
+| 76.14 | shadowsocks | 234.2 | 605.5 | 22.36 | 0.0 | 6.07 | 13.41 | 18.3 | dragon | 156.146.38.170 |
+| 73.06 | hysteria2 | 280.7 | 676.6 | 21.28 | 0.0 | 2.21 | 12.27 | 18.3 | dragon | 206.189.229.48 |
+| 72.88 | shadowsocks | 241.5 | 628.6 | 22.19 | 0.0 | 2.98 | 13.41 | 18.3 | dragon | 156.146.38.169 |
+| 71.54 | shadowsocks | 228.3 | 538.8 | 22.49 | 0.0 | 1.84 | 13.41 | 18.3 | dragon | 38.128.66.32 |
+| 71.48 | hysteria2 | 265.2 | 603.7 | 21.64 | 0.0 | 2.42 | 12.27 | 18.3 | dragon | 66.94.121.46 |
+| 71.37 | shadowsocks | 329.9 | 798.0 | 20.14 | 0.0 | 6.47 | 13.41 | 18.3 | dragon | 15.204.246.132 |
+| 70.93 | shadowsocks | 283.7 | 756.7 | 21.21 | 0.0 | 3.01 | 13.41 | 18.3 | dragon | 156.146.38.168 |
+| 70.82 | http | 296.3 | 728.2 | 20.92 | 0.0 | 0.0 | 13.7 | 18.7 | ermaozi | 172.64.69.89 |
+| 70.34 | shadowsocks | 300.5 | 682.3 | 20.82 | 0.0 | 4.24 | 13.41 | 18.3 | dragon | 185.215.132.18 |
+| 69.97 | trojan | 322.0 | 712.9 | 20.32 | 0.0 | 6.96 | 9.18 | 18.3 | dragon | 66.163.122.26 |
+| 69.94 | shadowsocks | 308.6 | 708.0 | 20.63 | 0.0 | 2.1 | 13.41 | 18.3 | dragon | 45.86.51.18 |
+| 69.85 | shadowsocks | 316.6 | 721.5 | 20.45 | 0.0 | 4.38 | 13.41 | 18.3 | dragon | 15.204.247.124 |
+| 68.8 | trojan | 253.5 | 580.3 | 21.91 | 0.0 | 2.91 | 9.18 | 18.3 | dragon | 66.163.114.106 |
+| 68.42 | shadowsocks | 245.4 | 530.2 | 22.1 | 0.0 | 1.65 | 13.41 | 18.3 | dragon | 137.184.89.151 |
+| 68.34 | shadowsocks | 317.4 | 731.8 | 20.43 | 0.0 | 1.91 | 13.41 | 18.3 | dragon | 185.230.230.18 |
+| 68.31 | shadowsocks | 326.5 | 730.2 | 20.22 | 0.0 | 3.74 | 13.41 | 18.3 | dragon | 193.151.160.18 |
+| 67.99 | trojan | 243.5 | 561.4 | 22.14 | 0.0 | 2.87 | 9.18 | 18.3 | dragon | 66.163.114.166 |
+| 67.68 | trojan | 289.1 | 626.6 | 21.09 | 0.0 | 1.61 | 9.18 | 18.3 | dragon | 170.101.101.112 |
+| 67.61 | hysteria2 | 300.0 | 716.5 | 20.83 | 0.0 | 4.51 | 12.27 | 18.3 | dragon | 192.255.152.147 |
+| 67.51 | shadowsocks | 316.3 | 704.6 | 20.46 | 0.0 | 1.78 | 13.41 | 18.3 | dragon | 193.151.163.18 |
 
 ## 来源质量排行
 
 | 来源 | 评分 | 通过率 | 测试数 | 解析节点 | 建议 |
 | --- | --- | --- | --- | --- | --- |
-| ermaozi | 0.935 | 0.952 | 21 | 544 | prefer |
-| dragon | 0.915 | 0.837 | 264 | 44363 | prefer |
-| xiaoji235-airport-v2ray-all | 0.335 | 1.0 | 1 | 6752 | observe |
+| ermaozi | 0.98 | 1.0 | 22 | 544 | prefer |
+| dragon | 0.793 | 0.715 | 319 | 43748 | prefer |
+| Surfboard-tg-mixed | 0.391 | 1.0 | 2 | 8984 | observe |
+| mheidari-all | 0.335 | 1.0 | 1 | 14826 | observe |
 | 10ium-ScrapeCategorize-Vless | 0.255 | None | 0 | 4916 | observe |
 | DeltaKronecker-all | 0.255 | None | 0 | 3024 | observe |
-| MatinGhanbari-all-sub | 0.255 | None | 0 | 3999 | observe |
-| SoliSpirit-all | 0.255 | None | 0 | 11628 | observe |
-| Surfboard-tg-mixed | 0.255 | None | 0 | 8859 | observe |
-| Surfboard-tg-vless | 0.255 | None | 0 | 6129 | observe |
-| barry-far-vless | 0.255 | None | 0 | 6500 | observe |
-| mahdibland-V2RayAggregator | 0.255 | None | 0 | 4584 | observe |
-| mheidari-all | 0.255 | None | 0 | 14652 | observe |
+| MatinGhanbari-all-sub | 0.255 | None | 0 | 3998 | observe |
+| SoliSpirit-all | 0.255 | None | 0 | 11600 | observe |
+| Surfboard-tg-vless | 0.255 | None | 0 | 6249 | observe |
+| barry-far-vless | 0.255 | None | 0 | 6342 | observe |
+| mahdibland-V2RayAggregator | 0.255 | None | 0 | 4550 | observe |
 | ninja-vless | 0.247 | None | 0 | 1791 | observe |
 | Au1rxx-base64 | 0.245 | None | 0 | 1751 | observe |
 | Au1rxx-clash | 0.245 | None | 0 | 1751 | observe |
+| moneyfly1-collectSub | 0.222 | None | 0 | 1164 | observe |
 
 ## 真实测试失败原因
 
 | 目标 | 原因 | 状态/值 | 数量 |
 | --- | --- | --- | --- |
-| test_one_timeout | 15.0s | - | 20 |
-| 204 | ProxyError | - | 16 |
-| 204 | TimeoutError | - | 2 |
-| speed | TimeoutError | - | 2 |
-| cn-block | TimeoutError | - | 1 |
-| cn-block | ClientOSError | - | 1 |
-| geo | ProxyError | - | 1 |
-| speed | ProxyError | - | 1 |
+| test_one_timeout | 15.0s | - | 71 |
+| 204 | ProxyError | - | 9 |
+| cn-block | TimeoutError | - | 6 |
+| 204 | ClientOSError | - | 2 |
+| cn-block | ClientOSError | - | 2 |
+| sing-box exited 1 |  [31mFATAL[0m[0000] start service: start inbound: start inbound/socks[socks-in]: listen tcp 127.0.0.1:42601: bind: address already in use | - | 1 |
+| speed | ClientOSError | - | 1 |
 
 ## 输出保护
 
 | 前缀 | 是否保留旧输出 | 上一轮数量 | 本轮建议数量 | 保护比例 |
 | --- | --- | --- | --- | --- |
-| verified | False | 84 | 66 | - |
-| global | False | 84 | 67 | - |
+| verified | False | 66 | 85 | - |
+| global | False | 67 | 91 | - |
 
 ---
 
