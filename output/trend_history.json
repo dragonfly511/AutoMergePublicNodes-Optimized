@@ -1,38 +1,7 @@
 {
-  "updated_at": "2026-11-19 07:20:14",
+  "updated_at": "2026-11-19 20:17:00",
   "keep": 30,
   "runs": [
-    {
-      "timestamp": "2026-11-08 05:11:29",
-      "duration_sec": 425.9,
-      "nodes_raw": 126496,
-      "nodes_dedup": 58753,
-      "nodes_tcp_ok": 3000,
-      "nodes_real_ok": 86,
-      "nodes_verified_output": 86,
-      "nodes_global_output": 86,
-      "nodes_global_extra_from_cn_block": 0,
-      "real_test_errors": {
-        "204": 4,
-        "speed": 6,
-        "test_one_timeout": 12,
-        "sing-box exited 1": 1,
-        "cn-block": 1,
-        "geo": 1
-      },
-      "output_guard": {
-        "verified": {
-          "preserved": false,
-          "previous_count": 72,
-          "proposed_count": 86
-        },
-        "global": {
-          "preserved": false,
-          "previous_count": 74,
-          "proposed_count": 86
-        }
-      }
-    },
     {
       "timestamp": "2026-11-08 13:04:03",
       "duration_sec": 430.0,
@@ -892,7 +861,51 @@
           "proposed_count": 111
         }
       }
+    },
+    {
+      "timestamp": "2026-11-19 20:17:00",
+      "duration_sec": 372.6,
+      "nodes_raw": 128278,
+      "nodes_dedup": 59661,
+      "nodes_tcp_ok": 3000,
+      "nodes_real_ok": 27,
+      "nodes_verified_output": 27,
+      "nodes_global_output": 28,
+      "nodes_global_extra_from_cn_block": 1,
+      "real_test_errors": {
+        "sing-box exited 1": 1,
+        "204": 29,
+        "cn-block": 7,
+        "geo": 3,
+        "speed": 3,
+        "test_one_timeout": 8
+      },
+      "output_guard": {
+        "verified": {
+          "preserved": false,
+          "previous_count": 104,
+          "proposed_count": 27
+        },
+        "global": {
+          "preserved": false,
+          "previous_count": 111,
+          "proposed_count": 28
+        }
+      }
     }
   ],
-  "alerts": []
+  "alerts": [
+    {
+      "type": "verified_drop_50pct",
+      "message": "verified output dropped from 104 to 27",
+      "previous": 104,
+      "current": 27
+    },
+    {
+      "type": "real_ok_drop_50pct",
+      "message": "real-test ok dropped from 104 to 27",
+      "previous": 104,
+      "current": 27
+    }
+  ]
 }
