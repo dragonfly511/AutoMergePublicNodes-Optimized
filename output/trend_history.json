@@ -1,36 +1,7 @@
 {
-  "updated_at": "2026-11-19 20:17:00",
+  "updated_at": "2026-11-20 06:25:31",
   "keep": 30,
   "runs": [
-    {
-      "timestamp": "2026-11-08 13:04:03",
-      "duration_sec": 430.0,
-      "nodes_raw": 127282,
-      "nodes_dedup": 59317,
-      "nodes_tcp_ok": 3000,
-      "nodes_real_ok": 79,
-      "nodes_verified_output": 79,
-      "nodes_global_output": 81,
-      "nodes_global_extra_from_cn_block": 2,
-      "real_test_errors": {
-        "cn-block": 4,
-        "204": 8,
-        "test_one_timeout": 22,
-        "geo": 2
-      },
-      "output_guard": {
-        "verified": {
-          "preserved": false,
-          "previous_count": 86,
-          "proposed_count": 79
-        },
-        "global": {
-          "preserved": false,
-          "previous_count": 86,
-          "proposed_count": 81
-        }
-      }
-    },
     {
       "timestamp": "2026-11-08 21:56:57",
       "duration_sec": 426.9,
@@ -892,20 +863,36 @@
           "proposed_count": 28
         }
       }
-    }
-  ],
-  "alerts": [
-    {
-      "type": "verified_drop_50pct",
-      "message": "verified output dropped from 104 to 27",
-      "previous": 104,
-      "current": 27
     },
     {
-      "type": "real_ok_drop_50pct",
-      "message": "real-test ok dropped from 104 to 27",
-      "previous": 104,
-      "current": 27
+      "timestamp": "2026-11-20 06:25:31",
+      "duration_sec": 415.6,
+      "nodes_raw": 127466,
+      "nodes_dedup": 59583,
+      "nodes_tcp_ok": 3000,
+      "nodes_real_ok": 85,
+      "nodes_verified_output": 85,
+      "nodes_global_output": 91,
+      "nodes_global_extra_from_cn_block": 6,
+      "real_test_errors": {
+        "204": 6,
+        "cn-block": 9,
+        "test_one_timeout": 24,
+        "geo": 2
+      },
+      "output_guard": {
+        "verified": {
+          "preserved": false,
+          "previous_count": 27,
+          "proposed_count": 85
+        },
+        "global": {
+          "preserved": false,
+          "previous_count": 28,
+          "proposed_count": 91
+        }
+      }
     }
-  ]
+  ],
+  "alerts": []
 }
