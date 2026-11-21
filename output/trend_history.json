@@ -1,36 +1,7 @@
 {
-  "updated_at": "2026-11-21 06:15:37",
+  "updated_at": "2026-11-21 18:57:37",
   "keep": 30,
   "runs": [
-    {
-      "timestamp": "2026-11-09 15:40:42",
-      "duration_sec": 411.4,
-      "nodes_raw": 126187,
-      "nodes_dedup": 58633,
-      "nodes_tcp_ok": 3000,
-      "nodes_real_ok": 73,
-      "nodes_verified_output": 73,
-      "nodes_global_output": 74,
-      "nodes_global_extra_from_cn_block": 1,
-      "real_test_errors": {
-        "204": 3,
-        "cn-block": 3,
-        "speed": 2,
-        "test_one_timeout": 22
-      },
-      "output_guard": {
-        "verified": {
-          "preserved": false,
-          "previous_count": 80,
-          "proposed_count": 73
-        },
-        "global": {
-          "preserved": false,
-          "previous_count": 81,
-          "proposed_count": 74
-        }
-      }
-    },
     {
       "timestamp": "2026-11-10 01:25:12",
       "duration_sec": 407.5,
@@ -892,7 +863,49 @@
           "proposed_count": 93
         }
       }
+    },
+    {
+      "timestamp": "2026-11-21 18:57:37",
+      "duration_sec": 413.7,
+      "nodes_raw": 127585,
+      "nodes_dedup": 59382,
+      "nodes_tcp_ok": 3000,
+      "nodes_real_ok": 27,
+      "nodes_verified_output": 27,
+      "nodes_global_output": 28,
+      "nodes_global_extra_from_cn_block": 1,
+      "real_test_errors": {
+        "204": 19,
+        "cn-block": 4,
+        "geo": 1,
+        "test_one_timeout": 10
+      },
+      "output_guard": {
+        "verified": {
+          "preserved": false,
+          "previous_count": 91,
+          "proposed_count": 27
+        },
+        "global": {
+          "preserved": false,
+          "previous_count": 93,
+          "proposed_count": 28
+        }
+      }
     }
   ],
-  "alerts": []
+  "alerts": [
+    {
+      "type": "verified_drop_50pct",
+      "message": "verified output dropped from 91 to 27",
+      "previous": 91,
+      "current": 27
+    },
+    {
+      "type": "real_ok_drop_50pct",
+      "message": "real-test ok dropped from 91 to 27",
+      "previous": 91,
+      "current": 27
+    }
+  ]
 }
