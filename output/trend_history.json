@@ -1,37 +1,7 @@
 {
-  "updated_at": "2026-11-23 23:40:54",
+  "updated_at": "2026-11-24 09:04:47",
   "keep": 30,
   "runs": [
-    {
-      "timestamp": "2026-11-12 00:21:08",
-      "duration_sec": 430.2,
-      "nodes_raw": 127283,
-      "nodes_dedup": 58593,
-      "nodes_tcp_ok": 3000,
-      "nodes_real_ok": 78,
-      "nodes_verified_output": 78,
-      "nodes_global_output": 80,
-      "nodes_global_extra_from_cn_block": 2,
-      "real_test_errors": {
-        "speed": 6,
-        "204": 3,
-        "test_one_timeout": 17,
-        "cn-block": 5,
-        "geo": 4
-      },
-      "output_guard": {
-        "verified": {
-          "preserved": false,
-          "previous_count": 121,
-          "proposed_count": 78
-        },
-        "global": {
-          "preserved": false,
-          "previous_count": 123,
-          "proposed_count": 80
-        }
-      }
-    },
     {
       "timestamp": "2026-11-12 14:55:47",
       "duration_sec": 376.3,
@@ -887,18 +857,37 @@
           "proposed_count": 65
         }
       }
+    },
+    {
+      "timestamp": "2026-11-24 09:04:47",
+      "duration_sec": 396.1,
+      "nodes_raw": 124077,
+      "nodes_dedup": 59936,
+      "nodes_tcp_ok": 3000,
+      "nodes_real_ok": 112,
+      "nodes_verified_output": 112,
+      "nodes_global_output": 123,
+      "nodes_global_extra_from_cn_block": 11,
+      "real_test_errors": {
+        "sing-box exited 1": 1,
+        "204": 19,
+        "cn-block": 13,
+        "speed": 2,
+        "test_one_timeout": 21
+      },
+      "output_guard": {
+        "verified": {
+          "preserved": false,
+          "previous_count": 61,
+          "proposed_count": 112
+        },
+        "global": {
+          "preserved": false,
+          "previous_count": 65,
+          "proposed_count": 123
+        }
+      }
     }
   ],
-  "alerts": [
-    {
-      "type": "verified_downtrend_4_runs",
-      "message": "verified output decreased for 4 consecutive runs",
-      "values": [
-        110,
-        100,
-        69,
-        61
-      ]
-    }
-  ]
+  "alerts": []
 }
