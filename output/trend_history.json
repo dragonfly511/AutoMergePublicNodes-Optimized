@@ -1,36 +1,7 @@
 {
-  "updated_at": "2026-11-25 21:25:01",
+  "updated_at": "2026-11-26 07:31:22",
   "keep": 30,
   "runs": [
-    {
-      "timestamp": "2026-11-13 14:16:26",
-      "duration_sec": 362.0,
-      "nodes_raw": 127093,
-      "nodes_dedup": 58788,
-      "nodes_tcp_ok": 3000,
-      "nodes_real_ok": 93,
-      "nodes_verified_output": 93,
-      "nodes_global_output": 95,
-      "nodes_global_extra_from_cn_block": 2,
-      "real_test_errors": {
-        "speed": 3,
-        "test_one_timeout": 20,
-        "204": 7,
-        "cn-block": 3
-      },
-      "output_guard": {
-        "verified": {
-          "preserved": false,
-          "previous_count": 60,
-          "proposed_count": 93
-        },
-        "global": {
-          "preserved": false,
-          "previous_count": 60,
-          "proposed_count": 95
-        }
-      }
-    },
     {
       "timestamp": "2026-11-13 23:29:32",
       "duration_sec": 412.3,
@@ -886,7 +857,48 @@
           "proposed_count": 96
         }
       }
+    },
+    {
+      "timestamp": "2026-11-26 07:31:22",
+      "duration_sec": 384.4,
+      "nodes_raw": 122533,
+      "nodes_dedup": 57951,
+      "nodes_tcp_ok": 3000,
+      "nodes_real_ok": 35,
+      "nodes_verified_output": 35,
+      "nodes_global_output": 35,
+      "nodes_global_extra_from_cn_block": 0,
+      "real_test_errors": {
+        "204": 5,
+        "geo": 1,
+        "test_one_timeout": 9
+      },
+      "output_guard": {
+        "verified": {
+          "preserved": false,
+          "previous_count": 92,
+          "proposed_count": 35
+        },
+        "global": {
+          "preserved": false,
+          "previous_count": 96,
+          "proposed_count": 35
+        }
+      }
     }
   ],
-  "alerts": []
+  "alerts": [
+    {
+      "type": "verified_drop_50pct",
+      "message": "verified output dropped from 92 to 35",
+      "previous": 92,
+      "current": 35
+    },
+    {
+      "type": "real_ok_drop_50pct",
+      "message": "real-test ok dropped from 92 to 35",
+      "previous": 92,
+      "current": 35
+    }
+  ]
 }
